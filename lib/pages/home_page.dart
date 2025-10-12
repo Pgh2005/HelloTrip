@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
               _selectedIndex = 4;
             });
           },
-          child: const Icon(Icons.translate_rounded),
+          child: const Icon(Icons.translate_rounded, color: Color(0XFF2a0f4b)),
         ),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
         bottomNavigationBar: AnimatedBottomNavigationBar(

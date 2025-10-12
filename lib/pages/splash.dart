@@ -16,7 +16,6 @@ class SplashPage extends StatefulWidget {
 class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
-    // TODO: implement initState
     Future.delayed(const Duration(milliseconds: 3000), () {
       Navigator.of(
         context,
