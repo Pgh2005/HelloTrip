@@ -112,1067 +112,1592 @@
     }
   ],
 
-  "wordsdata" : [
+  "wordsdata": [
     [
       {
-        "fa": {"means": "آژانس مسافرتی", "pronunciation": "trav-el ey-jen-si"},
-        "ar": {"means": "وكالة سفر", "pronunciation": "wakālat safar"},
-        "tr": {"means": "seyehat acentesi", "pronunciation": "se-ye-hat a-jen-te-si"},
-        "ru": {"means": "турагентство", "pronunciation": "tur-agén-tstvo"},
-        "fr": {"means": "agence de voyage", "pronunciation": "a‑zhɑ̃s də vwa‑yazh"},
-        "zh": {"means": "旅行社", "pronunciation": "lǚ xíng shè"},
-        "ja": {"means": "旅行代理店", "pronunciation": "ryokō dairiten"},
-        "en": {"means": "travel agency", "pronunciation": "trav‑əl 'ey‑ʤənsi"},
-        "es": {"means": "agencia de viajes", "pronunciation": "a-ˈθen‑sia de ˈbia‑xes"},
-        "de": {"means": "Reisebüro", "pronunciation": "ˈraɪ̯.zəˌbyːʁo"}
+        "fa": {
+          "means": "آژانس مسافرتی",
+          "pronunciation": "trav-el ey-jen-si"
+        },
+        "ar": { "means": "وكالة سفر", "pronunciation": "wakālat safar" },
+        "tr": {
+          "means": "seyehat acentesi",
+          "pronunciation": "se-ye-hat a-jen-te-si"
+        },
+        "ru": { "means": "турагентство", "pronunciation": "tur-agén-tstvo" },
+        "fr": {
+          "means": "agence de voyage",
+          "pronunciation": "a‑zhɑ̃s də vwa‑yazh"
+        },
+        "zh": { "means": "旅行社", "pronunciation": "lǚ xíng shè" },
+        "ja": { "means": "旅行代理店", "pronunciation": "ryokō dairiten" },
+        "en": {
+          "means": "travel agency",
+          "pronunciation": "trav‑əl 'ey‑ʤənsi"
+        },
+        "es": {
+          "means": "agencia de viajes",
+          "pronunciation": "a-ˈθen‑sia de ˈbia‑xes"
+        },
+        "de": { "means": "Reisebüro", "pronunciation": "ˈraɪ̯.zəˌbyːʁo" }
       },
       {
-        "fa": {"means": "فرودگاه", "pronunciation": "er-port"},
-        "ar": {"means": "مطار", "pronunciation": "maṭār"},
-        "tr": {"means": "havaalanı", "pronunciation": "ha‑va‑a‑la‑nı"},
-        "ru": {"means": "аэропорт", "pronunciation": "a‑ero‑port"},
-        "fr": {"means": "aéroport", "pronunciation": "a‑e‑ʁo‑pɔʁ"},
-        "zh": {"means": "机场", "pronunciation": "jī chǎng"},
-        "ja": {"means": "空港", "pronunciation": "kūkō"},
-        "en": {"means": "airport", "pronunciation": "ˈerˌpɔrt"},
-        "es": {"means": "aeropuerto", "pronunciation": "ae‑ro‑ˈpwer‑to"},
-        "de": {"means": "Flughafen", "pronunciation": "ˈfluːkˌhaːfən"}
+        "fa": { "means": "فرودگاه", "pronunciation": "er-port" },
+        "ar": { "means": "مطار", "pronunciation": "maṭār" },
+        "tr": { "means": "havaalanı", "pronunciation": "ha‑va‑a‑la‑nı" },
+        "ru": { "means": "аэропорт", "pronunciation": "a‑ero‑port" },
+        "fr": { "means": "aéroport", "pronunciation": "a‑e‑ʁo‑pɔʁ" },
+        "zh": { "means": "机场", "pronunciation": "jī chǎng" },
+        "ja": { "means": "空港", "pronunciation": "kūkō" },
+        "en": { "means": "airport", "pronunciation": "ˈerˌpɔrt" },
+        "es": { "means": "aeropuerto", "pronunciation": "ae‑ro‑ˈpwer‑to" },
+        "de": { "means": "Flughafen", "pronunciation": "ˈfluːkˌhaːfən" }
       },
       {
-        "fa": {"means": "هتل", "pronunciation": "hoh-tel"},
-        "ar": {"means": "فندق", "pronunciation": "funduq"},
-        "tr": {"means": "otel", "pronunciation": "o‑tel"},
-        "ru": {"means": "отель", "pronunciation": "o‑telʹ"},
-        "fr": {"means": "hôtel", "pronunciation": "o‑tɛl"},
-        "zh": {"means": "酒店", "pronunciation": "jiǔ diàn"},
-        "ja": {"means": "ホテル", "pronunciation": "hoteru"},
-        "en": {"means": "hotel", "pronunciation": "hoh-tel"},
-        "es": {"means": "hotel", "pronunciation": "o‑tel"},
-        "de": {"means": "Hotel", "pronunciation": "hoˈtɛl"}
+        "fa": { "means": "هتل", "pronunciation": "hoh-tel" },
+        "ar": { "means": "فندق", "pronunciation": "funduq" },
+        "tr": { "means": "otel", "pronunciation": "o‑tel" },
+        "ru": { "means": "отель", "pronunciation": "o‑telʹ" },
+        "fr": { "means": "hôtel", "pronunciation": "o‑tɛl" },
+        "zh": { "means": "酒店", "pronunciation": "jiǔ diàn" },
+        "ja": { "means": "ホテル", "pronunciation": "hoteru" },
+        "en": { "means": "hotel", "pronunciation": "hoh-tel" },
+        "es": { "means": "hotel", "pronunciation": "o‑tel" },
+        "de": { "means": "Hotel", "pronunciation": "hoˈtɛl" }
       },
       {
-        "fa": {"means": "رستوران", "pronunciation": "res-tuh-rant"},
-        "ar": {"means": "مطعم", "pronunciation": "maṭʿam"},
-        "tr": {"means": "restoran", "pronunciation": "res-to-ran"},
-        "ru": {"means": "ресторан", "pronunciation": "res-to-ran"},
-        "fr": {"means": "restaurant", "pronunciation": "ʁɛs.to.ʁɑ̃"},
-        "zh": {"means": "餐馆", "pronunciation": "cān guǎn"},
-        "ja": {"means": "レストラン", "pronunciation": "resutoran"},
-        "en": {"means": "restaurant", "pronunciation": "res-tuh-rant"},
-        "es": {"means": "restaurante", "pronunciation": "res-tau-ran-te"},
-        "de": {"means": "Restaurant", "pronunciation": "ʁɛstoˈʁɑ̃"}
+        "fa": { "means": "رستوران", "pronunciation": "res-tuh-rant" },
+        "ar": { "means": "مطعم", "pronunciation": "maṭʿam" },
+        "tr": { "means": "restoran", "pronunciation": "res-to-ran" },
+        "ru": { "means": "ресторан", "pronunciation": "res-to-ran" },
+        "fr": { "means": "restaurant", "pronunciation": "ʁɛs.to.ʁɑ̃" },
+        "zh": { "means": "餐馆", "pronunciation": "cān guǎn" },
+        "ja": { "means": "レストラン", "pronunciation": "resutoran" },
+        "en": { "means": "restaurant", "pronunciation": "res-tuh-rant" },
+        "es": { "means": "restaurante", "pronunciation": "res-tau-ran-te" },
+        "de": { "means": "Restaurant", "pronunciation": "ʁɛstoˈʁɑ̃" }
       },
       {
-        "fa": {"means": "بیمارستان", "pronunciation": "hos-pi-tl"},
-        "ar": {"means": "مستشفى", "pronunciation": "mustashfā"},
-        "tr": {"means": "hastane", "pronunciation": "has-ta-ne"},
-        "ru": {"means": "больница", "pronunciation": "bal'nitsa"},
-        "fr": {"means": "hôpital", "pronunciation": "o-pi-tal"},
-        "zh": {"means": "医院", "pronunciation": "yī yuàn"},
-        "ja": {"means": "病院", "pronunciation": "byōin"},
-        "en": {"means": "hospital", "pronunciation": "hos-pi-tl"},
-        "es": {"means": "hospital", "pronunciation": "os-pi-tal"},
-        "de": {"means": "Krankenhaus", "pronunciation": "ˈkʁaŋkn̩ˌhaʊs"}
+        "fa": { "means": "بیمارستان", "pronunciation": "hos-pi-tl" },
+        "ar": { "means": "مستشفى", "pronunciation": "mustashfā" },
+        "tr": { "means": "hastane", "pronunciation": "has-ta-ne" },
+        "ru": { "means": "больница", "pronunciation": "bal'nitsa" },
+        "fr": { "means": "hôpital", "pronunciation": "o-pi-tal" },
+        "zh": { "means": "医院", "pronunciation": "yī yuàn" },
+        "ja": { "means": "病院", "pronunciation": "byōin" },
+        "en": { "means": "hospital", "pronunciation": "hos-pi-tl" },
+        "es": { "means": "hospital", "pronunciation": "os-pi-tal" },
+        "de": { "means": "Krankenhaus", "pronunciation": "ˈkʁaŋkn̩ˌhaʊs" }
       },
       {
-        "fa": {"means": "داروخانه", "pronunciation": "far-ma-si"},
-        "ar": {"means": "صيدلية", "pronunciation": "ṣaydaliyya"},
-        "tr": {"means": "eczane", "pronunciation": "ecz-a-ne"},
-        "ru": {"means": "аптека", "pronunciation": "ap-tye-ka"},
-        "fr": {"means": "pharmacie", "pronunciation": "far-ma-si"},
-        "zh": {"means": "药店", "pronunciation": "yào diàn"},
-        "ja": {"means": "薬局", "pronunciation": "yakkyoku"},
-        "en": {"means": "pharmacy", "pronunciation": "far-ma-si"},
-        "es": {"means": "farmacia", "pronunciation": "far-ma-thia"},
-        "de": {"means": "Apotheke", "pronunciation": "apo-te-ke"}
+        "fa": { "means": "داروخانه", "pronunciation": "far-ma-si" },
+        "ar": { "means": "صيدلية", "pronunciation": "ṣaydaliyya" },
+        "tr": { "means": "eczane", "pronunciation": "ecz-a-ne" },
+        "ru": { "means": "аптека", "pronunciation": "ap-tye-ka" },
+        "fr": { "means": "pharmacie", "pronunciation": "far-ma-si" },
+        "zh": { "means": "药店", "pronunciation": "yào diàn" },
+        "ja": { "means": "薬局", "pronunciation": "yakkyoku" },
+        "en": { "means": "pharmacy", "pronunciation": "far-ma-si" },
+        "es": { "means": "farmacia", "pronunciation": "far-ma-thia" },
+        "de": { "means": "Apotheke", "pronunciation": "apo-te-ke" }
       },
       {
-        "fa": {"means": "بانک", "pronunciation": "bank"},
-        "ar": {"means": "بنك", "pronunciation": "bank"},
-        "tr": {"means": "banka", "pronunciation": "ban-ka"},
-        "ru": {"means": "банк", "pronunciation": "bank"},
-        "fr": {"means": "banque", "pronunciation": "bank"},
-        "zh": {"means": "银行", "pronunciation": "yín háng"},
-        "ja": {"means": "銀行", "pronunciation": "ginkō"},
-        "en": {"means": "bank", "pronunciation": "bank"},
-        "es": {"means": "banco", "pronunciation": "ban-ko"},
-        "de": {"means": "Bank", "pronunciation": "baŋk"}
+        "fa": { "means": "بانک", "pronunciation": "bank" },
+        "ar": { "means": "بنك", "pronunciation": "bank" },
+        "tr": { "means": "banka", "pronunciation": "ban-ka" },
+        "ru": { "means": "банк", "pronunciation": "bank" },
+        "fr": { "means": "banque", "pronunciation": "bank" },
+        "zh": { "means": "银行", "pronunciation": "yín háng" },
+        "ja": { "means": "銀行", "pronunciation": "ginkō" },
+        "en": { "means": "bank", "pronunciation": "bank" },
+        "es": { "means": "banco", "pronunciation": "ban-ko" },
+        "de": { "means": "Bank", "pronunciation": "baŋk" }
       },
       {
-        "fa": {"means": "سفارت", "pronunciation": "em-ba-si"},
-        "ar": {"means": "سفارة", "pronunciation": "safāra"},
-        "tr": {"means": "büyükelçilik", "pronunciation": "bü-yük-el-çi-lik"},
-        "ru": {"means": "посольство", "pronunciation": "pa-sol'st-va"},
-        "fr": {"means": "ambassade", "pronunciation": "ɑ̃-basad"},
-        "zh": {"means": "大使馆", "pronunciation": "dà shǐ guǎn"},
-        "ja": {"means": "大使館", "pronunciation": "taishikan"},
-        "en": {"means": "embassy", "pronunciation": "em-ba-si"},
-        "es": {"means": "embajada", "pronunciation": "em-ba-ha-da"},
-        "de": {"means": "Botschaft", "pronunciation": "boːtʃaft"}
+        "fa": { "means": "سفارت", "pronunciation": "em-ba-si" },
+        "ar": { "means": "سفارة", "pronunciation": "safāra" },
+        "tr": { "means": "büyükelçilik", "pronunciation": "bü-yük-el-çi-lik" },
+        "ru": { "means": "посольство", "pronunciation": "pa-sol'st-va" },
+        "fr": { "means": "ambassade", "pronunciation": "ɑ̃-basad" },
+        "zh": { "means": "大使馆", "pronunciation": "dà shǐ guǎn" },
+        "ja": { "means": "大使館", "pronunciation": "taishikan" },
+        "en": { "means": "embassy", "pronunciation": "em-ba-si" },
+        "es": { "means": "embajada", "pronunciation": "em-ba-ha-da" },
+        "de": { "means": "Botschaft", "pronunciation": "boːtʃaft" }
       },
       {
-        "fa": {"means": "کلانتری", "pronunciation": "po-lees stey-shn"},
-        "ar": {"means": "مركز الشرطة", "pronunciation": "markaz al-shurṭa"},
-        "tr": {"means": "karakol", "pronunciation": "ka-ra-kol"},
-        "ru": {"means": "полицейский участок", "pronunciation": "pa-li-tsey-skiy u-chas-tok"},
-        "fr": {"means": "commissariat", "pronunciation": "ko-mi-sa-ri-a"},
-        "zh": {"means": "警察局", "pronunciation": "jǐng chá jú"},
-        "ja": {"means": "警察署", "pronunciation": "keisatsu-sho"},
-        "en": {"means": "police station", "pronunciation": "po-lees stey-shn"},
-        "es": {"means": "comisaría", "pronunciation": "ko-mi-sa-ria"},
-        "de": {"means": "Polizeiwache", "pronunciation": "po-li-tsai-va-khe"}
+        "fa": { "means": "کلانتری", "pronunciation": "po-lees stey-shn" },
+        "ar": { "means": "مركز الشرطة", "pronunciation": "markaz al-shurṭa" },
+        "tr": { "means": "karakol", "pronunciation": "ka-ra-kol" },
+        "ru": {
+          "means": "полицейский участок",
+          "pronunciation": "pa-li-tsey-skiy u-chas-tok"
+        },
+        "fr": { "means": "commissariat", "pronunciation": "ko-mi-sa-ri-a" },
+        "zh": { "means": "警察局", "pronunciation": "jǐng chá jú" },
+        "ja": { "means": "警察署", "pronunciation": "keisatsu-sho" },
+        "en": {
+          "means": "police station",
+          "pronunciation": "po-lees stey-shn"
+        },
+        "es": { "means": "comisaría", "pronunciation": "ko-mi-sa-ria" },
+        "de": { "means": "Polizeiwache", "pronunciation": "po-li-tsai-va-khe" }
       },
       {
-        "fa": {"means": "سوپرمارکت", "pronunciation": "soo-per-mar-ket"},
-        "ar": {"means": "سوبرماركت", "pronunciation": "sūbarmārkit"},
-        "tr": {"means": "süpermarket", "pronunciation": "sü-per-mar-ket"},
-        "ru": {"means": "супермаркет", "pronunciation": "soo-per-mar-ket"},
-        "fr": {"means": "supermarché", "pronunciation": "sy-per-mar-shé"},
-        "zh": {"means": "超市", "pronunciation": "chāo shì"},
-        "ja": {"means": "スーパーマーケット", "pronunciation": "sūpāmāketto"},
-        "en": {"means": "supermarket", "pronunciation": "soo-per-mar-ket"},
-        "es": {"means": "supermercado", "pronunciation": "su-per-mer-ca-do"},
-        "de": {"means": "Supermarkt", "pronunciation": "zuː.pɐʁˌmaʁkt"}
+        "fa": { "means": "سوپرمارکت", "pronunciation": "soo-per-mar-ket" },
+        "ar": { "means": "سوبرماركت", "pronunciation": "sūbarmārkit" },
+        "tr": { "means": "süpermarket", "pronunciation": "sü-per-mar-ket" },
+        "ru": { "means": "супермаркет", "pronunciation": "soo-per-mar-ket" },
+        "fr": { "means": "supermarché", "pronunciation": "sy-per-mar-shé" },
+        "zh": { "means": "超市", "pronunciation": "chāo shì" },
+        "ja": { "means": "スーパーマーケット", "pronunciation": "sūpāmāketto" },
+        "en": { "means": "supermarket", "pronunciation": "soo-per-mar-ket" },
+        "es": { "means": "supermercado", "pronunciation": "su-per-mer-ca-do" },
+        "de": { "means": "Supermarkt", "pronunciation": "zuː.pɐʁˌmaʁkt" }
       },
       {
-        "fa": {"means": "ایستگاه اتوبوس", "pronunciation": "bas stey-shn"},
-        "ar": {"means": "محطة الحافلات", "pronunciation": "maḥaṭṭat al-ḥāfilāt"},
-        "tr": {"means": "otobüs durağı", "pronunciation": "o-to-büs du-ra-ğı"},
-        "ru": {"means": "автобусная станция", "pronunciation": "av-to-bus-na-ya stan-tsi-ya"},
-        "fr": {"means": "gare routière", "pronunciation": "gar ru-tjer"},
-        "zh": {"means": "公交车站", "pronunciation": "gōng jiāo chē zhàn"},
-        "ja": {"means": "バス停", "pronunciation": "basu-tei"},
-        "en": {"means": "bus station", "pronunciation": "bas stey-shn"},
-        "es": {"means": "estación de autobuses", "pronunciation": "es-ta-syon de au-to-bu-ses"},
-        "de": {"means": "Busbahnhof", "pronunciation": "bʊs-baːn-hoːf"}
+        "fa": { "means": "ایستگاه اتوبوس", "pronunciation": "bas stey-shn" },
+        "ar": {
+          "means": "محطة الحافلات",
+          "pronunciation": "maḥaṭṭat al-ḥāfilāt"
+        },
+        "tr": {
+          "means": "otobüs durağı",
+          "pronunciation": "o-to-büs du-ra-ğı"
+        },
+        "ru": {
+          "means": "автобусная станция",
+          "pronunciation": "av-to-bus-na-ya stan-tsi-ya"
+        },
+        "fr": { "means": "gare routière", "pronunciation": "gar ru-tjer" },
+        "zh": { "means": "公交车站", "pronunciation": "gōng jiāo chē zhàn" },
+        "ja": { "means": "バス停", "pronunciation": "basu-tei" },
+        "en": { "means": "bus station", "pronunciation": "bas stey-shn" },
+        "es": {
+          "means": "estación de autobuses",
+          "pronunciation": "es-ta-syon de au-to-bu-ses"
+        },
+        "de": { "means": "Busbahnhof", "pronunciation": "bʊs-baːn-hoːf" }
       },
       {
-        "fa": {"means": "ایستگاه قطار", "pronunciation": "treyn stey-shn"},
-        "ar": {"means": "محطة القطار", "pronunciation": "maḥaṭṭat al-qiṭār"},
-        "tr": {"means": "tren istasyonu", "pronunciation": "tren is-ta-syo-nu"},
-        "ru": {"means": "железнодорожная станция", "pronunciation": "zhe-lez-no-do-rozh-naya sta-n-tsi-ya"},
-        "fr": {"means": "gare ferroviaire", "pronunciation": "gar fe-rro-vyèr"},
-        "zh": {"means": "火车站", "pronunciation": "huǒ chē zhàn"},
-        "ja": {"means": "鉄道駅", "pronunciation": "tetsudō eki"},
-        "en": {"means": "train station", "pronunciation": "treyn stey-shn"},
-        "es": {"means": "estación de tren", "pronunciation": "es-ta-syon de tren"},
-        "de": {"means": "Bahnhof", "pronunciation": "ˈbaːnˌhɔf"}
+        "fa": { "means": "ایستگاه قطار", "pronunciation": "treyn stey-shn" },
+        "ar": { "means": "محطة القطار", "pronunciation": "maḥaṭṭat al-qiṭār" },
+        "tr": {
+          "means": "tren istasyonu",
+          "pronunciation": "tren is-ta-syo-nu"
+        },
+        "ru": {
+          "means": "железнодорожная станция",
+          "pronunciation": "zhe-lez-no-do-rozh-naya sta-n-tsi-ya"
+        },
+        "fr": {
+          "means": "gare ferroviaire",
+          "pronunciation": "gar fe-rro-vyèr"
+        },
+        "zh": { "means": "火车站", "pronunciation": "huǒ chē zhàn" },
+        "ja": { "means": "鉄道駅", "pronunciation": "tetsudō eki" },
+        "en": { "means": "train station", "pronunciation": "treyn stey-shn" },
+        "es": {
+          "means": "estación de tren",
+          "pronunciation": "es-ta-syon de tren"
+        },
+        "de": { "means": "Bahnhof", "pronunciation": "ˈbaːnˌhɔf" }
       },
       {
-        "fa": {"means": "پارک", "pronunciation": "park"},
-        "ar": {"means": "حديقة", "pronunciation": "ḥadīqa"},
-        "tr": {"means": "park", "pronunciation": "park"},
-        "ru": {"means": "парк", "pronunciation": "park"},
-        "fr": {"means": "parc", "pronunciation": "park"},
-        "zh": {"means": "公园", "pronunciation": "gōng yuán"},
-        "ja": {"means": "公園", "pronunciation": "kōen"},
-        "en": {"means": "park", "pronunciation": "park"},
-        "es": {"means": "parque", "pronunciation": "par-ke"},
-        "de": {"means": "Park", "pronunciation": "park"}
+        "fa": { "means": "پارک", "pronunciation": "park" },
+        "ar": { "means": "حديقة", "pronunciation": "ḥadīqa" },
+        "tr": { "means": "park", "pronunciation": "park" },
+        "ru": { "means": "парк", "pronunciation": "park" },
+        "fr": { "means": "parc", "pronunciation": "park" },
+        "zh": { "means": "公园", "pronunciation": "gōng yuán" },
+        "ja": { "means": "公園", "pronunciation": "kōen" },
+        "en": { "means": "park", "pronunciation": "park" },
+        "es": { "means": "parque", "pronunciation": "par-ke" },
+        "de": { "means": "Park", "pronunciation": "park" }
       },
       {
-        "fa": {"means": "موزه", "pronunciation": "myoo-zee-uhm"},
-        "ar": {"means": "متحف", "pronunciation": "matḥaf"},
-        "tr": {"means": "müze", "pronunciation": "myu-ze"},
-        "ru": {"means": "музей", "pronunciation": "mu-zey"},
-        "fr": {"means": "musée", "pronunciation": "myu-ze"},
-        "zh": {"means": "博物馆", "pronunciation": "bó wù guǎn"},
-        "ja": {"means": "博物館", "pronunciation": "hakubutsukan"},
-        "en": {"means": "museum", "pronunciation": "myoo-zee-uhm"},
-        "es": {"means": "museo", "pronunciation": "mu-se-o"},
-        "de": {"means": "Museum", "pronunciation": "mu-ze-um"}
+        "fa": { "means": "موزه", "pronunciation": "myoo-zee-uhm" },
+        "ar": { "means": "متحف", "pronunciation": "matḥaf" },
+        "tr": { "means": "müze", "pronunciation": "myu-ze" },
+        "ru": { "means": "музей", "pronunciation": "mu-zey" },
+        "fr": { "means": "musée", "pronunciation": "myu-ze" },
+        "zh": { "means": "博物馆", "pronunciation": "bó wù guǎn" },
+        "ja": { "means": "博物館", "pronunciation": "hakubutsukan" },
+        "en": { "means": "museum", "pronunciation": "myoo-zee-uhm" },
+        "es": { "means": "museo", "pronunciation": "mu-se-o" },
+        "de": { "means": "Museum", "pronunciation": "mu-ze-um" }
       },
       {
-        "fa": {"means": "دانشگاه", "pronunciation": "yu-ni-ver-si-tee"},
-        "ar": {"means": "جامعة", "pronunciation": "jāmiʿa"},
-        "tr": {"means": "üniversite", "pronunciation": "ü-ni-ver-si-te"},
-        "ru": {"means": "университет", "pronunciation": "u-ni-ver-si-tyet"},
-        "fr": {"means": "université", "pronunciation": "u-ni-ver-si-té"},
-        "zh": {"means": "大学", "pronunciation": "dà xué"},
-        "ja": {"means": "大学", "pronunciation": "daigaku"},
-        "en": {"means": "university", "pronunciation": "yu-ni-ver-si-tee"},
-        "es": {"means": "universidad", "pronunciation": "u-ni-ver-si-dad"},
-        "de": {"means": "Universität", "pronunciation": "u-ni-ver-zi-tät"}
+        "fa": { "means": "دانشگاه", "pronunciation": "yu-ni-ver-si-tee" },
+        "ar": { "means": "جامعة", "pronunciation": "jāmiʿa" },
+        "tr": { "means": "üniversite", "pronunciation": "ü-ni-ver-si-te" },
+        "ru": { "means": "университет", "pronunciation": "u-ni-ver-si-tyet" },
+        "fr": { "means": "université", "pronunciation": "u-ni-ver-si-té" },
+        "zh": { "means": "大学", "pronunciation": "dà xué" },
+        "ja": { "means": "大学", "pronunciation": "daigaku" },
+        "en": { "means": "university", "pronunciation": "yu-ni-ver-si-tee" },
+        "es": { "means": "universidad", "pronunciation": "u-ni-ver-si-dad" },
+        "de": { "means": "Universität", "pronunciation": "u-ni-ver-zi-tät" }
       },
       {
-        "fa": {"means": "مدرسه", "pronunciation": "skool"},
-        "ar": {"means": "مدرسة", "pronunciation": "madrasa"},
-        "tr": {"means": "okul", "pronunciation": "o-kul"},
-        "ru": {"means": "школа", "pronunciation": "shko-la"},
-        "fr": {"means": "école", "pronunciation": "e-kol"},
-        "zh": {"means": "学校", "pronunciation": "xué xiào"},
-        "ja": {"means": "学校", "pronunciation": "gakkō"},
-        "en": {"means": "school", "pronunciation": "skool"},
-        "es": {"means": "escuela", "pronunciation": "es-kwe-la"},
-        "de": {"means": "Schule", "pronunciation": "shu-le"}
+        "fa": { "means": "مدرسه", "pronunciation": "skool" },
+        "ar": { "means": "مدرسة", "pronunciation": "madrasa" },
+        "tr": { "means": "okul", "pronunciation": "o-kul" },
+        "ru": { "means": "школа", "pronunciation": "shko-la" },
+        "fr": { "means": "école", "pronunciation": "e-kol" },
+        "zh": { "means": "学校", "pronunciation": "xué xiào" },
+        "ja": { "means": "学校", "pronunciation": "gakkō" },
+        "en": { "means": "school", "pronunciation": "skool" },
+        "es": { "means": "escuela", "pronunciation": "es-kwe-la" },
+        "de": { "means": "Schule", "pronunciation": "shu-le" }
       },
       {
-        "fa": {"means": "کتابخانه", "pronunciation": "lye-brer-ee"},
-        "ar": {"means": "مكتبة", "pronunciation": "maktaba"},
-        "tr": {"means": "kütüphane", "pronunciation": "kü-tüp-ha-ne"},
-        "ru": {"means": "библиотека", "pronunciation": "bibl-i-o-te-ka"},
-        "fr": {"means": "bibliothèque", "pronunciation": "bi-bli-o-tèk"},
-        "zh": {"means": "图书馆", "pronunciation": "tú shū guǎn"},
-        "ja": {"means": "図書館", "pronunciation": "toshokan"},
-        "en": {"means": "library", "pronunciation": "lye-brer-ee"},
-        "es": {"means": "biblioteca", "pronunciation": "bi-bli-o-te-ca"},
-        "de": {"means": "Bibliothek", "pronunciation": "bi-blio-tehk"}
+        "fa": { "means": "کتابخانه", "pronunciation": "lye-brer-ee" },
+        "ar": { "means": "مكتبة", "pronunciation": "maktaba" },
+        "tr": { "means": "kütüphane", "pronunciation": "kü-tüp-ha-ne" },
+        "ru": { "means": "библиотека", "pronunciation": "bibl-i-o-te-ka" },
+        "fr": { "means": "bibliothèque", "pronunciation": "bi-bli-o-tèk" },
+        "zh": { "means": "图书馆", "pronunciation": "tú shū guǎn" },
+        "ja": { "means": "図書館", "pronunciation": "toshokan" },
+        "en": { "means": "library", "pronunciation": "lye-brer-ee" },
+        "es": { "means": "biblioteca", "pronunciation": "bi-bli-o-te-ca" },
+        "de": { "means": "Bibliothek", "pronunciation": "bi-blio-tehk" }
       },
       {
-        "fa": {"means": "بازار", "pronunciation": "mar-ket"},
-        "ar": {"means": "سوق", "pronunciation": "sūq"},
-        "tr": {"means": "pazar", "pronunciation": "pa-zar"},
-        "ru": {"means": "рынок", "pronunciation": "rynok"},
-        "fr": {"means": "marché", "pronunciation": "mar-shé"},
-        "zh": {"means": "市场", "pronunciation": "shì chǎng"},
-        "ja": {"means": "市場", "pronunciation": "ichiba"},
-        "en": {"means": "market", "pronunciation": "mar-ket"},
-        "es": {"means": "mercado", "pronunciation": "mer-ca-do"},
-        "de": {"means": "Markt", "pronunciation": "markt"}
+        "fa": { "means": "بازار", "pronunciation": "mar-ket" },
+        "ar": { "means": "سوق", "pronunciation": "sūq" },
+        "tr": { "means": "pazar", "pronunciation": "pa-zar" },
+        "ru": { "means": "рынок", "pronunciation": "rynok" },
+        "fr": { "means": "marché", "pronunciation": "mar-shé" },
+        "zh": { "means": "市场", "pronunciation": "shì chǎng" },
+        "ja": { "means": "市場", "pronunciation": "ichiba" },
+        "en": { "means": "market", "pronunciation": "mar-ket" },
+        "es": { "means": "mercado", "pronunciation": "mer-ca-do" },
+        "de": { "means": "Markt", "pronunciation": "markt" }
       },
       {
-        "fa": {"means": "ورزشگاه", "pronunciation": "stay-dee-um"},
-        "ar": {"means": "ملعب", "pronunciation": "malʿab"},
-        "tr": {"means": "stadyum", "pronunciation": "sta-dyum"},
-        "ru": {"means": "стадион", "pronunciation": "stad-ion"},
-        "fr": {"means": "stade", "pronunciation": "stad"},
-        "zh": {"means": "体育场", "pronunciation": "tǐ yù chǎng"},
-        "ja": {"means": "スタジアム", "pronunciation": "sutajiamu"},
-        "en": {"means": "stadium", "pronunciation": "stay-dee-um"},
-        "es": {"means": "estadio", "pronunciation": "es-ta-dio"},
-        "de": {"means": "Stadion", "pronunciation": "s-ta-di-on"}
+        "fa": { "means": "ورزشگاه", "pronunciation": "stay-dee-um" },
+        "ar": { "means": "ملعب", "pronunciation": "malʿab" },
+        "tr": { "means": "stadyum", "pronunciation": "sta-dyum" },
+        "ru": { "means": "стадион", "pronunciation": "stad-ion" },
+        "fr": { "means": "stade", "pronunciation": "stad" },
+        "zh": { "means": "体育场", "pronunciation": "tǐ yù chǎng" },
+        "ja": { "means": "スタジアム", "pronunciation": "sutajiamu" },
+        "en": { "means": "stadium", "pronunciation": "stay-dee-um" },
+        "es": { "means": "estadio", "pronunciation": "es-ta-dio" },
+        "de": { "means": "Stadion", "pronunciation": "s-ta-di-on" }
       },
       {
-        "fa": {"means": "سینما", "pronunciation": "si-ne-ma"},
-        "ar": {"means": "سینما", "pronunciation": "sīnimā"},
-        "tr": {"means": "sinema", "pronunciation": "si-ne-ma"},
-        "ru": {"means": "кинотеатр", "pronunciation": "ki-no-teatr"},
-        "fr": {"means": "cinéma", "pronunciation": "si-ne-ma"},
-        "zh": {"means": "电影院", "pronunciation": "diàn yǐng yuàn"},
-        "ja": {"means": "映画館", "pronunciation": "eigakan"},
-        "en": {"means": "cinema", "pronunciation": "si-ne-ma"},
-        "es": {"means": "cine", "pronunciation": "si-ne"},
-        "de": {"means": "Kino", "pronunciation": "kee-no"}
+        "fa": { "means": "سینما", "pronunciation": "si-ne-ma" },
+        "ar": { "means": "سینما", "pronunciation": "sīnimā" },
+        "tr": { "means": "sinema", "pronunciation": "si-ne-ma" },
+        "ru": { "means": "кинотеатр", "pronunciation": "ki-no-teatr" },
+        "fr": { "means": "cinéma", "pronunciation": "si-ne-ma" },
+        "zh": { "means": "电影院", "pronunciation": "diàn yǐng yuàn" },
+        "ja": { "means": "映画館", "pronunciation": "eigakan" },
+        "en": { "means": "cinema", "pronunciation": "si-ne-ma" },
+        "es": { "means": "cine", "pronunciation": "si-ne" },
+        "de": { "means": "Kino", "pronunciation": "kee-no" }
       },
       {
-        "fa": {"means": "تئاتر", "pronunciation": "thee-a-ter"},
-        "ar": {"means": "مسرح", "pronunciation": "masraḥ"},
-        "tr": {"means": "tiyatro", "pronunciation": "ti-yat-ro"},
-        "ru": {"means": "театр", "pronunciation": "teatr"},
-        "fr": {"means": "théâtre", "pronunciation": "te-a-tr"},
-        "zh": {"means": "剧院", "pronunciation": "jù yuàn"},
-        "ja": {"means": "劇場", "pronunciation": "gekijō"},
-        "en": {"means": "theater", "pronunciation": "thee-a-ter"},
-        "es": {"means": "teatro", "pronunciation": "te-a-tro"},
-        "de": {"means": "Theater", "pronunciation": "the-a-ter"}
+        "fa": { "means": "تئاتر", "pronunciation": "thee-a-ter" },
+        "ar": { "means": "مسرح", "pronunciation": "masraḥ" },
+        "tr": { "means": "tiyatro", "pronunciation": "ti-yat-ro" },
+        "ru": { "means": "театр", "pronunciation": "teatr" },
+        "fr": { "means": "théâtre", "pronunciation": "te-a-tr" },
+        "zh": { "means": "剧院", "pronunciation": "jù yuàn" },
+        "ja": { "means": "劇場", "pronunciation": "gekijō" },
+        "en": { "means": "theater", "pronunciation": "thee-a-ter" },
+        "es": { "means": "teatro", "pronunciation": "te-a-tro" },
+        "de": { "means": "Theater", "pronunciation": "the-a-ter" }
       },
       {
-        "fa": {"means": "مرکز خرید", "pronunciation": "mawl"},
-        "ar": {"means": "مركز تسوق", "pronunciation": "markaz tasawwuq"},
-        "tr": {"means": "alışveriş merkezi", "pronunciation": "alış-ve-riş mer-ke-zi"},
-        "ru": {"means": "торговый центр", "pronunciation": "tor-go-vyy tsentr"},
-        "fr": {"means": "centre commercial", "pronunciation": "son-tr ko-mer-syal"},
-        "zh": {"means": "购物中心", "pronunciation": "gòu wù zhōng xīn"},
-        "ja": {"means": "ショッピングモール", "pronunciation": "shoppingu mōru"},
-        "en": {"means": "mall", "pronunciation": "mawl"},
-        "es": {"means": "centro comercial", "pronunciation": "cen-tro co-mer-cial"},
-        "de": {"means": "Einkaufszentrum", "pronunciation": "ain-kaufs-tsen-trum"}
+        "fa": { "means": "مرکز خرید", "pronunciation": "mawl" },
+        "ar": { "means": "مركز تسوق", "pronunciation": "markaz tasawwuq" },
+        "tr": {
+          "means": "alışveriş merkezi",
+          "pronunciation": "alış-ve-riş mer-ke-zi"
+        },
+        "ru": {
+          "means": "торговый центр",
+          "pronunciation": "tor-go-vyy tsentr"
+        },
+        "fr": {
+          "means": "centre commercial",
+          "pronunciation": "son-tr ko-mer-syal"
+        },
+        "zh": { "means": "购物中心", "pronunciation": "gòu wù zhōng xīn" },
+        "ja": {
+          "means": "ショッピングモール",
+          "pronunciation": "shoppingu mōru"
+        },
+        "en": { "means": "mall", "pronunciation": "mawl" },
+        "es": {
+          "means": "centro comercial",
+          "pronunciation": "cen-tro co-mer-cial"
+        },
+        "de": {
+          "means": "Einkaufszentrum",
+          "pronunciation": "ain-kaufs-tsen-trum"
+        }
       },
       {
-        "fa": {"means": "ساحل", "pronunciation": "beech"},
-        "ar": {"means": "شاطئ", "pronunciation": "shāṭiʾ"},
-        "tr": {"means": "plaj", "pronunciation": "pla-j"},
-        "ru": {"means": "пляж", "pronunciation": "plyazh"},
-        "fr": {"means": "plage", "pronunciation": "plazh"},
-        "zh": {"means": "海滩", "pronunciation": "hǎi tān"},
-        "ja": {"means": "ビーチ", "pronunciation": "bīchi"},
-        "en": {"means": "beach", "pronunciation": "beech"},
-        "es": {"means": "playa", "pronunciation": "pla-ya"},
-        "de": {"means": "Strand", "pronunciation": "shtrand"}
+        "fa": { "means": "ساحل", "pronunciation": "beech" },
+        "ar": { "means": "شاطئ", "pronunciation": "shāṭiʾ" },
+        "tr": { "means": "plaj", "pronunciation": "pla-j" },
+        "ru": { "means": "пляж", "pronunciation": "plyazh" },
+        "fr": { "means": "plage", "pronunciation": "plazh" },
+        "zh": { "means": "海滩", "pronunciation": "hǎi tān" },
+        "ja": { "means": "ビーチ", "pronunciation": "bīchi" },
+        "en": { "means": "beach", "pronunciation": "beech" },
+        "es": { "means": "playa", "pronunciation": "pla-ya" },
+        "de": { "means": "Strand", "pronunciation": "shtrand" }
       },
       {
-        "fa": {"means": "کوه", "pronunciation": "mawn-tn"},
-        "ar": {"means": "جبل", "pronunciation": "jabal"},
-        "tr": {"means": "dağ", "pronunciation": "dağ"},
-        "ru": {"means": "гора", "pronunciation": "ga-ra"},
-        "fr": {"means": "montagne", "pronunciation": "mon-tan-ye"},
-        "zh": {"means": "山", "pronunciation": "shān"},
-        "ja": {"means": "山", "pronunciation": "yama"},
-        "en": {"means": "mountain", "pronunciation": "mawn-tn"},
-        "es": {"means": "montaña", "pronunciation": "mon-ta-ña"},
-        "de": {"means": "Berg", "pronunciation": "berg"}
+        "fa": { "means": "کوه", "pronunciation": "mawn-tn" },
+        "ar": { "means": "جبل", "pronunciation": "jabal" },
+        "tr": { "means": "dağ", "pronunciation": "dağ" },
+        "ru": { "means": "гора", "pronunciation": "ga-ra" },
+        "fr": { "means": "montagne", "pronunciation": "mon-tan-ye" },
+        "zh": { "means": "山", "pronunciation": "shān" },
+        "ja": { "means": "山", "pronunciation": "yama" },
+        "en": { "means": "mountain", "pronunciation": "mawn-tn" },
+        "es": { "means": "montaña", "pronunciation": "mon-ta-ña" },
+        "de": { "means": "Berg", "pronunciation": "berg" }
       },
       {
-        "fa": {"means": "بیابان", "pronunciation": "dez-ert"},
-        "ar": {"means": "صحراء", "pronunciation": "ṣaḥrāʾ"},
-        "tr": {"means": "çöl", "pronunciation": "chöl"},
-        "ru": {"means": "пустыня", "pronunciation": "pustyn-ya"},
-        "fr": {"means": "désert", "pronunciation": "de-zer"},
-        "zh": {"means": "沙漠", "pronunciation": "shā mò"},
-        "ja": {"means": "砂漠", "pronunciation": "sabaku"},
-        "en": {"means": "desert", "pronunciation": "dez-ert"},
-        "es": {"means": "desierto", "pronunciation": "de-sier-to"},
-        "de": {"means": "Wüste", "pronunciation": "vüs-te"}
+        "fa": { "means": "بیابان", "pronunciation": "dez-ert" },
+        "ar": { "means": "صحراء", "pronunciation": "ṣaḥrāʾ" },
+        "tr": { "means": "çöl", "pronunciation": "chöl" },
+        "ru": { "means": "пустыня", "pronunciation": "pustyn-ya" },
+        "fr": { "means": "désert", "pronunciation": "de-zer" },
+        "zh": { "means": "沙漠", "pronunciation": "shā mò" },
+        "ja": { "means": "砂漠", "pronunciation": "sabaku" },
+        "en": { "means": "desert", "pronunciation": "dez-ert" },
+        "es": { "means": "desierto", "pronunciation": "de-sier-to" },
+        "de": { "means": "Wüste", "pronunciation": "vüs-te" }
       },
       {
-        "fa": {"means": "پل", "pronunciation": "brij"},
-        "ar": {"means": "جسر", "pronunciation": "jisr"},
-        "tr": {"means": "köprü", "pronunciation": "kö-prü"},
-        "ru": {"means": "мост", "pronunciation": "most"},
-        "fr": {"means": "pont", "pronunciation": "pon"},
-        "zh": {"means": "桥", "pronunciation": "qiáo"},
-        "ja": {"means": "橋", "pronunciation": "hashi"},
-        "en": {"means": "bridge", "pronunciation": "brij"},
-        "es": {"means": "puente", "pronunciation": "puan-te"},
-        "de": {"means": "Brücke", "pronunciation": "bry-ke"}
+        "fa": { "means": "پل", "pronunciation": "brij" },
+        "ar": { "means": "جسر", "pronunciation": "jisr" },
+        "tr": { "means": "köprü", "pronunciation": "kö-prü" },
+        "ru": { "means": "мост", "pronunciation": "most" },
+        "fr": { "means": "pont", "pronunciation": "pon" },
+        "zh": { "means": "桥", "pronunciation": "qiáo" },
+        "ja": { "means": "橋", "pronunciation": "hashi" },
+        "en": { "means": "bridge", "pronunciation": "brij" },
+        "es": { "means": "puente", "pronunciation": "puan-te" },
+        "de": { "means": "Brücke", "pronunciation": "bry-ke" }
       },
       {
-        "fa": {"means": "بندر", "pronunciation": "har-ber"},
-        "ar": {"means": "ميناء", "pronunciation": "mināʾ"},
-        "tr": {"means": "liman", "pronunciation": "li-man"},
-        "ru": {"means": "порт", "pronunciation": "port"},
-        "fr": {"means": "port", "pronunciation": "por"},
-        "zh": {"means": "港口", "pronunciation": "gǎng kǒu"},
-        "ja": {"means": "港", "pronunciation": "minato"},
-        "en": {"means": "harbor", "pronunciation": "har-ber"},
-        "es": {"means": "puerto", "pronunciation": "puer-to"},
-        "de": {"means": "Hafen", "pronunciation": "ha-fen"}
+        "fa": { "means": "بندر", "pronunciation": "har-ber" },
+        "ar": { "means": "ميناء", "pronunciation": "mināʾ" },
+        "tr": { "means": "liman", "pronunciation": "li-man" },
+        "ru": { "means": "порт", "pronunciation": "port" },
+        "fr": { "means": "port", "pronunciation": "por" },
+        "zh": { "means": "港口", "pronunciation": "gǎng kǒu" },
+        "ja": { "means": "港", "pronunciation": "minato" },
+        "en": { "means": "harbor", "pronunciation": "har-ber" },
+        "es": { "means": "puerto", "pronunciation": "puer-to" },
+        "de": { "means": "Hafen", "pronunciation": "ha-fen" }
       },
       {
-        "fa": {"means": "باغ‌وحش", "pronunciation": "zoo"},
-        "ar": {"means": "حديقة الحيوان", "pronunciation": "ḥadīqat al-ḥayawān"},
-        "tr": {"means": "hayvanat bahçesi", "pronunciation": "hay-va-nat bah-che-si"},
-        "ru": {"means": "зоопарк", "pronunciation": "zo-o-park"},
-        "fr": {"means": "zoo", "pronunciation": "zoo"},
-        "zh": {"means": "动物园", "pronunciation": "dòng wù yuán"},
-        "ja": {"means": "動物園", "pronunciation": "dōbutsuen"},
-        "en": {"means": "zoo", "pronunciation": "zoo"},
-        "es": {"means": "zoológico", "pronunciation": "zo-o-lo-gi-co"},
-        "de": {"means": "Zoo", "pronunciation": "tsoh"}
+        "fa": { "means": "باغ‌وحش", "pronunciation": "zoo" },
+        "ar": {
+          "means": "حديقة الحيوان",
+          "pronunciation": "ḥadīqat al-ḥayawān"
+        },
+        "tr": {
+          "means": "hayvanat bahçesi",
+          "pronunciation": "hay-va-nat bah-che-si"
+        },
+        "ru": { "means": "зоопарк", "pronunciation": "zo-o-park" },
+        "fr": { "means": "zoo", "pronunciation": "zoo" },
+        "zh": { "means": "动物园", "pronunciation": "dòng wù yuán" },
+        "ja": { "means": "動物園", "pronunciation": "dōbutsuen" },
+        "en": { "means": "zoo", "pronunciation": "zoo" },
+        "es": { "means": "zoológico", "pronunciation": "zo-o-lo-gi-co" },
+        "de": { "means": "Zoo", "pronunciation": "tsoh" }
       },
       {
-        "fa": {"means": "نانوایی", "pronunciation": "bay-ker-ee"},
-        "ar": {"means": "مخبز", "pronunciation": "makh-baz"},
-        "tr": {"means": "fırın", "pronunciation": "fı-rın"},
-        "ru": {"means": "пекарня", "pronunciation": "pe-kar-nya"},
-        "fr": {"means": "boulangerie", "pronunciation": "bu-lan-jri"},
-        "zh": {"means": "面包店", "pronunciation": "miàn bāo diàn"},
-        "ja": {"means": "パン屋", "pronunciation": "pan-ya"},
-        "en": {"means": "bakery", "pronunciation": "bay-ker-ee"},
-        "es": {"means": "panadería", "pronunciation": "pa-na-de-rí-a"},
-        "de": {"means": "Bäckerei", "pronunciation": "bäck-e-rei"}
+        "fa": { "means": "نانوایی", "pronunciation": "bay-ker-ee" },
+        "ar": { "means": "مخبز", "pronunciation": "makh-baz" },
+        "tr": { "means": "fırın", "pronunciation": "fı-rın" },
+        "ru": { "means": "пекарня", "pronunciation": "pe-kar-nya" },
+        "fr": { "means": "boulangerie", "pronunciation": "bu-lan-jri" },
+        "zh": { "means": "面包店", "pronunciation": "miàn bāo diàn" },
+        "ja": { "means": "パン屋", "pronunciation": "pan-ya" },
+        "en": { "means": "bakery", "pronunciation": "bay-ker-ee" },
+        "es": { "means": "panadería", "pronunciation": "pa-na-de-rí-a" },
+        "de": { "means": "Bäckerei", "pronunciation": "bäck-e-rei" }
       },
       {
-        "fa": {"means": "کافه", "pronunciation": "ka-fey"},
-        "ar": {"means": "مقهى", "pronunciation": "maqha"},
-        "tr": {"means": "kafe", "pronunciation": "ka-fe"},
-        "ru": {"means": "кафе", "pronunciation": "ka-fe"},
-        "fr": {"means": "café", "pronunciation": "ka-fé"},
-        "zh": {"means": "咖啡馆", "pronunciation": "kā fēi guǎn"},
-        "ja": {"means": "カフェ", "pronunciation": "kafe"},
-        "en": {"means": "cafe", "pronunciation": "ka-fey"},
-        "es": {"means": "café", "pronunciation": "ka-fé"},
-        "de": {"means": "Café", "pronunciation": "ka-fay"}
+        "fa": { "means": "کافه", "pronunciation": "ka-fey" },
+        "ar": { "means": "مقهى", "pronunciation": "maqha" },
+        "tr": { "means": "kafe", "pronunciation": "ka-fe" },
+        "ru": { "means": "кафе", "pronunciation": "ka-fe" },
+        "fr": { "means": "café", "pronunciation": "ka-fé" },
+        "zh": { "means": "咖啡馆", "pronunciation": "kā fēi guǎn" },
+        "ja": { "means": "カフェ", "pronunciation": "kafe" },
+        "en": { "means": "cafe", "pronunciation": "ka-fey" },
+        "es": { "means": "café", "pronunciation": "ka-fé" },
+        "de": { "means": "Café", "pronunciation": "ka-fay" }
       }
     ],
     [
       {
-        "fa": {"means": "سلام", "pronunciation": "sa-laam"},
-        "ar": {"means": "مرحبًا", "pronunciation": "marḥabān"},
-        "tr": {"means": "Merhaba", "pronunciation": "Mer-ha-ba"},
-        "ru": {"means": "Здравствуйте", "pronunciation": "Zdrav-stvu-yte"},
-        "fr": {"means": "Bonjour", "pronunciation": "Bon-zhoor"},
-        "zh": {"means": "你好", "pronunciation": "nǐ hǎo"},
-        "ja": {"means": "こんにちは", "pronunciation": "konnichiwa"},
-        "en": {"means": "Hello", "pronunciation": "heh-loh"},
-        "es": {"means": "Hola", "pronunciation": "oh-la"},
-        "de": {"means": "Hallo", "pronunciation": "ha-lō"}
+        "fa": { "means": "سلام", "pronunciation": "sa-laam" },
+        "ar": { "means": "مرحبًا", "pronunciation": "marḥabān" },
+        "tr": { "means": "Merhaba", "pronunciation": "Mer-ha-ba" },
+        "ru": { "means": "Здравствуйте", "pronunciation": "Zdrav-stvu-yte" },
+        "fr": { "means": "Bonjour", "pronunciation": "Bon-zhoor" },
+        "zh": { "means": "你好", "pronunciation": "nǐ hǎo" },
+        "ja": { "means": "こんにちは", "pronunciation": "konnichiwa" },
+        "en": { "means": "Hello", "pronunciation": "heh-loh" },
+        "es": { "means": "Hola", "pronunciation": "oh-la" },
+        "de": { "means": "Hallo", "pronunciation": "ha-lō" }
       },
       {
-        "fa": {"means": "حالت چطور است؟", "pronunciation": "haalet che-toor ast?"},
-        "ar": {"means": "كيف حالك؟", "pronunciation": "kayfa ḥāluka?"},
-        "tr": {"means": "Nasılsın?", "pronunciation": "Na-sıl-sın?"},
-        "ru": {"means": "Как дела?", "pronunciation": "Kak dye-lá?"},
-        "fr": {"means": "Comment ça va ?", "pronunciation": "Co-mmon sa va?"},
-        "zh": {"means": "你好吗？", "pronunciation": "nǐ hǎo ma?"},
-        "ja": {"means": "お元気ですか？", "pronunciation": "o-genki desu ka?"},
-        "en": {"means": "How are you?", "pronunciation": "haʊ ar yu?"},
-        "es": {"means": "¿Cómo estás?", "pronunciation": "ko-mo es-tás?"},
-        "de": {"means": "Wie geht’s?", "pronunciation": "vee geyts?"}
+        "fa": {
+          "means": "حالت چطور است؟",
+          "pronunciation": "haalet che-toor ast?"
+        },
+        "ar": { "means": "كيف حالك؟", "pronunciation": "kayfa ḥāluka?" },
+        "tr": { "means": "Nasılsın?", "pronunciation": "Na-sıl-sın?" },
+        "ru": { "means": "Как дела?", "pronunciation": "Kak dye-lá?" },
+        "fr": { "means": "Comment ça va ?", "pronunciation": "Co-mmon sa va?" },
+        "zh": { "means": "你好吗？", "pronunciation": "nǐ hǎo ma?" },
+        "ja": {
+          "means": "お元気ですか？",
+          "pronunciation": "o-genki desu ka?"
+        },
+        "en": { "means": "How are you?", "pronunciation": "haʊ ar yu?" },
+        "es": { "means": "¿Cómo estás?", "pronunciation": "ko-mo es-tás?" },
+        "de": { "means": "Wie geht’s?", "pronunciation": "vee geyts?" }
       },
       {
-        "fa": {"means": "صبح بخیر", "pronunciation": "sobh bekheir"},
-        "ar": {"means": "صباح الخير", "pronunciation": "ṣabāḥ al-khayr"},
-        "tr": {"means": "Günaydın", "pronunciation": "Gü-nay-dın"},
-        "ru": {"means": "Доброе утро", "pronunciation": "Dob-ro-ye ûtro"},
-        "fr": {"means": "Bonjour", "pronunciation": "Bon-zhoor"},
-        "zh": {"means": "早上好", "pronunciation": "zǎo shang hǎo"},
-        "ja": {"means": "おはようございます", "pronunciation": "ohayō gozaimasu"},
-        "en": {"means": "Good morning", "pronunciation": "good morn-ing"},
-        "es": {"means": "Buenos días", "pronunciation": "bwe-nos dí-as"},
-        "de": {"means": "Guten Morgen", "pronunciation": "goo-ten mor-gen"}
+        "fa": { "means": "صبح بخیر", "pronunciation": "sobh bekheir" },
+        "ar": { "means": "صباح الخير", "pronunciation": "ṣabāḥ al-khayr" },
+        "tr": { "means": "Günaydın", "pronunciation": "Gü-nay-dın" },
+        "ru": { "means": "Доброе утро", "pronunciation": "Dob-ro-ye ûtro" },
+        "fr": { "means": "Bonjour", "pronunciation": "Bon-zhoor" },
+        "zh": { "means": "早上好", "pronunciation": "zǎo shang hǎo" },
+        "ja": {
+          "means": "おはようございます",
+          "pronunciation": "ohayō gozaimasu"
+        },
+        "en": { "means": "Good morning", "pronunciation": "good morn-ing" },
+        "es": { "means": "Buenos días", "pronunciation": "bwe-nos dí-as" },
+        "de": { "means": "Guten Morgen", "pronunciation": "goo-ten mor-gen" }
       },
       {
-        "fa": {"means": "شب بخیر", "pronunciation": "shab bekheir"},
-        "ar": {"means": "تصبح على خير", "pronunciation": "tuṣbiḥ ʿalā khayr"},
-        "tr": {"means": "İyi geceler", "pronunciation": "I-yi ge-ce-ler"},
-        "ru": {"means": "Спокойной ночи", "pronunciation": "spa-koy-noy no-chi"},
-        "fr": {"means": "Bonne nuit", "pronunciation": "bun nwee"},
-        "zh": {"means": "晚安", "pronunciation": "wǎn ān"},
-        "ja": {"means": "おやすみなさい", "pronunciation": "oyasumi nasai"},
-        "en": {"means": "Good night", "pronunciation": "good nyt"},
-        "es": {"means": "Buenas noches", "pronunciation": "bwe-nas no-ches"},
-        "de": {"means": "Gute Nacht", "pronunciation": "goo-te nahkt"}
+        "fa": { "means": "شب بخیر", "pronunciation": "shab bekheir" },
+        "ar": { "means": "تصبح على خير", "pronunciation": "tuṣbiḥ ʿalā khayr" },
+        "tr": { "means": "İyi geceler", "pronunciation": "I-yi ge-ce-ler" },
+        "ru": {
+          "means": "Спокойной ночи",
+          "pronunciation": "spa-koy-noy no-chi"
+        },
+        "fr": { "means": "Bonne nuit", "pronunciation": "bun nwee" },
+        "zh": { "means": "晚安", "pronunciation": "wǎn ān" },
+        "ja": { "means": "おやすみなさい", "pronunciation": "oyasumi nasai" },
+        "en": { "means": "Good night", "pronunciation": "good nyt" },
+        "es": { "means": "Buenas noches", "pronunciation": "bwe-nas no-ches" },
+        "de": { "means": "Gute Nacht", "pronunciation": "goo-te nahkt" }
       },
       {
-        "fa": {"means": "چطور می‌گذرد؟", "pronunciation": "che-toor migzareh?"},
-        "ar": {"means": "كيف تسير الأمور؟", "pronunciation": "kayfa tasyir al-umūr?"},
-        "tr": {"means": "Nasıl gidiyor?", "pronunciation": "Na-sıl gi-di-yor?"},
-        "ru": {"means": "Как поживаешь?", "pronunciation": "Kak po-zhiv-ay-esh?"},
-        "fr": {"means": "Comment ça se passe ?", "pronunciation": "co-mon sa sə pas?"},
-        "zh": {"means": "进展如何？", "pronunciation": "jìn zhǎn rú hé?"},
-        "ja": {"means": "調子はどう?", "pronunciation": "chōshi wa dō?"},
-        "en": {"means": "How is it going?", "pronunciation": "haʊ iz it go-ing?"},
-        "es": {"means": "¿Cómo va?", "pronunciation": "ko-mo va?"},
-        "de": {"means": "Wie läuft’s?", "pronunciation": "vee loofts?"}
+        "fa": {
+          "means": "چطور می‌گذرد؟",
+          "pronunciation": "che-toor migzareh?"
+        },
+        "ar": {
+          "means": "كيف تسير الأمور؟",
+          "pronunciation": "kayfa tasyir al-umūr?"
+        },
+        "tr": {
+          "means": "Nasıl gidiyor?",
+          "pronunciation": "Na-sıl gi-di-yor?"
+        },
+        "ru": {
+          "means": "Как поживаешь?",
+          "pronunciation": "Kak po-zhiv-ay-esh?"
+        },
+        "fr": {
+          "means": "Comment ça se passe ?",
+          "pronunciation": "co-mon sa sə pas?"
+        },
+        "zh": { "means": "进展如何？", "pronunciation": "jìn zhǎn rú hé?" },
+        "ja": { "means": "調子はどう?", "pronunciation": "chōshi wa dō?" },
+        "en": {
+          "means": "How is it going?",
+          "pronunciation": "haʊ iz it go-ing?"
+        },
+        "es": { "means": "¿Cómo va?", "pronunciation": "ko-mo va?" },
+        "de": { "means": "Wie läuft’s?", "pronunciation": "vee loofts?" }
       },
       {
-        "fa": {"means": "خداحافظ", "pronunciation": "khodaa-haafez"},
-        "ar": {"means": "مع السلامة", "pronunciation": "maʿa as-salāma"},
-        "tr": {"means": "Hoşça kal", "pronunciation": "hosh-cha kal"},
-        "ru": {"means": "До свидания", "pronunciation": "da svi-da-ni-ya"},
-        "fr": {"means": "Au revoir", "pronunciation": "o re-vwar"},
-        "zh": {"means": "再见", "pronunciation": "zài jiàn"},
-        "ja": {"means": "さようなら", "pronunciation": "sayōnara"},
-        "en": {"means": "Goodbye", "pronunciation": "good-bye"},
-        "es": {"means": "Adiós", "pronunciation": "a-dyós"},
-        "de": {"means": "Auf Wiedersehen", "pronunciation": "auf vee-der-zey-en"}
+        "fa": { "means": "خداحافظ", "pronunciation": "khodaa-haafez" },
+        "ar": { "means": "مع السلامة", "pronunciation": "maʿa as-salāma" },
+        "tr": { "means": "Hoşça kal", "pronunciation": "hosh-cha kal" },
+        "ru": { "means": "До свидания", "pronunciation": "da svi-da-ni-ya" },
+        "fr": { "means": "Au revoir", "pronunciation": "o re-vwar" },
+        "zh": { "means": "再见", "pronunciation": "zài jiàn" },
+        "ja": { "means": "さようなら", "pronunciation": "sayōnara" },
+        "en": { "means": "Goodbye", "pronunciation": "good-bye" },
+        "es": { "means": "Adiós", "pronunciation": "a-dyós" },
+        "de": {
+          "means": "Auf Wiedersehen",
+          "pronunciation": "auf vee-der-zey-en"
+        }
       },
       {
-        "fa":{"means":"بعدا می‌بینمت","pronunciation":"ba'adan mibinamet"},
-        "ar":{"means":"أراك لاحقاً","pronunciation":"arāk lāḥiqan"},
-        "tr":{"means":"Sonra görüşürüz","pronunciation":"son-ra gö-rü-şü-rüz"},
-        "ru":{"means":"Увидимся позже","pronunciation":"u-vid-i-msya po-zhe"},
-        "fr":{"means":"À plus tard","pronunciation":"a plu tar"},
-        "zh":{"means":"回头见","pronunciation":"huí tóu jiàn"},
-        "ja":{"means":"また後で","pronunciation":"mata ato de"},
-        "en":{"means":"See you later","pronunciation":"see yu lay-tər"},
-        "es":{"means":"Hasta luego","pronunciation":"as-ta lwe-go"},
-        "de":{"means":"Bis später","pronunciation":"bis shpey-ter"}
+        "fa": {
+          "means": "بعدا می‌بینمت",
+          "pronunciation": "ba'adan mibinamet"
+        },
+        "ar": { "means": "أراك لاحقاً", "pronunciation": "arāk lāḥiqan" },
+        "tr": {
+          "means": "Sonra görüşürüz",
+          "pronunciation": "son-ra gö-rü-şü-rüz"
+        },
+        "ru": {
+          "means": "Увидимся позже",
+          "pronunciation": "u-vid-i-msya po-zhe"
+        },
+        "fr": { "means": "À plus tard", "pronunciation": "a plu tar" },
+        "zh": { "means": "回头见", "pronunciation": "huí tóu jiàn" },
+        "ja": { "means": "また後で", "pronunciation": "mata ato de" },
+        "en": { "means": "See you later", "pronunciation": "see yu lay-tər" },
+        "es": { "means": "Hasta luego", "pronunciation": "as-ta lwe-go" },
+        "de": { "means": "Bis später", "pronunciation": "bis shpey-ter" }
       },
       {
-        "fa":{"means":"خوشبختم","pronunciation":"khoshbakhtam"},
-        "ar":{"means":"تشرفت بلقائك","pronunciation":"tashar-reftu bili-qā'ik"},
-        "tr":{"means":"Tanıştığımıza memnun oldum","pronunciation":"ta-nış-tı-ğı-mı-za mem-nun ol-dum"},
-        "ru":{"means":"Приятно познакомиться","pronunciation":"pri-yat-na po-znako-mit-sya"},
-        "fr":{"means":"Ravi de vous rencontrer","pronunciation":"ra-vi də vu ran-kon-tré"},
-        "zh":{"means":"很高兴认识你","pronunciation":"hěn gāo xìng rèn shi nǐ"},
-        "ja":{"means":"はじめまして","pronunciation":"ha-ji-me-ma-shi-te"},
-        "en":{"means":"Nice to meet you","pronunciation":"nys tu meet yu"},
-        "es":{"means":"Encantado de conocerte","pronunciation":"en-can-ta-do de co-no-cer-te"},
-        "de":{"means":"Freut mich, Sie kennenzulernen","pronunciation":"froit mish zee ke-nən-lern-en"}
+        "fa": { "means": "خوشبختم", "pronunciation": "khoshbakhtam" },
+        "ar": {
+          "means": "تشرفت بلقائك",
+          "pronunciation": "tashar-reftu bili-qā'ik"
+        },
+        "tr": {
+          "means": "Tanıştığımıza memnun oldum",
+          "pronunciation": "ta-nış-tı-ğı-mı-za mem-nun ol-dum"
+        },
+        "ru": {
+          "means": "Приятно познакомиться",
+          "pronunciation": "pri-yat-na po-znako-mit-sya"
+        },
+        "fr": {
+          "means": "Ravi de vous rencontrer",
+          "pronunciation": "ra-vi də vu ran-kon-tré"
+        },
+        "zh": {
+          "means": "很高兴认识你",
+          "pronunciation": "hěn gāo xìng rèn shi nǐ"
+        },
+        "ja": {
+          "means": "はじめまして",
+          "pronunciation": "ha-ji-me-ma-shi-te"
+        },
+        "en": {
+          "means": "Nice to meet you",
+          "pronunciation": "nys tu meet yu"
+        },
+        "es": {
+          "means": "Encantado de conocerte",
+          "pronunciation": "en-can-ta-do de co-no-cer-te"
+        },
+        "de": {
+          "means": "Freut mich, Sie kennenzulernen",
+          "pronunciation": "froit mish zee ke-nən-lern-en"
+        }
       },
       {
-        "fa":{"means":"نام شما چیست؟","pronunciation":"naam shomaa chist?"},
-        "ar":{"means":"ما اسمك؟","pronunciation":"mā asmuka?"},
-        "tr":{"means":"Adınız nedir?","pronunciation":"a-dı-nız ne-dir?"},
-        "ru":{"means":"Как вас зовут?","pronunciation":"kak vas zo-voot?"},
-        "fr":{"means":"Comment vous appelez-vous ?","pronunciation":"co-mmon vu za-ple-le vu?"},
-        "zh":{"means":"你叫什么名字？","pronunciation":"nǐ jiào shén me míng zi?"},
-        "ja":{"means":"お名前は何ですか？","pronunciation":"o-na-mae wa nan desu ka?"},
-        "en":{"means":"What’s your name?","pronunciation":"whats yor naym?"},
-        "es":{"means":"¿Cómo te llamas?","pronunciation":"kó-mo te ya-mas?"},
-        "de":{"means":"Wie heißen Sie?","pronunciation":"vee hai-sen zee?"}
+        "fa": {
+          "means": "نام شما چیست؟",
+          "pronunciation": "naam shomaa chist?"
+        },
+        "ar": { "means": "ما اسمك؟", "pronunciation": "mā asmuka?" },
+        "tr": { "means": "Adınız nedir?", "pronunciation": "a-dı-nız ne-dir?" },
+        "ru": {
+          "means": "Как вас зовут?",
+          "pronunciation": "kak vas zo-voot?"
+        },
+        "fr": {
+          "means": "Comment vous appelez-vous ?",
+          "pronunciation": "co-mmon vu za-ple-le vu?"
+        },
+        "zh": {
+          "means": "你叫什么名字？",
+          "pronunciation": "nǐ jiào shén me míng zi?"
+        },
+        "ja": {
+          "means": "お名前は何ですか？",
+          "pronunciation": "o-na-mae wa nan desu ka?"
+        },
+        "en": {
+          "means": "What’s your name?",
+          "pronunciation": "whats yor naym?"
+        },
+        "es": {
+          "means": "¿Cómo te llamas?",
+          "pronunciation": "kó-mo te ya-mas?"
+        },
+        "de": {
+          "means": "Wie heißen Sie?",
+          "pronunciation": "vee hai-sen zee?"
+        }
       },
       {
-        "fa":{"means":"نام من ... است","pronunciation":"naam-e man ... ast"},
-        "ar":{"means":"اسمي ...","pronunciation":"ismī ..."},
-        "tr":{"means":"Benim adım ...","pronunciation":"be-nim a-dım ..."},
-        "ru":{"means":"Меня зовут ...","pronunciation":"men-ya zo-voot ..."},
-        "fr":{"means":"Je m’appelle ...","pronunciation":"jə map-el ..."},
-        "zh":{"means":"我叫...","pronunciation":"wǒ jiào ..."},
-        "ja":{"means":"私は…です","pronunciation":"watashi wa … desu"},
-        "en":{"means":"My name is...","pronunciation":"my naym iz ..."},
-        "es":{"means":"Me llamo…","pronunciation":"me ya-mo ..."},
-        "de":{"means":"Ich heiße…","pronunciation":"ikh hai-sə ..."}
+        "fa": {
+          "means": "نام من ... است",
+          "pronunciation": "naam-e man ... ast"
+        },
+        "ar": { "means": "اسمي ...", "pronunciation": "ismī ..." },
+        "tr": {
+          "means": "Benim adım ...",
+          "pronunciation": "be-nim a-dım ..."
+        },
+        "ru": {
+          "means": "Меня зовут ...",
+          "pronunciation": "men-ya zo-voot ..."
+        },
+        "fr": { "means": "Je m’appelle ...", "pronunciation": "jə map-el ..." },
+        "zh": { "means": "我叫...", "pronunciation": "wǒ jiào ..." },
+        "ja": { "means": "私は…です", "pronunciation": "watashi wa … desu" },
+        "en": { "means": "My name is...", "pronunciation": "my naym iz ..." },
+        "es": { "means": "Me llamo…", "pronunciation": "me ya-mo ..." },
+        "de": { "means": "Ich heiße…", "pronunciation": "ikh hai-sə ..." }
       },
       {
-        "fa":{"means":"اهل کجا هستید؟","pronunciation":"ahl-e koja hastid?"},
-        "ar":{"means":"من أين أنت؟","pronunciation":"min ayna anta?"},
-        "tr":{"means":"Nerelisiniz?","pronunciation":"ne-re-li-si-niz?"},
-        "ru":{"means":"Откуда вы?","pronunciation":"ot-ku-da vy?"},
-        "fr":{"means":"D’où venez-vous ?","pronunciation":"doo ve-ne vu?"},
-        "zh":{"means":"你来自哪里？","pronunciation":"nǐ lái zì nǎ lǐ?"},
-        "ja":{"means":"ご出身はどこですか？","pronunciation":"go-shusshin wa doko desu ka?"},
-        "en":{"means":"Where are you from?","pronunciation":"wer ar yu from?"},
-        "es":{"means":"¿De dónde eres?","pronunciation":"de don-de e-res?"},
-        "de":{"means":"Woher kommen Sie?","pronunciation":"vo-her kom-men zee?"}
+        "fa": {
+          "means": "اهل کجا هستید؟",
+          "pronunciation": "ahl-e koja hastid?"
+        },
+        "ar": { "means": "من أين أنت؟", "pronunciation": "min ayna anta?" },
+        "tr": { "means": "Nerelisiniz?", "pronunciation": "ne-re-li-si-niz?" },
+        "ru": { "means": "Откуда вы?", "pronunciation": "ot-ku-da vy?" },
+        "fr": {
+          "means": "D’où venez-vous ?",
+          "pronunciation": "doo ve-ne vu?"
+        },
+        "zh": { "means": "你来自哪里？", "pronunciation": "nǐ lái zì nǎ lǐ?" },
+        "ja": {
+          "means": "ご出身はどこですか？",
+          "pronunciation": "go-shusshin wa doko desu ka?"
+        },
+        "en": {
+          "means": "Where are you from?",
+          "pronunciation": "wer ar yu from?"
+        },
+        "es": {
+          "means": "¿De dónde eres?",
+          "pronunciation": "de don-de e-res?"
+        },
+        "de": {
+          "means": "Woher kommen Sie?",
+          "pronunciation": "vo-her kom-men zee?"
+        }
       },
       {
-        "fa":{"means":"من اهل ... هستم","pronunciation":"man ahl-e ... hastam"},
-        "ar":{"means":"أنا من ...","pronunciation":"anā min ..."},
-        "tr":{"means":"Ben ...liyim","pronunciation":"ben ... li-yim"},
-        "ru":{"means":"Я из ...","pronunciation":"ya iz ..."},
-        "fr":{"means":"Je viens de ...","pronunciation":"jə vyen də ..."},
-        "zh":{"means":"我来自...","pronunciation":"wǒ lái zì ..."},
-        "ja":{"means":"私は…出身です","pronunciation":"watashi wa … shusshin desu"},
-        "en":{"means":"I’m from...","pronunciation":"im from ..."},
-        "es":{"means":"Soy de...","pronunciation":"soy de ..."},
-        "de":{"means":"Ich komme aus...","pronunciation":"ikh kom-me aus ..."}
+        "fa": {
+          "means": "من اهل ... هستم",
+          "pronunciation": "man ahl-e ... hastam"
+        },
+        "ar": { "means": "أنا من ...", "pronunciation": "anā min ..." },
+        "tr": { "means": "Ben ...liyim", "pronunciation": "ben ... li-yim" },
+        "ru": { "means": "Я из ...", "pronunciation": "ya iz ..." },
+        "fr": { "means": "Je viens de ...", "pronunciation": "jə vyen də ..." },
+        "zh": { "means": "我来自...", "pronunciation": "wǒ lái zì ..." },
+        "ja": {
+          "means": "私は…出身です",
+          "pronunciation": "watashi wa … shusshin desu"
+        },
+        "en": { "means": "I’m from...", "pronunciation": "im from ..." },
+        "es": { "means": "Soy de...", "pronunciation": "soy de ..." },
+        "de": {
+          "means": "Ich komme aus...",
+          "pronunciation": "ikh kom-me aus ..."
+        }
       },
       {
-        "fa":{"means":"چند سال دارید؟","pronunciation":"chand saal daarid?"},
-        "ar":{"means":"كم عمرك؟","pronunciation":"kam ʿumruka?"},
-        "tr":{"means":"Kaç yaşındasınız?","pronunciation":"kaç yaş-in-da-sı-nız?"},
-        "ru":{"means":"Сколько вам лет?","pronunciation":"skol-ka vam lyet?"},
-        "fr":{"means":"Quel âge avez‑vous ?","pronunciation":"kel ahzh a-ve vu?"},
-        "zh":{"means":"你多大了？","pronunciation":"nǐ duō dà le?"},
-        "ja":{"means":"何歳ですか？","pronunciation":"nan-sai desu ka?"},
-        "en":{"means":"How old are you?","pronunciation":"how old ar yu?"},
-        "es":{"means":"¿Cuántos años tienes?","pronunciation":"kuan-tos a-nyos tie-nes?"},
-        "de":{"means":"Wie alt sind Sie?","pronunciation":"vee alt zind zee?"}
+        "fa": {
+          "means": "چند سال دارید؟",
+          "pronunciation": "chand saal daarid?"
+        },
+        "ar": { "means": "كم عمرك؟", "pronunciation": "kam ʿumruka?" },
+        "tr": {
+          "means": "Kaç yaşındasınız?",
+          "pronunciation": "kaç yaş-in-da-sı-nız?"
+        },
+        "ru": {
+          "means": "Сколько вам лет?",
+          "pronunciation": "skol-ka vam lyet?"
+        },
+        "fr": {
+          "means": "Quel âge avez‑vous ?",
+          "pronunciation": "kel ahzh a-ve vu?"
+        },
+        "zh": { "means": "你多大了？", "pronunciation": "nǐ duō dà le?" },
+        "ja": { "means": "何歳ですか？", "pronunciation": "nan-sai desu ka?" },
+        "en": {
+          "means": "How old are you?",
+          "pronunciation": "how old ar yu?"
+        },
+        "es": {
+          "means": "¿Cuántos años tienes?",
+          "pronunciation": "kuan-tos a-nyos tie-nes?"
+        },
+        "de": {
+          "means": "Wie alt sind Sie?",
+          "pronunciation": "vee alt zind zee?"
+        }
       },
       {
-        "fa":{"means":"من خوبم","pronunciation":"man khoobam"},
-        "ar":{"means":"أنا بخير","pronunciation":"anā bikhayr"},
-        "tr":{"means":"İyiyim","pronunciation":"i-yi-yim"},
-        "ru":{"means":"Я в порядке","pronunciation":"ya f poryad-ke"},
-        "fr":{"means":"Je vais bien","pronunciation":"jə ve byɛ̃"},
-        "zh":{"means":"我很好","pronunciation":"wǒ hěn hǎo"},
-        "ja":{"means":"私は元気です","pronunciation":"watashi wa genki desu"},
-        "en":{"means":"I’m fine","pronunciation":"aym fayn"},
-        "es":{"means":"Estoy bien","pronunciation":"es-toy byen"},
-        "de":{"means":"Mir geht’s gut","pronunciation":"mir geyts goot"}
+        "fa": { "means": "من خوبم", "pronunciation": "man khoobam" },
+        "ar": { "means": "أنا بخير", "pronunciation": "anā bikhayr" },
+        "tr": { "means": "İyiyim", "pronunciation": "i-yi-yim" },
+        "ru": { "means": "Я в порядке", "pronunciation": "ya f poryad-ke" },
+        "fr": { "means": "Je vais bien", "pronunciation": "jə ve byɛ̃" },
+        "zh": { "means": "我很好", "pronunciation": "wǒ hěn hǎo" },
+        "ja": {
+          "means": "私は元気です",
+          "pronunciation": "watashi wa genki desu"
+        },
+        "en": { "means": "I’m fine", "pronunciation": "aym fayn" },
+        "es": { "means": "Estoy bien", "pronunciation": "es-toy byen" },
+        "de": { "means": "Mir geht’s gut", "pronunciation": "mir geyts goot" }
       },
       {
-        "fa":{"means":"متشکرم","pronunciation":"mot‑sha‑ker‑am"},
-        "ar":{"means":"شكراً","pronunciation":"shukran"},
-        "tr":{"means":"Teşekkür ederim","pronunciation":"teşek-kür ede-rim"},
-        "ru":{"means":"Спасибо","pronunciation":"spa-see-ba"},
-        "fr":{"means":"Merci","pronunciation":"mehr-see"},
-        "zh":{"means":"谢谢","pronunciation":"xiè xiè"},
-        "ja":{"means":"ありがとうございます","pronunciation":"arigatō gozaimasu"},
-        "en":{"means":"Thank you","pronunciation":"thank yu"},
-        "es":{"means":"Gracias","pronunciation":"gra-thi-as"},
-        "de":{"means":"Danke","pronunciation":"dan-ke"}
+        "fa": { "means": "متشکرم", "pronunciation": "mot‑sha‑ker‑am" },
+        "ar": { "means": "شكراً", "pronunciation": "shukran" },
+        "tr": {
+          "means": "Teşekkür ederim",
+          "pronunciation": "teşek-kür ede-rim"
+        },
+        "ru": { "means": "Спасибо", "pronunciation": "spa-see-ba" },
+        "fr": { "means": "Merci", "pronunciation": "mehr-see" },
+        "zh": { "means": "谢谢", "pronunciation": "xiè xiè" },
+        "ja": {
+          "means": "ありがとうございます",
+          "pronunciation": "arigatō gozaimasu"
+        },
+        "en": { "means": "Thank you", "pronunciation": "thank yu" },
+        "es": { "means": "Gracias", "pronunciation": "gra-thi-as" },
+        "de": { "means": "Danke", "pronunciation": "dan-ke" }
       },
       {
-        "fa":{"means":"خواهش می‌کنم","pronunciation":"khaa‑hesh mikonam"},
-        "ar":{"means":"عفواً","pronunciation":"ʿafwan"},
-        "tr":{"means":"Bir şey değil","pronunciation":"bir şey değil"},
-        "ru":{"means":"Пожалуйста","pronunciation":"pa-zha-lus-ta"},
-        "fr":{"means":"De rien","pronunciation":"de ryen"},
-        "zh":{"means":"不客气","pronunciation":"bú kè qì"},
-        "ja":{"means":"どういたしまして","pronunciation":"dōitashimashite"},
-        "en":{"means":"You’re welcome","pronunciation":"yor wel-kəm"},
-        "es":{"means":"De nada","pronunciation":"de na-da"},
-        "de":{"means":"Bitte","pronunciation":"bi-te"}
+        "fa": { "means": "خواهش می‌کنم", "pronunciation": "khaa‑hesh mikonam" },
+        "ar": { "means": "عفواً", "pronunciation": "ʿafwan" },
+        "tr": { "means": "Bir şey değil", "pronunciation": "bir şey değil" },
+        "ru": { "means": "Пожалуйста", "pronunciation": "pa-zha-lus-ta" },
+        "fr": { "means": "De rien", "pronunciation": "de ryen" },
+        "zh": { "means": "不客气", "pronunciation": "bú kè qì" },
+        "ja": {
+          "means": "どういたしまして",
+          "pronunciation": "dōitashimashite"
+        },
+        "en": { "means": "You’re welcome", "pronunciation": "yor wel-kəm" },
+        "es": { "means": "De nada", "pronunciation": "de na-da" },
+        "de": { "means": "Bitte", "pronunciation": "bi-te" }
       },
       {
-        "fa":{"means":"ببخشید","pronunciation":"bebakh‑shid"},
-        "ar":{"means":"عفواً / آسف","pronunciation":"ʿafwan / āsif"},
-        "tr":{"means":"Affedersiniz","pronunciation":"af-fe-der-siniz"},
-        "ru":{"means":"Извините","pronunciation":"iz-vi-ni-te"},
-        "fr":{"means":"Excusez-moi","pronunciation":"ex-cu-zay mwa"},
-        "zh":{"means":"对不起","pronunciation":"duì bu qǐ"},
-        "ja":{"means":"すみません","pronunciation":"su-mi-ma-sen"},
-        "en":{"means":"Excuse me","pronunciation":"ex-kyuz mee"},
-        "es":{"means":"Perdón","pronunciation":"per-don"},
-        "de":{"means":"Entschuldigung","pronunciation":"ent-shul-di-gung"}
+        "fa": { "means": "ببخشید", "pronunciation": "bebakh‑shid" },
+        "ar": { "means": "عفواً / آسف", "pronunciation": "ʿafwan / āsif" },
+        "tr": { "means": "Affedersiniz", "pronunciation": "af-fe-der-siniz" },
+        "ru": { "means": "Извините", "pronunciation": "iz-vi-ni-te" },
+        "fr": { "means": "Excusez-moi", "pronunciation": "ex-cu-zay mwa" },
+        "zh": { "means": "对不起", "pronunciation": "duì bu qǐ" },
+        "ja": { "means": "すみません", "pronunciation": "su-mi-ma-sen" },
+        "en": { "means": "Excuse me", "pronunciation": "ex-kyuz mee" },
+        "es": { "means": "Perdón", "pronunciation": "per-don" },
+        "de": { "means": "Entschuldigung", "pronunciation": "ent-shul-di-gung" }
       },
       {
-        "fa":{"means":"من متوجه نمی‌شوم","pronunciation":"man mote‑va‑jeh nemi‑shavam"},
-        "ar":{"means":"أنا لا أفهم","pronunciation":"anā lā afham"},
-        "tr":{"means":"Anlamıyorum","pronunciation":"an-la-mı-yo-rum"},
-        "ru":{"means":"Я не понимаю","pronunciation":"ya ne po-ni-mayu"},
-        "fr":{"means":"Je ne comprends pas","pronunciation":"jə nə kom-pran pa"},
-        "zh":{"means":"我不明白","pronunciation":"wǒ bù míng bái"},
-        "ja":{"means":"わかりません","pronunciation":"wakarimasen"},
-        "en":{"means":"I don’t understand","pronunciation":"ay dont un-der-stand"},
-        "es":{"means":"No entiendo","pronunciation":"no en-ti-en-do"},
-        "de":{"means":"Ich verstehe nicht","pronunciation":"ikh fer-shte-he niht"}
+        "fa": {
+          "means": "من متوجه نمی‌شوم",
+          "pronunciation": "man mote‑va‑jeh nemi‑shavam"
+        },
+        "ar": { "means": "أنا لا أفهم", "pronunciation": "anā lā afham" },
+        "tr": { "means": "Anlamıyorum", "pronunciation": "an-la-mı-yo-rum" },
+        "ru": { "means": "Я не понимаю", "pronunciation": "ya ne po-ni-mayu" },
+        "fr": {
+          "means": "Je ne comprends pas",
+          "pronunciation": "jə nə kom-pran pa"
+        },
+        "zh": { "means": "我不明白", "pronunciation": "wǒ bù míng bái" },
+        "ja": { "means": "わかりません", "pronunciation": "wakarimasen" },
+        "en": {
+          "means": "I don’t understand",
+          "pronunciation": "ay dont un-der-stand"
+        },
+        "es": { "means": "No entiendo", "pronunciation": "no en-ti-en-do" },
+        "de": {
+          "means": "Ich verstehe nicht",
+          "pronunciation": "ikh fer-shte-he niht"
+        }
       },
       {
-        "fa":{"means":"آیا می‌توانید به من کمک کنید؟","pronunciation":"aayaa mitoonid be man komak konid?"},
-        "ar":{"means":"هل يمكنك مساعدتي؟","pronunciation":"hal yumkinuka musāʿadatī?"},
-        "tr":{"means":"Bana yardım edebilir misiniz?","pronunciation":"ba-na yar-dım ede-bi-lir mi-si-niz?"},
-        "ru":{"means":"Вы можете мне помочь?","pronunciation":"vy mo-zhe-te mne po-moch?"},
-        "fr":{"means":"Pouvez-vous m’aider?","pronunciation":"pu-ve vu me-de?"},
-        "zh":{"means":"你能帮我吗？","pronunciation":"nǐ néng bāng wǒ ma?"},
-        "ja":{"means":"手伝ってくれますか？","pronunciation":"tetsudatte kuremasu ka?"},
-        "en":{"means":"Can you help me?","pronunciation":"kan yu help me?"},
-        "es":{"means":"¿Puedes ayudarme?","pronunciation":"pwe-des a-yu-dar-me?"},
-        "de":{"means":"Können Sie mir helfen?","pronunciation":"kœn-nen zee meer hel-fen?"}
+        "fa": {
+          "means": "آیا می‌توانید به من کمک کنید؟",
+          "pronunciation": "aayaa mitoonid be man komak konid?"
+        },
+        "ar": {
+          "means": "هل يمكنك مساعدتي؟",
+          "pronunciation": "hal yumkinuka musāʿadatī?"
+        },
+        "tr": {
+          "means": "Bana yardım edebilir misiniz?",
+          "pronunciation": "ba-na yar-dım ede-bi-lir mi-si-niz?"
+        },
+        "ru": {
+          "means": "Вы можете мне помочь?",
+          "pronunciation": "vy mo-zhe-te mne po-moch?"
+        },
+        "fr": {
+          "means": "Pouvez-vous m’aider?",
+          "pronunciation": "pu-ve vu me-de?"
+        },
+        "zh": {
+          "means": "你能帮我吗？",
+          "pronunciation": "nǐ néng bāng wǒ ma?"
+        },
+        "ja": {
+          "means": "手伝ってくれますか？",
+          "pronunciation": "tetsudatte kuremasu ka?"
+        },
+        "en": {
+          "means": "Can you help me?",
+          "pronunciation": "kan yu help me?"
+        },
+        "es": {
+          "means": "¿Puedes ayudarme?",
+          "pronunciation": "pwe-des a-yu-dar-me?"
+        },
+        "de": {
+          "means": "Können Sie mir helfen?",
+          "pronunciation": "kœn-nen zee meer hel-fen?"
+        }
       },
       {
-        "fa":{"means":"هوا چطور است؟","pronunciation":"havaa che-toor ast?"},
-        "ar":{"means":"كيف الطقس؟","pronunciation":"kayfa al-ṭaqs?"},
-        "tr":{"means":"Hava nasıl?","pronunciation":"ha-va na-sıl?"},
-        "ru":{"means":"Какая погода?","pronunciation":"ka-ka-ya po-go-da?"},
-        "fr":{"means":"Quel temps fait‑il ?","pronunciation":"kel ton fees-teel?"},
-        "zh":{"means":"天气怎么样？","pronunciation":"tiān qì zěn me yàng?"},
-        "ja":{"means":"天気はどうですか？","pronunciation":"tenki wa dō desu ka?"},
-        "en":{"means":"What’s the weather like?","pronunciation":"whats the weth-ər lyk?"},
-        "es":{"means":"¿Qué tiempo hace?","pronunciation":"ke tiem-po a-ce?"},
-        "de":{"means":"Wie ist das Wetter?","pronunciation":"vee ist das vet-ter?"}
+        "fa": {
+          "means": "هوا چطور است؟",
+          "pronunciation": "havaa che-toor ast?"
+        },
+        "ar": { "means": "كيف الطقس؟", "pronunciation": "kayfa al-ṭaqs?" },
+        "tr": { "means": "Hava nasıl?", "pronunciation": "ha-va na-sıl?" },
+        "ru": {
+          "means": "Какая погода?",
+          "pronunciation": "ka-ka-ya po-go-da?"
+        },
+        "fr": {
+          "means": "Quel temps fait‑il ?",
+          "pronunciation": "kel ton fees-teel?"
+        },
+        "zh": {
+          "means": "天气怎么样？",
+          "pronunciation": "tiān qì zěn me yàng?"
+        },
+        "ja": {
+          "means": "天気はどうですか？",
+          "pronunciation": "tenki wa dō desu ka?"
+        },
+        "en": {
+          "means": "What’s the weather like?",
+          "pronunciation": "whats the weth-ər lyk?"
+        },
+        "es": {
+          "means": "¿Qué tiempo hace?",
+          "pronunciation": "ke tiem-po a-ce?"
+        },
+        "de": {
+          "means": "Wie ist das Wetter?",
+          "pronunciation": "vee ist das vet-ter?"
+        }
       },
       {
-        "fa":{"means":"من گرسنه‌ام","pronunciation":"man go-res-ne-am"},
-        "ar":{"means":"أنا جائع","pronunciation":"anā jāʾiʿ"},
-        "tr":{"means":"Ben açım","pronunciation":"ben a-chim"},
-        "ru":{"means":"Я голоден","pronunciation":"ya go-lo-den"},
-        "fr":{"means":"J’ai faim","pronunciation":"zhay fam"},
-        "zh":{"means":"我饿了","pronunciation":"wǒ è le"},
-        "ja":{"means":"お腹が空きました","pronunciation":"onaka ga sukimashita"},
-        "en":{"means":"I’m hungry","pronunciation":"aym hung-ree"},
-        "es":{"means":"Tengo hambre","pronunciation":"ten-go am-bre"},
-        "de":{"means":"Ich habe Hunger","pronunciation":"ikh ha-be hung-er"}
+        "fa": { "means": "من گرسنه‌ام", "pronunciation": "man go-res-ne-am" },
+        "ar": { "means": "أنا جائع", "pronunciation": "anā jāʾiʿ" },
+        "tr": { "means": "Ben açım", "pronunciation": "ben a-chim" },
+        "ru": { "means": "Я голоден", "pronunciation": "ya go-lo-den" },
+        "fr": { "means": "J’ai faim", "pronunciation": "zhay fam" },
+        "zh": { "means": "我饿了", "pronunciation": "wǒ è le" },
+        "ja": {
+          "means": "お腹が空きました",
+          "pronunciation": "onaka ga sukimashita"
+        },
+        "en": { "means": "I’m hungry", "pronunciation": "aym hung-ree" },
+        "es": { "means": "Tengo hambre", "pronunciation": "ten-go am-bre" },
+        "de": {
+          "means": "Ich habe Hunger",
+          "pronunciation": "ikh ha-be hung-er"
+        }
       },
       {
-        "fa":{"means":"من تشنه‌ام","pronunciation":"man tesh‑neh‑am"},
-        "ar":{"means":"أنا عطشان","pronunciation":"anā ʿaṭshān"},
-        "tr":{"means":"Ben susadım","pronunciation":"ben su-sa-dım"},
-        "ru":{"means":"Я хочу пить","pronunciation":"ya ho-choo pit'"},
-        "fr":{"means":"J’ai soif","pronunciation":"zhay swoaf"},
-        "zh":{"means":"我渴了","pronunciation":"wǒ kě le"},
-        "ja":{"means":"喉が渇きました","pronunciation":"nodo ga kawakimashita"},
-        "en":{"means":"I’m thirsty","pronunciation":"aym this-tɹi"},
-        "es":{"means":"Tengo sed","pronunciation":"ten-go sed"},
-        "de":{"means":"Ich habe Durst","pronunciation":"ikh ha-be dürst"}
+        "fa": { "means": "من تشنه‌ام", "pronunciation": "man tesh‑neh‑am" },
+        "ar": { "means": "أنا عطشان", "pronunciation": "anā ʿaṭshān" },
+        "tr": { "means": "Ben susadım", "pronunciation": "ben su-sa-dım" },
+        "ru": { "means": "Я хочу пить", "pronunciation": "ya ho-choo pit'" },
+        "fr": { "means": "J’ai soif", "pronunciation": "zhay swoaf" },
+        "zh": { "means": "我渴了", "pronunciation": "wǒ kě le" },
+        "ja": {
+          "means": "喉が渇きました",
+          "pronunciation": "nodo ga kawakimashita"
+        },
+        "en": { "means": "I’m thirsty", "pronunciation": "aym this-tɹi" },
+        "es": { "means": "Tengo sed", "pronunciation": "ten-go sed" },
+        "de": { "means": "Ich habe Durst", "pronunciation": "ikh ha-be dürst" }
       },
       {
-        "fa":{"means":"از دیدنت خوشبختم","pronunciation":"az dida‑net khosh‑bakhtam"},
-        "ar":{"means":"سعدت بلقائك","pronunciation":"saʿidtu biliqā’ika"},
-        "tr":{"means":"Seni tanıdığıma memnun oldum","pronunciation":"se-ni ta-nı-dı-ğı-ma mem-nun ol-dum"},
-        "ru":{"means":"Рад встрече","pronunciation":"rad vst-re-che"},
-        "fr":{"means":"Enchanté de vous voir","pronunciation":"on-shan-tay də vu vwar"},
-        "zh":{"means":"很高兴见到你","pronunciation":"hěn gāo xìng jiàn dào nǐ"},
-        "ja":{"means":"お会いできて嬉しいです","pronunciation":"o-ai deki-te ureshii desu"},
-        "en":{"means":"It’s nice to meet you","pronunciation":"its nys to meet yu"},
-        "es":{"means":"Encantado de verte","pronunciation":"en-can-ta-do de ver-te"},
-        "de":{"means":"Freut mich, dich kennenzulernen","pronunciation":"froit mish dish ke-nən-lern-en"}
+        "fa": {
+          "means": "از دیدنت خوشبختم",
+          "pronunciation": "az dida‑net khosh‑bakhtam"
+        },
+        "ar": { "means": "سعدت بلقائك", "pronunciation": "saʿidtu biliqā’ika" },
+        "tr": {
+          "means": "Seni tanıdığıma memnun oldum",
+          "pronunciation": "se-ni ta-nı-dı-ğı-ma mem-nun ol-dum"
+        },
+        "ru": { "means": "Рад встрече", "pronunciation": "rad vst-re-che" },
+        "fr": {
+          "means": "Enchanté de vous voir",
+          "pronunciation": "on-shan-tay də vu vwar"
+        },
+        "zh": {
+          "means": "很高兴见到你",
+          "pronunciation": "hěn gāo xìng jiàn dào nǐ"
+        },
+        "ja": {
+          "means": "お会いできて嬉しいです",
+          "pronunciation": "o-ai deki-te ureshii desu"
+        },
+        "en": {
+          "means": "It’s nice to meet you",
+          "pronunciation": "its nys to meet yu"
+        },
+        "es": {
+          "means": "Encantado de verte",
+          "pronunciation": "en-can-ta-do de ver-te"
+        },
+        "de": {
+          "means": "Freut mich, dich kennenzulernen",
+          "pronunciation": "froit mish dish ke-nən-lern-en"
+        }
       },
       {
-        "fa":{"means":"چطورید؟","pronunciation":"che‑toor‑id?"},
-        "ar":{"means":"كيف حالكم؟","pronunciation":"kayfa ḥāl-kum?"},
-        "tr":{"means":"Nasılsınız?","pronunciation":"na-sıl-sı-nız?"},
-        "ru":{"means":"Как вы?","pronunciation":"kak vy?"},
-        "fr":{"means":"Comment allez-vous ?","pronunciation":"co-mon ta-lay vu?"},
-        "zh":{"means":"你们怎么样？","pronunciation":"nǐ men zěn me yàng?"},
-        "ja":{"means":"皆さん、お元気ですか？","pronunciation":"mina-san, o-genki desu ka?"},
-        "en":{"means":"How do you do?","pronunciation":"haʊ du yu du?"},
-        "es":{"means":"¿Cómo están ustedes?","pronunciation":"ko-mo es-tan u-ste-des?"},
-        "de":{"means":"Wie geht es Ihnen?","pronunciation":"vee geyt es ee-nen?"}
+        "fa": { "means": "چطورید؟", "pronunciation": "che‑toor‑id?" },
+        "ar": { "means": "كيف حالكم؟", "pronunciation": "kayfa ḥāl-kum?" },
+        "tr": { "means": "Nasılsınız?", "pronunciation": "na-sıl-sı-nız?" },
+        "ru": { "means": "Как вы?", "pronunciation": "kak vy?" },
+        "fr": {
+          "means": "Comment allez-vous ?",
+          "pronunciation": "co-mon ta-lay vu?"
+        },
+        "zh": {
+          "means": "你们怎么样？",
+          "pronunciation": "nǐ men zěn me yàng?"
+        },
+        "ja": {
+          "means": "皆さん、お元気ですか？",
+          "pronunciation": "mina-san, o-genki desu ka?"
+        },
+        "en": { "means": "How do you do?", "pronunciation": "haʊ du yu du?" },
+        "es": {
+          "means": "¿Cómo están ustedes?",
+          "pronunciation": "ko-mo es-tan u-ste-des?"
+        },
+        "de": {
+          "means": "Wie geht es Ihnen?",
+          "pronunciation": "vee geyt es ee-nen?"
+        }
       },
       {
-        "fa":{"means":"عصر بخیر","pronunciation":"asr bekheir"},
-        "ar":{"means":"مساء الخير","pronunciation":"masā’ al-khayr"},
-        "tr":{"means":"İyi akşamlar","pronunciation":"i-yi ak-sham-lar"},
-        "ru":{"means":"Добрый вечер","pronunciation":"dob-ryy ve-cher"},
-        "fr":{"means":"Bonsoir","pronunciation":"bon-swahr"},
-        "zh":{"means":"晚上好","pronunciation":"wǎn shàng hǎo"},
-        "ja":{"means":"こんばんは","pronunciation":"kon-ban-wa"},
-        "en":{"means":"Good evening","pronunciation":"good ee-ving"},
-        "es":{"means":"Buenas tardes","pronunciation":"bwe-nas tar-des"},
-        "de":{"means":"Guten Abend","pronunciation":"goo-ten a-bent"}
+        "fa": { "means": "عصر بخیر", "pronunciation": "asr bekheir" },
+        "ar": { "means": "مساء الخير", "pronunciation": "masā’ al-khayr" },
+        "tr": { "means": "İyi akşamlar", "pronunciation": "i-yi ak-sham-lar" },
+        "ru": { "means": "Добрый вечер", "pronunciation": "dob-ryy ve-cher" },
+        "fr": { "means": "Bonsoir", "pronunciation": "bon-swahr" },
+        "zh": { "means": "晚上好", "pronunciation": "wǎn shàng hǎo" },
+        "ja": { "means": "こんばんは", "pronunciation": "kon-ban-wa" },
+        "en": { "means": "Good evening", "pronunciation": "good ee-ving" },
+        "es": { "means": "Buenas tardes", "pronunciation": "bwe-nas tar-des" },
+        "de": { "means": "Guten Abend", "pronunciation": "goo-ten a-bent" }
       },
       {
-        "fa":{"means":"همه چیز چطور است؟","pronunciation":"hameh chiz che-toor ast?"},
-        "ar":{"means":"كيف الأمور؟","pronunciation":"kayfa al-umūr?"},
-        "tr":{"means":"Her şey nasıl?","pronunciation":"her şey na-sıl?"},
-        "ru":{"means":"Как всё?","pronunciation":"kak vsyo?"},
-        "fr":{"means":"Comment ça se passe ?","pronunciation":"co-mon sa sə pas?"},
-        "zh":{"means":"一切如何？","pronunciation":"yī qiè rú hé?"},
-        "ja":{"means":"調子はどうですか？","pronunciation":"chōshi wa dō desu ka?"},
-        "en":{"means":"How’s everything?","pronunciation":"haus ev-ree-thing?"},
-        "es":{"means":"¿Cómo va todo?","pronunciation":"ko-mo ba to-do?"},
-        "de":{"means":"Wie läuft alles?","pronunciation":"vee looft al-les?"}
+        "fa": {
+          "means": "همه چیز چطور است؟",
+          "pronunciation": "hameh chiz che-toor ast?"
+        },
+        "ar": { "means": "كيف الأمور؟", "pronunciation": "kayfa al-umūr?" },
+        "tr": { "means": "Her şey nasıl?", "pronunciation": "her şey na-sıl?" },
+        "ru": { "means": "Как всё?", "pronunciation": "kak vsyo?" },
+        "fr": {
+          "means": "Comment ça se passe ?",
+          "pronunciation": "co-mon sa sə pas?"
+        },
+        "zh": { "means": "一切如何？", "pronunciation": "yī qiè rú hé?" },
+        "ja": {
+          "means": "調子はどうですか？",
+          "pronunciation": "chōshi wa dō desu ka?"
+        },
+        "en": {
+          "means": "How’s everything?",
+          "pronunciation": "haus ev-ree-thing?"
+        },
+        "es": { "means": "¿Cómo va todo?", "pronunciation": "ko-mo ba to-do?" },
+        "de": {
+          "means": "Wie läuft alles?",
+          "pronunciation": "vee looft al-les?"
+        }
       },
       {
-        "fa":{"means":"خوبم، متشکرم","pronunciation":"khobam, mot‑sha‑ker‑am"},
-        "ar":{"means":"أنا بخير، شكراً","pronunciation":"anā bikhayr, shukran"},
-        "tr":{"means":"İyiyim, teşekkürler","pronunciation":"i-yi-yim, teşek-kür-ler"},
-        "ru":{"means":"Я в порядке, спасибо","pronunciation":"ya v por-yad-ke, spa-see-ba"},
-        "fr":{"means":"Je vais bien, merci","pronunciation":"jə ve byɛ̃, mehr-see"},
-        "zh":{"means":"我很好，谢谢","pronunciation":"wǒ hěn hǎo, xiè xiè"},
-        "ja":{"means":"元気です、ありがとう","pronunciation":"genki desu, arigatō"},
-        "en":{"means":"I’m fine, thank you","pronunciation":"aym fayn, thank yu"},
-        "es":{"means":"Estoy bien, gracias","pronunciation":"es-toy byen, gra-thi-as"},
-        "de":{"means":"Mir geht’s gut, danke","pronunciation":"mir geyts goot, dan-ke"}
+        "fa": {
+          "means": "خوبم، متشکرم",
+          "pronunciation": "khobam, mot‑sha‑ker‑am"
+        },
+        "ar": {
+          "means": "أنا بخير، شكراً",
+          "pronunciation": "anā bikhayr, shukran"
+        },
+        "tr": {
+          "means": "İyiyim, teşekkürler",
+          "pronunciation": "i-yi-yim, teşek-kür-ler"
+        },
+        "ru": {
+          "means": "Я в порядке, спасибо",
+          "pronunciation": "ya v por-yad-ke, spa-see-ba"
+        },
+        "fr": {
+          "means": "Je vais bien, merci",
+          "pronunciation": "jə ve byɛ̃, mehr-see"
+        },
+        "zh": {
+          "means": "我很好，谢谢",
+          "pronunciation": "wǒ hěn hǎo, xiè xiè"
+        },
+        "ja": {
+          "means": "元気です、ありがとう",
+          "pronunciation": "genki desu, arigatō"
+        },
+        "en": {
+          "means": "I’m fine, thank you",
+          "pronunciation": "aym fayn, thank yu"
+        },
+        "es": {
+          "means": "Estoy bien, gracias",
+          "pronunciation": "es-toy byen, gra-thi-as"
+        },
+        "de": {
+          "means": "Mir geht’s gut, danke",
+          "pronunciation": "mir geyts goot, dan-ke"
+        }
       }
     ],
     [
       {
-        "fa": {"means": "اتوبوس", "pronunciation": "o-to-bus"},
-        "ar": {"means": "حافلة", "pronunciation": "ḥāfila"},
-        "tr": {"means": "Otobüs", "pronunciation": "o-to-büs"},
-        "ru": {"means": "Автобус", "pronunciation": "Av-to-bus"},
-        "fr": {"means": "Bus", "pronunciation": "byus"},
-        "zh": {"means": "公共汽车", "pronunciation": "gōng gòng qì chē"},
-        "ja": {"means": "バス", "pronunciation": "basu"},
-        "en": {"means": "Bus", "pronunciation": "bʌs"},
-        "es": {"means": "Autobús", "pronunciation": "au-to-bús"},
-        "de": {"means": "Bus", "pronunciation": "bus"}
+        "fa": { "means": "اتوبوس", "pronunciation": "o-to-bus" },
+        "ar": { "means": "حافلة", "pronunciation": "ḥāfila" },
+        "tr": { "means": "Otobüs", "pronunciation": "o-to-büs" },
+        "ru": { "means": "Автобус", "pronunciation": "Av-to-bus" },
+        "fr": { "means": "Bus", "pronunciation": "byus" },
+        "zh": { "means": "公共汽车", "pronunciation": "gōng gòng qì chē" },
+        "ja": { "means": "バス", "pronunciation": "basu" },
+        "en": { "means": "Bus", "pronunciation": "bʌs" },
+        "es": { "means": "Autobús", "pronunciation": "au-to-bús" },
+        "de": { "means": "Bus", "pronunciation": "bus" }
       },
       {
-        "fa": {"means": "قطار", "pronunciation": "qa-tar"},
-        "ar": {"means": "قطار", "pronunciation": "qiṭār"},
-        "tr": {"means": "Tren", "pronunciation": "tren"},
-        "ru": {"means": "Поезд", "pronunciation": "po-yezd"},
-        "fr": {"means": "Train", "pronunciation": "trɛ̃"},
-        "zh": {"means": "火车", "pronunciation": "huǒ chē"},
-        "ja": {"means": "電車", "pronunciation": "densha"},
-        "en": {"means": "Train", "pronunciation": "treɪn"},
-        "es": {"means": "Tren", "pronunciation": "tren"},
-        "de": {"means": "Zug", "pronunciation": "tsuːk"}
+        "fa": { "means": "قطار", "pronunciation": "qa-tar" },
+        "ar": { "means": "قطار", "pronunciation": "qiṭār" },
+        "tr": { "means": "Tren", "pronunciation": "tren" },
+        "ru": { "means": "Поезд", "pronunciation": "po-yezd" },
+        "fr": { "means": "Train", "pronunciation": "trɛ̃" },
+        "zh": { "means": "火车", "pronunciation": "huǒ chē" },
+        "ja": { "means": "電車", "pronunciation": "densha" },
+        "en": { "means": "Train", "pronunciation": "treɪn" },
+        "es": { "means": "Tren", "pronunciation": "tren" },
+        "de": { "means": "Zug", "pronunciation": "tsuːk" }
       },
       {
-        "fa": {"means": "ماشین", "pronunciation": "ma-shin"},
-        "ar": {"means": "سيارة", "pronunciation": "sayyāra"},
-        "tr": {"means": "Araba", "pronunciation": "a-ra-ba"},
-        "ru": {"means": "Машина", "pronunciation": "ma-shee-na"},
-        "fr": {"means": "Voiture", "pronunciation": "vwa-tyʁ"},
-        "zh": {"means": "汽车", "pronunciation": "qì chē"},
-        "ja": {"means": "車", "pronunciation": "kuruma"},
-        "en": {"means": "Car", "pronunciation": "kɑr"},
-        "es": {"means": "Coche", "pronunciation": "ko-che"},
-        "de": {"means": "Auto", "pronunciation": "au-to"}
+        "fa": { "means": "ماشین", "pronunciation": "ma-shin" },
+        "ar": { "means": "سيارة", "pronunciation": "sayyāra" },
+        "tr": { "means": "Araba", "pronunciation": "a-ra-ba" },
+        "ru": { "means": "Машина", "pronunciation": "ma-shee-na" },
+        "fr": { "means": "Voiture", "pronunciation": "vwa-tyʁ" },
+        "zh": { "means": "汽车", "pronunciation": "qì chē" },
+        "ja": { "means": "車", "pronunciation": "kuruma" },
+        "en": { "means": "Car", "pronunciation": "kɑr" },
+        "es": { "means": "Coche", "pronunciation": "ko-che" },
+        "de": { "means": "Auto", "pronunciation": "au-to" }
       },
       {
-        "fa": {"means": "تاکسی", "pronunciation": "ta-ksi"},
-        "ar": {"means": "تاكسي", "pronunciation": "tāksī"},
-        "tr": {"means": "Taksi", "pronunciation": "taksɯ"},
-        "ru": {"means": "Такси", "pronunciation": "tak-si"},
-        "fr": {"means": "Taxi", "pronunciation": "tak-si"},
-        "zh": {"means": "出租车", "pronunciation": "chū zū chē"},
-        "ja": {"means": "タクシー", "pronunciation": "takushī"},
-        "en": {"means": "Taxi", "pronunciation": "tæk-si"},
-        "es": {"means": "Taxi", "pronunciation": "tak-si"},
-        "de": {"means": "Taxi", "pronunciation": "tak-si"}
+        "fa": { "means": "تاکسی", "pronunciation": "ta-ksi" },
+        "ar": { "means": "تاكسي", "pronunciation": "tāksī" },
+        "tr": { "means": "Taksi", "pronunciation": "taksɯ" },
+        "ru": { "means": "Такси", "pronunciation": "tak-si" },
+        "fr": { "means": "Taxi", "pronunciation": "tak-si" },
+        "zh": { "means": "出租车", "pronunciation": "chū zū chē" },
+        "ja": { "means": "タクシー", "pronunciation": "takushī" },
+        "en": { "means": "Taxi", "pronunciation": "tæk-si" },
+        "es": { "means": "Taxi", "pronunciation": "tak-si" },
+        "de": { "means": "Taxi", "pronunciation": "tak-si" }
       },
       {
-        "fa": {"means": "هواپیما", "pronunciation": "ha-va-pi-ma"},
-        "ar": {"means": "طائرة", "pronunciation": "ṭā’ira"},
-        "tr": {"means": "Uçak", "pronunciation": "u-chak"},
-        "ru": {"means": "Самолет", "pronunciation": "sa-mo-lyot"},
-        "fr": {"means": "Avion", "pronunciation": "a-vjɔ̃"},
-        "zh": {"means": "飞机", "pronunciation": "fēi jī"},
-        "ja": {"means": "飛行機", "pronunciation": "hikōki"},
-        "en": {"means": "Airplane", "pronunciation": "ˈɛrˌpleɪn"},
-        "es": {"means": "Avión", "pronunciation": "a-bjón"},
-        "de": {"means": "Flugzeug", "pronunciation": "fluːkʦɔyk"}
+        "fa": { "means": "هواپیما", "pronunciation": "ha-va-pi-ma" },
+        "ar": { "means": "طائرة", "pronunciation": "ṭā’ira" },
+        "tr": { "means": "Uçak", "pronunciation": "u-chak" },
+        "ru": { "means": "Самолет", "pronunciation": "sa-mo-lyot" },
+        "fr": { "means": "Avion", "pronunciation": "a-vjɔ̃" },
+        "zh": { "means": "飞机", "pronunciation": "fēi jī" },
+        "ja": { "means": "飛行機", "pronunciation": "hikōki" },
+        "en": { "means": "Airplane", "pronunciation": "ˈɛrˌpleɪn" },
+        "es": { "means": "Avión", "pronunciation": "a-bjón" },
+        "de": { "means": "Flugzeug", "pronunciation": "fluːkʦɔyk" }
       },
       {
-        "fa": {"means": "دوچرخه", "pronunciation": "do-char-khe"},
-        "ar": {"means": "دراجة هوائية", "pronunciation": "darājah hawā’iyah"},
-        "tr": {"means": "Bisiklet", "pronunciation": "bi-sik-let"},
-        "ru": {"means": "Велосипед", "pronunciation": "ve-lo-si-pyed"},
-        "fr": {"means": "Vélo", "pronunciation": "ve-lo"},
-        "zh": {"means": "自行车", "pronunciation": "zì xíng chē"},
-        "ja": {"means": "自転車", "pronunciation": "jitensha"},
-        "en": {"means": "Bicycle", "pronunciation": "ˈbaɪsɪkəl"},
-        "es": {"means": "Bicicleta", "pronunciation": "bi-si-kle-ta"},
-        "de": {"means": "Fahrrad", "pronunciation": "ˈfaːɐ̯ʁat"}
+        "fa": { "means": "دوچرخه", "pronunciation": "do-char-khe" },
+        "ar": { "means": "دراجة هوائية", "pronunciation": "darājah hawā’iyah" },
+        "tr": { "means": "Bisiklet", "pronunciation": "bi-sik-let" },
+        "ru": { "means": "Велосипед", "pronunciation": "ve-lo-si-pyed" },
+        "fr": { "means": "Vélo", "pronunciation": "ve-lo" },
+        "zh": { "means": "自行车", "pronunciation": "zì xíng chē" },
+        "ja": { "means": "自転車", "pronunciation": "jitensha" },
+        "en": { "means": "Bicycle", "pronunciation": "ˈbaɪsɪkəl" },
+        "es": { "means": "Bicicleta", "pronunciation": "bi-si-kle-ta" },
+        "de": { "means": "Fahrrad", "pronunciation": "ˈfaːɐ̯ʁat" }
       },
       {
-        "fa": {"means": "ایستگاه قطار", "pronunciation": "is-tgah qa-tar"},
-        "ar": {"means": "محطة القطار", "pronunciation": "maḥaṭṭat al-qiṭār"},
-        "tr": {"means": "Tren istasyonu", "pronunciation": "tren is-ta-syo-nu"},
-        "ru": {"means": "Вокзал", "pronunciation": "vok-zal"},
-        "fr": {"means": "Gare", "pronunciation": "ɡaʁ"},
-        "zh": {"means": "火车站", "pronunciation": "huǒ chē zhàn"},
-        "ja": {"means": "駅", "pronunciation": "eki"},
-        "en": {"means": "Train station", "pronunciation": "treɪn ˈsteɪʃən"},
-        "es": {"means": "Estación de tren", "pronunciation": "es-ta-sión de tren"},
-        "de": {"means": "Bahnhof", "pronunciation": "ˈbaːnhoːf"}
+        "fa": { "means": "ایستگاه قطار", "pronunciation": "is-tgah qa-tar" },
+        "ar": { "means": "محطة القطار", "pronunciation": "maḥaṭṭat al-qiṭār" },
+        "tr": {
+          "means": "Tren istasyonu",
+          "pronunciation": "tren is-ta-syo-nu"
+        },
+        "ru": { "means": "Вокзал", "pronunciation": "vok-zal" },
+        "fr": { "means": "Gare", "pronunciation": "ɡaʁ" },
+        "zh": { "means": "火车站", "pronunciation": "huǒ chē zhàn" },
+        "ja": { "means": "駅", "pronunciation": "eki" },
+        "en": { "means": "Train station", "pronunciation": "treɪn ˈsteɪʃən" },
+        "es": {
+          "means": "Estación de tren",
+          "pronunciation": "es-ta-sión de tren"
+        },
+        "de": { "means": "Bahnhof", "pronunciation": "ˈbaːnhoːf" }
       },
       {
-        "fa": {"means": "ایستگاه اتوبوس", "pronunciation": "is-tgah o-to-bus"},
-        "ar": {"means": "محطة الحافلات", "pronunciation": "maḥaṭṭat al-ḥāfilāt"},
-        "tr": {"means": "Otobüs durağı", "pronunciation": "o-to-büs du-ra-ğı"},
-        "ru": {"means": "Автобусная остановка", "pronunciation": "av-to-bus-na-ya os-ta-nov-ka"},
-        "fr": {"means": "Arrêt de bus", "pronunciation": "aʁɛ də bys"},
-        "zh": {"means": "公交车站", "pronunciation": "gōng jiāo chē zhàn"},
-        "ja": {"means": "バス停", "pronunciation": "basu-tei"},
-        "en": {"means": "Bus station", "pronunciation": "bʌs ˈsteɪʃən"},
-        "es": {"means": "Parada de autobús", "pronunciation": "pa-ra-da de au-to-bús"},
-        "de": {"means": "Bushaltestelle", "pronunciation": "ˈbʊsˌhaltəʃtɛlə"}
+        "fa": {
+          "means": "ایستگاه اتوبوس",
+          "pronunciation": "is-tgah o-to-bus"
+        },
+        "ar": {
+          "means": "محطة الحافلات",
+          "pronunciation": "maḥaṭṭat al-ḥāfilāt"
+        },
+        "tr": {
+          "means": "Otobüs durağı",
+          "pronunciation": "o-to-büs du-ra-ğı"
+        },
+        "ru": {
+          "means": "Автобусная остановка",
+          "pronunciation": "av-to-bus-na-ya os-ta-nov-ka"
+        },
+        "fr": { "means": "Arrêt de bus", "pronunciation": "aʁɛ də bys" },
+        "zh": { "means": "公交车站", "pronunciation": "gōng jiāo chē zhàn" },
+        "ja": { "means": "バス停", "pronunciation": "basu-tei" },
+        "en": { "means": "Bus station", "pronunciation": "bʌs ˈsteɪʃən" },
+        "es": {
+          "means": "Parada de autobús",
+          "pronunciation": "pa-ra-da de au-to-bús"
+        },
+        "de": { "means": "Bushaltestelle", "pronunciation": "ˈbʊsˌhaltəʃtɛlə" }
       },
       {
-        "fa": {"means": "فرودگاه", "pronunciation": "fo-rud-ghaah"},
-        "ar": {"means": "مطار", "pronunciation": "maṭār"},
-        "tr": {"means": "Havaalanı", "pronunciation": "ha-va-a-la-nı"},
-        "ru": {"means": "Аэропорт", "pronunciation": "a-e-ro-port"},
-        "fr": {"means": "Aéroport", "pronunciation": "a-eʁo-pɔʁ"},
-        "zh": {"means": "机场", "pronunciation": "jī chǎng"},
-        "ja": {"means": "空港", "pronunciation": "kūkō"},
-        "en": {"means": "Airport", "pronunciation": "ˈɛərˌpɔrt"},
-        "es": {"means": "Aeropuerto", "pronunciation": "ae-ro-puer-to"},
-        "de": {"means": "Flughafen", "pronunciation": "ˈfluːkˌhaːfn̩"}
+        "fa": { "means": "فرودگاه", "pronunciation": "fo-rud-ghaah" },
+        "ar": { "means": "مطار", "pronunciation": "maṭār" },
+        "tr": { "means": "Havaalanı", "pronunciation": "ha-va-a-la-nı" },
+        "ru": { "means": "Аэропорт", "pronunciation": "a-e-ro-port" },
+        "fr": { "means": "Aéroport", "pronunciation": "a-eʁo-pɔʁ" },
+        "zh": { "means": "机场", "pronunciation": "jī chǎng" },
+        "ja": { "means": "空港", "pronunciation": "kūkō" },
+        "en": { "means": "Airport", "pronunciation": "ˈɛərˌpɔrt" },
+        "es": { "means": "Aeropuerto", "pronunciation": "ae-ro-puer-to" },
+        "de": { "means": "Flughafen", "pronunciation": "ˈfluːkˌhaːfn̩" }
       },
       {
-        "fa": {"means": "بلیط", "pronunciation": "be-lid"},
-        "ar": {"means": "تذكرة", "pronunciation": "tadhkira"},
-        "tr": {"means": "Bilet", "pronunciation": "bi-let"},
-        "ru": {"means": "Билет", "pronunciation": "bi-let"},
-        "fr": {"means": "Billet", "pronunciation": "bi-jɛ"},
-        "zh": {"means": "票", "pronunciation": "piào"},
-        "ja": {"means": "切符", "pronunciation": "kippu"},
-        "en": {"means": "Ticket", "pronunciation": "ˈtɪkɪt"},
-        "es": {"means": "Billete", "pronunciation": "bi-ye-te"},
-        "de": {"means": "Ticket", "pronunciation": "ˈtɪkɪt"}
+        "fa": { "means": "بلیط", "pronunciation": "be-lid" },
+        "ar": { "means": "تذكرة", "pronunciation": "tadhkira" },
+        "tr": { "means": "Bilet", "pronunciation": "bi-let" },
+        "ru": { "means": "Билет", "pronunciation": "bi-let" },
+        "fr": { "means": "Billet", "pronunciation": "bi-jɛ" },
+        "zh": { "means": "票", "pronunciation": "piào" },
+        "ja": { "means": "切符", "pronunciation": "kippu" },
+        "en": { "means": "Ticket", "pronunciation": "ˈtɪkɪt" },
+        "es": { "means": "Billete", "pronunciation": "bi-ye-te" },
+        "de": { "means": "Ticket", "pronunciation": "ˈtɪkɪt" }
       },
       {
-        "fa": {"means": "سکو", "pronunciation": "sa-koo"},
-        "ar": {"means": "رصيف", "pronunciation": "raṣīf"},
-        "tr": {"means": "Peron", "pronunciation": "pe-ron"},
-        "ru": {"means": "Платформа", "pronunciation": "plat-for-ma"},
-        "fr": {"means": "Quai", "pronunciation": "ke"},
-        "zh": {"means": "站台", "pronunciation": "zhàn tái"},
-        "ja": {"means": "ホーム", "pronunciation": "hōmu"},
-        "en": {"means": "Platform", "pronunciation": "ˈplætfɔrm"},
-        "es": {"means": "Andén", "pronunciation": "an-den"},
-        "de": {"means": "Bahnsteig", "pronunciation": "ˈbaːnʃtaɪk"}
+        "fa": { "means": "سکو", "pronunciation": "sa-koo" },
+        "ar": { "means": "رصيف", "pronunciation": "raṣīf" },
+        "tr": { "means": "Peron", "pronunciation": "pe-ron" },
+        "ru": { "means": "Платформа", "pronunciation": "plat-for-ma" },
+        "fr": { "means": "Quai", "pronunciation": "ke" },
+        "zh": { "means": "站台", "pronunciation": "zhàn tái" },
+        "ja": { "means": "ホーム", "pronunciation": "hōmu" },
+        "en": { "means": "Platform", "pronunciation": "ˈplætfɔrm" },
+        "es": { "means": "Andén", "pronunciation": "an-den" },
+        "de": { "means": "Bahnsteig", "pronunciation": "ˈbaːnʃtaɪk" }
       },
       {
-        "fa": {"means": "راننده", "pronunciation": "ra-nan-deh"},
-        "ar": {"means": "سائق", "pronunciation": "sā’iq"},
-        "tr": {"means": "Şoför", "pronunciation": "ʃo-fœr"},
-        "ru": {"means": "Водитель", "pronunciation": "vo-di-tel"},
-        "fr": {"means": "Chauffeur", "pronunciation": "ʃo-fœr"},
-        "zh": {"means": "司机", "pronunciation": "sī jī"},
-        "ja": {"means": "運転手", "pronunciation": "unten-shu"},
-        "en": {"means": "Driver", "pronunciation": "ˈdraɪvər"},
-        "es": {"means": "Conductor", "pronunciation": "kon-duc-tor"},
-        "de": {"means": "Fahrer", "pronunciation": "ˈfaːrɐ"}
+        "fa": { "means": "راننده", "pronunciation": "ra-nan-deh" },
+        "ar": { "means": "سائق", "pronunciation": "sā’iq" },
+        "tr": { "means": "Şoför", "pronunciation": "ʃo-fœr" },
+        "ru": { "means": "Водитель", "pronunciation": "vo-di-tel" },
+        "fr": { "means": "Chauffeur", "pronunciation": "ʃo-fœr" },
+        "zh": { "means": "司机", "pronunciation": "sī jī" },
+        "ja": { "means": "運転手", "pronunciation": "unten-shu" },
+        "en": { "means": "Driver", "pronunciation": "ˈdraɪvər" },
+        "es": { "means": "Conductor", "pronunciation": "kon-duc-tor" },
+        "de": { "means": "Fahrer", "pronunciation": "ˈfaːrɐ" }
       },
       {
-        "fa": {"means": "مسیر", "pronunciation": "ma-sir"},
-        "ar": {"means": "مسار", "pronunciation": "masār"},
-        "tr": {"means": "Güzergâh", "pronunciation": "gü-zer-gah"},
-        "ru": {"means": "Маршрут", "pronunciation": "mar-shrut"},
-        "fr": {"means": "Itinéraire", "pronunciation": "i-ti-ne-ʁɛʁ"},
-        "zh": {"means": "路线", "pronunciation": "lù xiàn"},
-        "ja": {"means": "ルート", "pronunciation": "rūto"},
-        "en": {"means": "Route", "pronunciation": "ruːt"},
-        "es": {"means": "Ruta", "pronunciation": "ru-ta"},
-        "de": {"means": "Route", "pronunciation": "ˈʁuːtə"}
+        "fa": { "means": "مسیر", "pronunciation": "ma-sir" },
+        "ar": { "means": "مسار", "pronunciation": "masār" },
+        "tr": { "means": "Güzergâh", "pronunciation": "gü-zer-gah" },
+        "ru": { "means": "Маршрут", "pronunciation": "mar-shrut" },
+        "fr": { "means": "Itinéraire", "pronunciation": "i-ti-ne-ʁɛʁ" },
+        "zh": { "means": "路线", "pronunciation": "lù xiàn" },
+        "ja": { "means": "ルート", "pronunciation": "rūto" },
+        "en": { "means": "Route", "pronunciation": "ruːt" },
+        "es": { "means": "Ruta", "pronunciation": "ru-ta" },
+        "de": { "means": "Route", "pronunciation": "ˈʁuːtə" }
       },
       {
-        "fa": {"means": "جاده اصلی", "pronunciation": "ja-de-ye as-li"},
-        "ar": {"means": "الطريق السريع", "pronunciation": "aṭ-ṭarīq as-sarī‘"},
-        "tr": {"means": "Otoyol", "pronunciation": "o-to-yol"},
-        "ru": {"means": "Автострада", "pronunciation": "av-to-stra-da"},
-        "fr": {"means": "Autoroute", "pronunciation": "o-to-ʁut"},
-        "zh": {"means": "高速公路", "pronunciation": "gāo sù gōng lù"},
-        "ja": {"means": "高速道路", "pronunciation": "kōsoku dōro"},
-        "en": {"means": "Highway", "pronunciation": "ˈhaɪˌweɪ"},
-        "es": {"means": "Autopista", "pronunciation": "au-to-pis-ta"},
-        "de": {"means": "Autobahn", "pronunciation": "ˈaʊtoˌbaːn"}
+        "fa": { "means": "جاده اصلی", "pronunciation": "ja-de-ye as-li" },
+        "ar": {
+          "means": "الطريق السريع",
+          "pronunciation": "aṭ-ṭarīq as-sarī‘"
+        },
+        "tr": { "means": "Otoyol", "pronunciation": "o-to-yol" },
+        "ru": { "means": "Автострада", "pronunciation": "av-to-stra-da" },
+        "fr": { "means": "Autoroute", "pronunciation": "o-to-ʁut" },
+        "zh": { "means": "高速公路", "pronunciation": "gāo sù gōng lù" },
+        "ja": { "means": "高速道路", "pronunciation": "kōsoku dōro" },
+        "en": { "means": "Highway", "pronunciation": "ˈhaɪˌweɪ" },
+        "es": { "means": "Autopista", "pronunciation": "au-to-pis-ta" },
+        "de": { "means": "Autobahn", "pronunciation": "ˈaʊtoˌbaːn" }
       },
       {
-        "fa": {"means": "کمربند ایمنی", "pronunciation": "ka-me-r-band e-meni"},
-        "ar": {"means": "حزام الأمان", "pronunciation": "ḥizām al-amān"},
-        "tr": {"means": "Emniyet kemeri", "pronunciation": "em-ni-yet ke-me-ri"},
-        "ru": {"means": "Ремень безопасности", "pronunciation": "re-myen' be-zopas-nosti"},
-        "fr": {"means": "Ceinture de sécurité", "pronunciation": "sɑ̃-tyʁ də se-ky-ri-te"},
-        "zh": {"means": "安全带", "pronunciation": "ān quán dài"},
-        "ja": {"means": "シートベルト", "pronunciation": "shīto beruto"},
-        "en": {"means": "Seatbelt", "pronunciation": "ˈsitˌbɛlt"},
-        "es": {"means": "Cinturón de seguridad", "pronunciation": "sin-tu-rón de se-gu-ri-dad"},
-        "de": {"means": "Sicherheitsgurt", "pronunciation": "zɪçɐhaɪtsɡʊrt"}
+        "fa": {
+          "means": "کمربند ایمنی",
+          "pronunciation": "ka-me-r-band e-meni"
+        },
+        "ar": { "means": "حزام الأمان", "pronunciation": "ḥizām al-amān" },
+        "tr": {
+          "means": "Emniyet kemeri",
+          "pronunciation": "em-ni-yet ke-me-ri"
+        },
+        "ru": {
+          "means": "Ремень безопасности",
+          "pronunciation": "re-myen' be-zopas-nosti"
+        },
+        "fr": {
+          "means": "Ceinture de sécurité",
+          "pronunciation": "sɑ̃-tyʁ də se-ky-ri-te"
+        },
+        "zh": { "means": "安全带", "pronunciation": "ān quán dài" },
+        "ja": { "means": "シートベルト", "pronunciation": "shīto beruto" },
+        "en": { "means": "Seatbelt", "pronunciation": "ˈsitˌbɛlt" },
+        "es": {
+          "means": "Cinturón de seguridad",
+          "pronunciation": "sin-tu-rón de se-gu-ri-dad"
+        },
+        "de": { "means": "Sicherheitsgurt", "pronunciation": "zɪçɐhaɪtsɡʊrt" }
       },
       {
-        "fa": {"means": "سوخت", "pronunciation": "sookht"},
-        "ar": {"means": "وقود", "pronunciation": "waqood"},
-        "tr": {"means": "Yakıt", "pronunciation": "ya-kıt"},
-        "ru": {"means": "топливо", "pronunciation": "to-pli-vo"},
-        "fr": {"means": "Carburant", "pronunciation": "kar-byu-ran"},
-        "zh": {"means": "燃料", "pronunciation": "rán liào"},
-        "ja": {"means": "燃料", "pronunciation": "nen-ryou"},
-        "en": {"means": "Fuel", "pronunciation": "fyu-el"},
-        "es": {"means": "Combustible", "pronunciation": "com-bus-ti-ble"},
-        "de": {"means": "Kraftstoff", "pronunciation": "kraft-shtof"}
+        "fa": { "means": "سوخت", "pronunciation": "sookht" },
+        "ar": { "means": "وقود", "pronunciation": "waqood" },
+        "tr": { "means": "Yakıt", "pronunciation": "ya-kıt" },
+        "ru": { "means": "топливо", "pronunciation": "to-pli-vo" },
+        "fr": { "means": "Carburant", "pronunciation": "kar-byu-ran" },
+        "zh": { "means": "燃料", "pronunciation": "rán liào" },
+        "ja": { "means": "燃料", "pronunciation": "nen-ryou" },
+        "en": { "means": "Fuel", "pronunciation": "fyu-el" },
+        "es": { "means": "Combustible", "pronunciation": "com-bus-ti-ble" },
+        "de": { "means": "Kraftstoff", "pronunciation": "kraft-shtof" }
       },
       {
-        "fa": {"means": "پارکینگ", "pronunciation": "park-ing"},
-        "ar": {"means": "موقف السيارات", "pronunciation": "mawqif as-sayyarat"},
-        "tr": {"means": "Park yeri", "pronunciation": "park ye-ri"},
-        "ru": {"means": "парковка", "pronunciation": "par-kov-ka"},
-        "fr": {"means": "Parking", "pronunciation": "par-king"},
-        "zh": {"means": "停车场", "pronunciation": "tíng chē chǎng"},
-        "ja": {"means": "駐車場", "pronunciation": "chuu-sha-jou"},
-        "en": {"means": "Parking", "pronunciation": "par-king"},
-        "es": {"means": "Estacionamiento", "pronunciation": "es-ta-cio-na-mien-to"},
-        "de": {"means": "Parkplatz", "pronunciation": "park-platz"}
+        "fa": { "means": "پارکینگ", "pronunciation": "park-ing" },
+        "ar": {
+          "means": "موقف السيارات",
+          "pronunciation": "mawqif as-sayyarat"
+        },
+        "tr": { "means": "Park yeri", "pronunciation": "park ye-ri" },
+        "ru": { "means": "парковка", "pronunciation": "par-kov-ka" },
+        "fr": { "means": "Parking", "pronunciation": "par-king" },
+        "zh": { "means": "停车场", "pronunciation": "tíng chē chǎng" },
+        "ja": { "means": "駐車場", "pronunciation": "chuu-sha-jou" },
+        "en": { "means": "Parking", "pronunciation": "par-king" },
+        "es": {
+          "means": "Estacionamiento",
+          "pronunciation": "es-ta-cio-na-mien-to"
+        },
+        "de": { "means": "Parkplatz", "pronunciation": "park-platz" }
       },
       {
-        "fa": {"means": "جاده", "pronunciation": "ja-deh"},
-        "ar": {"means": "طريق", "pronunciation": "tariq"},
-        "tr": {"means": "Yol", "pronunciation": "yol"},
-        "ru": {"means": "дорога", "pronunciation": "do-ro-ga"},
-        "fr": {"means": "Route", "pronunciation": "root"},
-        "zh": {"means": "路", "pronunciation": "lù"},
-        "ja": {"means": "道路", "pronunciation": "dou-ro"},
-        "en": {"means": "Road", "pronunciation": "rohd"},
-        "es": {"means": "Carretera", "pronunciation": "ca-rre-te-ra"},
-        "de": {"means": "Straße", "pronunciation": "shtras-se"}
+        "fa": { "means": "جاده", "pronunciation": "ja-deh" },
+        "ar": { "means": "طريق", "pronunciation": "tariq" },
+        "tr": { "means": "Yol", "pronunciation": "yol" },
+        "ru": { "means": "дорога", "pronunciation": "do-ro-ga" },
+        "fr": { "means": "Route", "pronunciation": "root" },
+        "zh": { "means": "路", "pronunciation": "lù" },
+        "ja": { "means": "道路", "pronunciation": "dou-ro" },
+        "en": { "means": "Road", "pronunciation": "rohd" },
+        "es": { "means": "Carretera", "pronunciation": "ca-rre-te-ra" },
+        "de": { "means": "Straße", "pronunciation": "shtras-se" }
       },
       {
-        "fa": {"means": "نقشه", "pronunciation": "na-kh-she"},
-        "ar": {"means": "خريطة", "pronunciation": "khari-ta"},
-        "tr": {"means": "Harita", "pronunciation": "ha-ri-ta"},
-        "ru": {"means": "карта", "pronunciation": "kar-ta"},
-        "fr": {"means": "Carte", "pronunciation": "kart"},
-        "zh": {"means": "地图", "pronunciation": "dì tú"},
-        "ja": {"means": "地図", "pronunciation": "chi-zu"},
-        "en": {"means": "Map", "pronunciation": "map"},
-        "es": {"means": "Mapa", "pronunciation": "ma-pa"},
-        "de": {"means": "Karte", "pronunciation": "kar-te"}
+        "fa": { "means": "نقشه", "pronunciation": "na-kh-she" },
+        "ar": { "means": "خريطة", "pronunciation": "khari-ta" },
+        "tr": { "means": "Harita", "pronunciation": "ha-ri-ta" },
+        "ru": { "means": "карта", "pronunciation": "kar-ta" },
+        "fr": { "means": "Carte", "pronunciation": "kart" },
+        "zh": { "means": "地图", "pronunciation": "dì tú" },
+        "ja": { "means": "地図", "pronunciation": "chi-zu" },
+        "en": { "means": "Map", "pronunciation": "map" },
+        "es": { "means": "Mapa", "pronunciation": "ma-pa" },
+        "de": { "means": "Karte", "pronunciation": "kar-te" }
       },
       {
-        "fa": {"means": "نقشه مسیر", "pronunciation": "na-kh-she ma-sir"},
-        "ar": {"means": "خريطة الطريق", "pronunciation": "khari-ta at-tariq"},
-        "tr": {"means": "Güzergah haritası", "pronunciation": "gü-zer-gah ha-ri-ta-sı"},
-        "ru": {"means": "карта маршрута", "pronunciation": "kar-ta mar-shru-ta"},
-        "fr": {"means": "Carte de l'itinéraire", "pronunciation": "kart duh lee-tee-ner-air"},
-        "zh": {"means": "路线图", "pronunciation": "lù xiàn tú"},
-        "ja": {"means": "ルートマップ", "pronunciation": "ruuto mappu"},
-        "en": {"means": "Route map", "pronunciation": "root map"},
-        "es": {"means": "Mapa de ruta", "pronunciation": "ma-pa de ru-ta"},
-        "de": {"means": "Routenkarte", "pronunciation": "rou-ten-kar-te"}
+        "fa": { "means": "نقشه مسیر", "pronunciation": "na-kh-she ma-sir" },
+        "ar": { "means": "خريطة الطريق", "pronunciation": "khari-ta at-tariq" },
+        "tr": {
+          "means": "Güzergah haritası",
+          "pronunciation": "gü-zer-gah ha-ri-ta-sı"
+        },
+        "ru": {
+          "means": "карта маршрута",
+          "pronunciation": "kar-ta mar-shru-ta"
+        },
+        "fr": {
+          "means": "Carte de l'itinéraire",
+          "pronunciation": "kart duh lee-tee-ner-air"
+        },
+        "zh": { "means": "路线图", "pronunciation": "lù xiàn tú" },
+        "ja": { "means": "ルートマップ", "pronunciation": "ruuto mappu" },
+        "en": { "means": "Route map", "pronunciation": "root map" },
+        "es": { "means": "Mapa de ruta", "pronunciation": "ma-pa de ru-ta" },
+        "de": { "means": "Routenkarte", "pronunciation": "rou-ten-kar-te" }
       },
       {
-        "fa": {"means": "ترافیک", "pronunciation": "te-ra-fik"},
-        "ar": {"means": "ازدحام المرور", "pronunciation": "izdihaam al-murur"},
-        "tr": {"means": "Trafik", "pronunciation": "tra-fik"},
-        "ru": {"means": "трафик", "pronunciation": "tra-fik"},
-        "fr": {"means": "Trafic", "pronunciation": "tra-fik"},
-        "zh": {"means": "交通", "pronunciation": "jiāo tōng"},
-        "ja": {"means": "交通", "pronunciation": "koutsuu"},
-        "en": {"means": "Traffic", "pronunciation": "traf-ik"},
-        "es": {"means": "Tráfico", "pronunciation": "tra-fi-co"},
-        "de": {"means": "Verkehr", "pronunciation": "fer-kehr"}
+        "fa": { "means": "ترافیک", "pronunciation": "te-ra-fik" },
+        "ar": {
+          "means": "ازدحام المرور",
+          "pronunciation": "izdihaam al-murur"
+        },
+        "tr": { "means": "Trafik", "pronunciation": "tra-fik" },
+        "ru": { "means": "трафик", "pronunciation": "tra-fik" },
+        "fr": { "means": "Trafic", "pronunciation": "tra-fik" },
+        "zh": { "means": "交通", "pronunciation": "jiāo tōng" },
+        "ja": { "means": "交通", "pronunciation": "koutsuu" },
+        "en": { "means": "Traffic", "pronunciation": "traf-ik" },
+        "es": { "means": "Tráfico", "pronunciation": "tra-fi-co" },
+        "de": { "means": "Verkehr", "pronunciation": "fer-kehr" }
       },
       {
-        "fa": {"means": "دفتر بلیط", "pronunciation": "daf-te be-lit"},
-        "ar": {"means": "مكتب التذاكر", "pronunciation": "maktab at-tathakir"},
-        "tr": {"means": "Bilet gişesi", "pronunciation": "bi-let gi-she-si"},
-        "ru": {"means": "касса билетов", "pronunciation": "kas-sa bi-le-tov"},
-        "fr": {"means": "Guichet", "pronunciation": "gwee-sheh"},
-        "zh": {"means": "售票处", "pronunciation": "shòu piào chù"},
-        "ja": {"means": "切符売り場", "pronunciation": "kippu uriba"},
-        "en": {"means": "Ticket office", "pronunciation": "tik-it of-is"},
-        "es": {"means": "Taquilla", "pronunciation": "ta-kee-ya"},
-        "de": {"means": "Fahrkartenschalter", "pronunciation": "fahr-kar-ten-shal-ter"}
+        "fa": { "means": "دفتر بلیط", "pronunciation": "daf-te be-lit" },
+        "ar": {
+          "means": "مكتب التذاكر",
+          "pronunciation": "maktab at-tathakir"
+        },
+        "tr": { "means": "Bilet gişesi", "pronunciation": "bi-let gi-she-si" },
+        "ru": { "means": "касса билетов", "pronunciation": "kas-sa bi-le-tov" },
+        "fr": { "means": "Guichet", "pronunciation": "gwee-sheh" },
+        "zh": { "means": "售票处", "pronunciation": "shòu piào chù" },
+        "ja": { "means": "切符売り場", "pronunciation": "kippu uriba" },
+        "en": { "means": "Ticket office", "pronunciation": "tik-it of-is" },
+        "es": { "means": "Taquilla", "pronunciation": "ta-kee-ya" },
+        "de": {
+          "means": "Fahrkartenschalter",
+          "pronunciation": "fahr-kar-ten-shal-ter"
+        }
       },
       {
-        "fa": {"means": "چمدان", "pronunciation": "cha-me-dan"},
-        "ar": {"means": "حقائب", "pronunciation": "haqa'ib"},
-        "tr": {"means": "Bavul", "pronunciation": "ba-vul"},
-        "ru": {"means": "багаж", "pronunciation": "ba-gazh"},
-        "fr": {"means": "Bagages", "pronunciation": "ba-gazh"},
-        "zh": {"means": "行李", "pronunciation": "xíng lǐ"},
-        "ja": {"means": "荷物", "pronunciation": "ni-motsu"},
-        "en": {"means": "Luggage", "pronunciation": "luhg-ij"},
-        "es": {"means": "Equipaje", "pronunciation": "e-kee-pa-he"},
-        "de": {"means": "Gepäck", "pronunciation": "ge-päck"}
+        "fa": { "means": "چمدان", "pronunciation": "cha-me-dan" },
+        "ar": { "means": "حقائب", "pronunciation": "haqa'ib" },
+        "tr": { "means": "Bavul", "pronunciation": "ba-vul" },
+        "ru": { "means": "багаж", "pronunciation": "ba-gazh" },
+        "fr": { "means": "Bagages", "pronunciation": "ba-gazh" },
+        "zh": { "means": "行李", "pronunciation": "xíng lǐ" },
+        "ja": { "means": "荷物", "pronunciation": "ni-motsu" },
+        "en": { "means": "Luggage", "pronunciation": "luhg-ij" },
+        "es": { "means": "Equipaje", "pronunciation": "e-kee-pa-he" },
+        "de": { "means": "Gepäck", "pronunciation": "ge-päck" }
       },
       {
-        "fa": {"means": "حرکت", "pronunciation": "ha-re-kat"},
-        "ar": {"means": "المغادرة", "pronunciation": "al-mughādara"},
-        "tr": {"means": "Kalkış", "pronunciation": "kal-kış"},
-        "ru": {"means": "отправление", "pronunciation": "ot-prav-le-ni-ye"},
-        "fr": {"means": "Départ", "pronunciation": "dé-par"},
-        "zh": {"means": "出发", "pronunciation": "chū fā"},
-        "ja": {"means": "出発", "pronunciation": "shuppatsu"},
-        "en": {"means": "Departure", "pronunciation": "di-par-chur"},
-        "es": {"means": "Salida", "pronunciation": "sa-li-da"},
-        "de": {"means": "Abfahrt", "pronunciation": "ab-fahrt"}
+        "fa": { "means": "حرکت", "pronunciation": "ha-re-kat" },
+        "ar": { "means": "المغادرة", "pronunciation": "al-mughādara" },
+        "tr": { "means": "Kalkış", "pronunciation": "kal-kış" },
+        "ru": { "means": "отправление", "pronunciation": "ot-prav-le-ni-ye" },
+        "fr": { "means": "Départ", "pronunciation": "dé-par" },
+        "zh": { "means": "出发", "pronunciation": "chū fā" },
+        "ja": { "means": "出発", "pronunciation": "shuppatsu" },
+        "en": { "means": "Departure", "pronunciation": "di-par-chur" },
+        "es": { "means": "Salida", "pronunciation": "sa-li-da" },
+        "de": { "means": "Abfahrt", "pronunciation": "ab-fahrt" }
       },
       {
-        "fa": {"means": "ورود", "pronunciation": "vo-rud"},
-        "ar": {"means": "الوصول", "pronunciation": "al-wusool"},
-        "tr": {"means": "Varış", "pronunciation": "va-rış"},
-        "ru": {"means": "прибытие", "pronunciation": "pri-by-ti-e"},
-        "fr": {"means": "Arrivée", "pronunciation": "a-ree-vé"},
-        "zh": {"means": "到达", "pronunciation": "dào dá"},
-        "ja": {"means": "到着", "pronunciation": "touchaku"},
-        "en": {"means": "Arrival", "pronunciation": "uh-ry-vuhl"},
-        "es": {"means": "Llegada", "pronunciation": "ye-ga-da"},
-        "de": {"means": "Ankunft", "pronunciation": "ank-unft"}
+        "fa": { "means": "ورود", "pronunciation": "vo-rud" },
+        "ar": { "means": "الوصول", "pronunciation": "al-wusool" },
+        "tr": { "means": "Varış", "pronunciation": "va-rış" },
+        "ru": { "means": "прибытие", "pronunciation": "pri-by-ti-e" },
+        "fr": { "means": "Arrivée", "pronunciation": "a-ree-vé" },
+        "zh": { "means": "到达", "pronunciation": "dào dá" },
+        "ja": { "means": "到着", "pronunciation": "touchaku" },
+        "en": { "means": "Arrival", "pronunciation": "uh-ry-vuhl" },
+        "es": { "means": "Llegada", "pronunciation": "ye-ga-da" },
+        "de": { "means": "Ankunft", "pronunciation": "ank-unft" }
       },
       {
-        "fa": {"means": "برنامه زمانی", "pronunciation": "bar-na-meh za-ma-ni"},
-        "ar": {"means": "الجدول الزمني", "pronunciation": "al-jadwal az-zamani"},
-        "tr": {"means": "Zaman çizelgesi", "pronunciation": "za-man chi-zel-ge-si"},
-        "ru": {"means": "расписание", "pronunciation": "ras-pi-sa-ni-ye"},
-        "fr": {"means": "Horaire", "pronunciation": "o-rair"},
-        "zh": {"means": "时间表", "pronunciation": "shí jiān biǎo"},
-        "ja": {"means": "スケジュール", "pronunciation": "su-ke-jū-ru"},
-        "en": {"means": "Schedule", "pronunciation": "skej-ool"},
-        "es": {"means": "Horario", "pronunciation": "o-ra-rio"},
-        "de": {"means": "Fahrplan", "pronunciation": "fahr-plan"}
+        "fa": {
+          "means": "برنامه زمانی",
+          "pronunciation": "bar-na-meh za-ma-ni"
+        },
+        "ar": {
+          "means": "الجدول الزمني",
+          "pronunciation": "al-jadwal az-zamani"
+        },
+        "tr": {
+          "means": "Zaman çizelgesi",
+          "pronunciation": "za-man chi-zel-ge-si"
+        },
+        "ru": { "means": "расписание", "pronunciation": "ras-pi-sa-ni-ye" },
+        "fr": { "means": "Horaire", "pronunciation": "o-rair" },
+        "zh": { "means": "时间表", "pronunciation": "shí jiān biǎo" },
+        "ja": { "means": "スケジュール", "pronunciation": "su-ke-jū-ru" },
+        "en": { "means": "Schedule", "pronunciation": "skej-ool" },
+        "es": { "means": "Horario", "pronunciation": "o-ra-rio" },
+        "de": { "means": "Fahrplan", "pronunciation": "fahr-plan" }
       },
       {
-        "fa": {"means": "دستگاه بلیط", "pronunciation": "das-gah be-lit"},
-        "ar": {"means": "ماكينة التذاكر", "pronunciation": "makinat at-tathakir"},
-        "tr": {"means": "Bilet makinesi", "pronunciation": "bi-let ma-ki-ne-si"},
-        "ru": {"means": "билетный автомат", "pronunciation": "bi-let-nyi av-to-mat"},
-        "fr": {"means": "Distributeur de billets", "pronunciation": "dis-trib-uer de bi-ye"},
-        "zh": {"means": "售票机", "pronunciation": "shòu piào jī"},
-        "ja": {"means": "券売機", "pronunciation": "ken-bai-ki"},
-        "en": {"means": "Ticket machine", "pronunciation": "tik-it ma-sheen"},
-        "es": {"means": "Máquina expendedora de boletos", "pronunciation": "má-qui-na ex-pen-de-do-ra de bo-le-tos"},
-        "de": {"means": "Fahrkartenautomat", "pronunciation": "fahr-kar-ten-au-to-mat"}
+        "fa": { "means": "دستگاه بلیط", "pronunciation": "das-gah be-lit" },
+        "ar": {
+          "means": "ماكينة التذاكر",
+          "pronunciation": "makinat at-tathakir"
+        },
+        "tr": {
+          "means": "Bilet makinesi",
+          "pronunciation": "bi-let ma-ki-ne-si"
+        },
+        "ru": {
+          "means": "билетный автомат",
+          "pronunciation": "bi-let-nyi av-to-mat"
+        },
+        "fr": {
+          "means": "Distributeur de billets",
+          "pronunciation": "dis-trib-uer de bi-ye"
+        },
+        "zh": { "means": "售票机", "pronunciation": "shòu piào jī" },
+        "ja": { "means": "券売機", "pronunciation": "ken-bai-ki" },
+        "en": { "means": "Ticket machine", "pronunciation": "tik-it ma-sheen" },
+        "es": {
+          "means": "Máquina expendedora de boletos",
+          "pronunciation": "má-qui-na ex-pen-de-do-ra de bo-le-tos"
+        },
+        "de": {
+          "means": "Fahrkartenautomat",
+          "pronunciation": "fahr-kar-ten-au-to-mat"
+        }
       },
       {
-        "fa": {"means": "بار", "pronunciation": "baar"},
-        "ar": {"means": "حمولة", "pronunciation": "hamoola"},
-        "tr": {"means": "Yük", "pronunciation": "yük"},
-        "ru": {"means": "груз", "pronunciation": "gruz"},
-        "fr": {"means": "Cargaison", "pronunciation": "kar-gay-zon"},
-        "zh": {"means": "货物", "pronunciation": "huò wù"},
-        "ja": {"means": "貨物", "pronunciation": "kamotsu"},
-        "en": {"means": "Cargo", "pronunciation": "kar-go"},
-        "es": {"means": "Carga", "pronunciation": "car-ga"},
-        "de": {"means": "Fracht", "pronunciation": "fraht"}
+        "fa": { "means": "بار", "pronunciation": "baar" },
+        "ar": { "means": "حمولة", "pronunciation": "hamoola" },
+        "tr": { "means": "Yük", "pronunciation": "yük" },
+        "ru": { "means": "груз", "pronunciation": "gruz" },
+        "fr": { "means": "Cargaison", "pronunciation": "kar-gay-zon" },
+        "zh": { "means": "货物", "pronunciation": "huò wù" },
+        "ja": { "means": "貨物", "pronunciation": "kamotsu" },
+        "en": { "means": "Cargo", "pronunciation": "kar-go" },
+        "es": { "means": "Carga", "pronunciation": "car-ga" },
+        "de": { "means": "Fracht", "pronunciation": "fraht" }
       },
       {
-        "fa": {"means": "ایستگاه اتوبوس", "pronunciation": "is-tgah o-to-bus"},
-        "ar": {"means": "موقف الحافلات", "pronunciation": "mawqif al-hafilat"},
-        "tr": {"means": "Otobüs durağı", "pronunciation": "o-to-büs du-ra-ğı"},
-        "ru": {"means": "остановка автобуса", "pronunciation": "os-ta-nov-ka av-to-bu-sa"},
-        "fr": {"means": "Arrêt de bus", "pronunciation": "a-reh de bus"},
-        "zh": {"means": "公交车站", "pronunciation": "gōng jiāo chē zhàn"},
-        "ja": {"means": "バス停", "pronunciation": "basu tei"},
-        "en": {"means": "Bus stop", "pronunciation": "bus stop"},
-        "es": {"means": "Parada de autobús", "pronunciation": "pa-ra-da de au-to-bus"},
-        "de": {"means": "Bushaltestelle", "pronunciation": "bus-hal-te-shtel-le"}
+        "fa": {
+          "means": "ایستگاه اتوبوس",
+          "pronunciation": "is-tgah o-to-bus"
+        },
+        "ar": {
+          "means": "موقف الحافلات",
+          "pronunciation": "mawqif al-hafilat"
+        },
+        "tr": {
+          "means": "Otobüs durağı",
+          "pronunciation": "o-to-büs du-ra-ğı"
+        },
+        "ru": {
+          "means": "остановка автобуса",
+          "pronunciation": "os-ta-nov-ka av-to-bu-sa"
+        },
+        "fr": { "means": "Arrêt de bus", "pronunciation": "a-reh de bus" },
+        "zh": { "means": "公交车站", "pronunciation": "gōng jiāo chē zhàn" },
+        "ja": { "means": "バス停", "pronunciation": "basu tei" },
+        "en": { "means": "Bus stop", "pronunciation": "bus stop" },
+        "es": {
+          "means": "Parada de autobús",
+          "pronunciation": "pa-ra-da de au-to-bus"
+        },
+        "de": {
+          "means": "Bushaltestelle",
+          "pronunciation": "bus-hal-te-shtel-le"
+        }
       },
       {
-        "fa": {"means": "بلیط قطار", "pronunciation": "be-lit qatar"},
-        "ar": {"means": "تذكرة القطار", "pronunciation": "tazkirat al-qitar"},
-        "tr": {"means": "Tren bileti", "pronunciation": "tren bi-le-ti"},
-        "ru": {"means": "билет на поезд", "pronunciation": "bi-let na po-yezd"},
-        "fr": {"means": "Billet de train", "pronunciation": "bi-yay de tran"},
-        "zh": {"means": "火车票", "pronunciation": "huǒ chē piào"},
-        "ja": {"means": "列車の切符", "pronunciation": "ressha no kippu"},
-        "en": {"means": "Train ticket", "pronunciation": "treyn tik-it"},
-        "es": {"means": "Billete de tren", "pronunciation": "bi-lle-te de tren"},
-        "de": {"means": "Zugticket", "pronunciation": "tsug-ti-ket"}
+        "fa": { "means": "بلیط قطار", "pronunciation": "be-lit qatar" },
+        "ar": { "means": "تذكرة القطار", "pronunciation": "tazkirat al-qitar" },
+        "tr": { "means": "Tren bileti", "pronunciation": "tren bi-le-ti" },
+        "ru": {
+          "means": "билет на поезд",
+          "pronunciation": "bi-let na po-yezd"
+        },
+        "fr": { "means": "Billet de train", "pronunciation": "bi-yay de tran" },
+        "zh": { "means": "火车票", "pronunciation": "huǒ chē piào" },
+        "ja": { "means": "列車の切符", "pronunciation": "ressha no kippu" },
+        "en": { "means": "Train ticket", "pronunciation": "treyn tik-it" },
+        "es": {
+          "means": "Billete de tren",
+          "pronunciation": "bi-lle-te de tren"
+        },
+        "de": { "means": "Zugticket", "pronunciation": "tsug-ti-ket" }
       },
       {
-        "fa": {"means": "حمل و نقل عمومی", "pronunciation": "haml va naq-l e-om-oo-mi"},
-        "ar": {"means": "النقل العام", "pronunciation": "an-naql al-'aam"},
-        "tr": {"means": "Toplu taşıma", "pronunciation": "top-lu ta-şı-ma"},
-        "ru": {"means": "общественный транспорт", "pronunciation": "ob-shchest-ven-nyi trans-port"},
-        "fr": {"means": "Transport public", "pronunciation": "trans-por pu-blic"},
-        "zh": {"means": "公共交通", "pronunciation": "gōng gòng jiāo tōng"},
-        "ja": {"means": "公共交通機関", "pronunciation": "koukyou koutsuu kikan"},
-        "en": {"means": "Public transport", "pronunciation": "pub-lic trans-port"},
-        "es": {"means": "Transporte público", "pronunciation": "trans-por-te pu-bli-co"},
-        "de": {"means": "Öffentlicher Verkehr", "pronunciation": "öf-fent-li-cher ver-kehr"}
+        "fa": {
+          "means": "حمل و نقل عمومی",
+          "pronunciation": "haml va naq-l e-om-oo-mi"
+        },
+        "ar": { "means": "النقل العام", "pronunciation": "an-naql al-'aam" },
+        "tr": { "means": "Toplu taşıma", "pronunciation": "top-lu ta-şı-ma" },
+        "ru": {
+          "means": "общественный транспорт",
+          "pronunciation": "ob-shchest-ven-nyi trans-port"
+        },
+        "fr": {
+          "means": "Transport public",
+          "pronunciation": "trans-por pu-blic"
+        },
+        "zh": { "means": "公共交通", "pronunciation": "gōng gòng jiāo tōng" },
+        "ja": {
+          "means": "公共交通機関",
+          "pronunciation": "koukyou koutsuu kikan"
+        },
+        "en": {
+          "means": "Public transport",
+          "pronunciation": "pub-lic trans-port"
+        },
+        "es": {
+          "means": "Transporte público",
+          "pronunciation": "trans-por-te pu-bli-co"
+        },
+        "de": {
+          "means": "Öffentlicher Verkehr",
+          "pronunciation": "öf-fent-li-cher ver-kehr"
+        }
       }
     ],
     [
@@ -1878,223 +2403,225 @@
         "de": { "means": "Nachmittag", "produn": "ˈnaːxmɪtˌtaːk" },
         "en": { "means": "Afternoon", "produn": "ˌæftərˈnun" }
       },
-        {
-          "fa": { "means": "عصر", "produn": "asr" },
-          "ar": { "means": "مساء", "produn": "masā’" },
-          "tr": { "means": "Akşam", "produn": "akşam" },
-          "ru": { "means": "Вечер", "produn": "vecher" },
-          "fr": { "means": "Soir", "produn": "swar" },
-          "zh": { "means": "傍晚", "produn": "bàngwǎn" },
-          "ja": { "means": "夕方", "produn": "ゆうがた (yūgata)" },
-          "es": { "means": "Tarde", "produn": "ˈtaɾðe" },
-          "de": { "means": "Abend", "produn": "ˈʔaːbn̩t" },
-          "en": { "means": "Evening", "produn": "ˈiːvnɪŋ" }
+      {
+        "fa": { "means": "عصر", "produn": "asr" },
+        "ar": { "means": "مساء", "produn": "masā’" },
+        "tr": { "means": "Akşam", "produn": "akşam" },
+        "ru": { "means": "Вечер", "produn": "vecher" },
+        "fr": { "means": "Soir", "produn": "swar" },
+        "zh": { "means": "傍晚", "produn": "bàngwǎn" },
+        "ja": { "means": "夕方", "produn": "ゆうがた (yūgata)" },
+        "es": { "means": "Tarde", "produn": "ˈtaɾðe" },
+        "de": { "means": "Abend", "produn": "ˈʔaːbn̩t" },
+        "en": { "means": "Evening", "produn": "ˈiːvnɪŋ" }
+      },
+      {
+        "fa": { "means": "شب", "produn": "shab" },
+        "ar": { "means": "ليل", "produn": "layl" },
+        "tr": { "means": "Gece", "produn": "ɟedʒe" },
+        "ru": { "means": "Ночь", "produn": "noch" },
+        "fr": { "means": "Nuit", "produn": "nɥi" },
+        "zh": { "means": "夜晚", "produn": "yèwǎn" },
+        "ja": { "means": "夜", "produn": "よる (yoru)" },
+        "es": { "means": "Noche", "produn": "ˈnotʃe" },
+        "de": { "means": "Nacht", "produn": "naχt" },
+        "en": { "means": "Night", "produn": "naɪt" }
+      },
+      {
+        "fa": { "means": "نیمه شب", "produn": "ni-meh shab" },
+        "ar": { "means": "منتصف الليل", "produn": "muntasaf al-layl" },
+        "tr": { "means": "Gece yarısı", "produn": "ɟedʒe jaɾɯsɯ" },
+        "ru": { "means": "Полночь", "produn": "polnoch" },
+        "fr": { "means": "Minuit", "produn": "minɥi" },
+        "zh": { "means": "午夜", "produn": "wǔyè" },
+        "ja": { "means": "真夜中", "produn": "まよなか (mayonaka)" },
+        "es": { "means": "Medianoche", "produn": "meðjaˈnotʃe" },
+        "de": { "means": "Mitternacht", "produn": "ˈmɪtɐnaxt" },
+        "en": { "means": "Midnight", "produn": "ˈmɪdnaɪt" }
+      },
+      {
+        "fa": { "means": "صبح", "produn": "sobh" },
+        "ar": { "means": "صباح", "produn": "ṣabāḥ" },
+        "tr": { "means": "Sabah", "produn": "sabah" },
+        "ru": { "means": "Утро", "produn": "utro" },
+        "fr": { "means": "Matin", "produn": "matɛ̃" },
+        "zh": { "means": "早晨", "produn": "zǎochén" },
+        "ja": { "means": "朝", "produn": "あさ (asa)" },
+        "es": { "means": "Mañana", "produn": "maˈɲana" },
+        "de": { "means": "Morgen", "produn": "ˈmɔʁɡn̩" },
+        "en": { "means": "Morning", "produn": "ˈmɔrnɪŋ" }
+      },
+      {
+        "fa": { "means": "ساعت", "produn": "sā-at" },
+        "ar": { "means": "ساعة", "produn": "sāʿa" },
+        "tr": { "means": "Saat", "produn": "saːt" },
+        "ru": { "means": "Час", "produn": "chas" },
+        "fr": { "means": "Heure", "produn": "œʁ" },
+        "zh": { "means": "小时", "produn": "xiǎoshí" },
+        "ja": { "means": "時間", "produn": "じかん (jikan)" },
+        "es": { "means": "Hora", "produn": "ˈoɾa" },
+        "de": { "means": "Stunde", "produn": "ˈʃtʊndə" },
+        "en": { "means": "Hour", "produn": "ˈaʊər" }
+      },
+      {
+        "fa": { "means": "دقیقه", "produn": "daqiqeh" },
+        "ar": { "means": "دقيقة", "produn": "daqīqa" },
+        "tr": { "means": "Dakika", "produn": "dakika" },
+        "ru": { "means": "Минута", "produn": "minuta" },
+        "fr": { "means": "Minute", "produn": "minyt" },
+        "zh": { "means": "分钟", "produn": "fēnzhōng" },
+        "ja": { "means": "分", "produn": "ふん (fun)" },
+        "es": { "means": "Minuto", "produn": "miˈnuto" },
+        "de": { "means": "Minute", "produn": "mɪˈnuːtə" },
+        "en": { "means": "Minute", "produn": "ˈmɪnɪt" }
+      },
+      {
+        "fa": { "means": "ثانیه", "produn": "thā-ni-yeh" },
+        "ar": { "means": "ثانية", "produn": "thāniya" },
+        "tr": { "means": "Saniye", "produn": "saniye" },
+        "ru": { "means": "Секунда", "produn": "sekunda" },
+        "fr": { "means": "Seconde", "produn": "səkɔ̃d" },
+        "zh": { "means": "秒", "produn": "miǎo" },
+        "ja": { "means": "秒", "produn": "びょう (byō)" },
+        "es": { "means": "Segundo", "produn": "seˈɣundo" },
+        "de": { "means": "Sekunde", "produn": "zəˈkʊndə" },
+        "en": { "means": "Second", "produn": "ˈsɛkənd" }
+      },
+      {
+        "fa": { "means": "امروز", "produn": "em-ruz" },
+        "ar": { "means": "اليوم", "produn": "al-yawm" },
+        "tr": { "means": "Bugün", "produn": "buɟyn" },
+        "ru": { "means": "Сегодня", "produn": "segodnya" },
+        "fr": { "means": "Aujourd'hui", "produn": "oʒuʁdɥi" },
+        "zh": { "means": "今天", "produn": "jīntiān" },
+        "ja": { "means": "今日", "produn": "きょう (kyō)" },
+        "es": { "means": "Hoy", "produn": "oi" },
+        "de": { "means": "Heute", "produn": "ˈhɔʏtə" },
+        "en": { "means": "Today", "produn": "təˈdeɪ" }
+      },
+      {
+        "fa": { "means": "هفته", "produn": "haf-teh" },
+        "ar": { "means": "أسبوع", "produn": "usbūʿ" },
+        "tr": { "means": "Hafta", "produn": "hafta" },
+        "ru": { "means": "Неделя", "produn": "nedelya" },
+        "fr": { "means": "Semaine", "produn": "səmɛn" },
+        "zh": { "means": "星期", "produn": "xīngqī" },
+        "ja": { "means": "週", "produn": "しゅう (shū)" },
+        "es": { "means": "Semana", "produn": "seˈmana" },
+        "de": { "means": "Woche", "produn": "ˈvɔxə" },
+        "en": { "means": "Week", "produn": "wik" }
+      },
+      {
+        "fa": { "means": "الان", "produn": "al-an" },
+        "ar": { "means": "الآن", "produn": "al-ān" },
+        "tr": { "means": "Şimdi", "produn": "ʃimdi" },
+        "ru": { "means": "Сейчас", "produn": "sejčas" },
+        "fr": { "means": "Maintenant", "produn": "mɛ̃tnɑ̃" },
+        "zh": { "means": "现在", "produn": "xiànzài" },
+        "ja": { "means": "今", "produn": "いま (ima)" },
+        "es": { "means": "Ahora", "produn": "aˈoɾa" },
+        "de": { "means": "Jetzt", "produn": "jɛtst" },
+        "en": { "means": "Now", "produn": "naʊ" }
+      },
+      {
+        "fa": { "means": "زودتر", "produn": "zood-tar" },
+        "ar": { "means": "أبكر", "produn": "ʾabkar" },
+        "tr": { "means": "Daha erken", "produn": "daha erkɛn" },
+        "ru": { "means": "Раньше", "produn": "ran'she" },
+        "fr": { "means": "Plus tôt", "produn": "plys to" },
+        "zh": { "means": "更早", "produn": "gèng zǎo" },
+        "ja": {
+          "means": "もっと早く",
+          "produn": "もっとはやく (motto hayaku)"
         },
-        {
-          "fa": { "means": "شب", "produn": "shab" },
-          "ar": { "means": "ليل", "produn": "layl" },
-          "tr": { "means": "Gece", "produn": "ɟedʒe" },
-          "ru": { "means": "Ночь", "produn": "noch" },
-          "fr": { "means": "Nuit", "produn": "nɥi" },
-          "zh": { "means": "夜晚", "produn": "yèwǎn" },
-          "ja": { "means": "夜", "produn": "よる (yoru)" },
-          "es": { "means": "Noche", "produn": "ˈnotʃe" },
-          "de": { "means": "Nacht", "produn": "naχt" },
-          "en": { "means": "Night", "produn": "naɪt" }
-        },
-        {
-          "fa": { "means": "نیمه شب", "produn": "ni-meh shab" },
-          "ar": { "means": "منتصف الليل", "produn": "muntasaf al-layl" },
-          "tr": { "means": "Gece yarısı", "produn": "ɟedʒe jaɾɯsɯ" },
-          "ru": { "means": "Полночь", "produn": "polnoch" },
-          "fr": { "means": "Minuit", "produn": "minɥi" },
-          "zh": { "means": "午夜", "produn": "wǔyè" },
-          "ja": { "means": "真夜中", "produn": "まよなか (mayonaka)" },
-          "es": { "means": "Medianoche", "produn": "meðjaˈnotʃe" },
-          "de": { "means": "Mitternacht", "produn": "ˈmɪtɐnaxt" },
-          "en": { "means": "Midnight", "produn": "ˈmɪdnaɪt" }
-        },
-        {
-          "fa": { "means": "صبح", "produn": "sobh" },
-          "ar": { "means": "صباح", "produn": "ṣabāḥ" },
-          "tr": { "means": "Sabah", "produn": "sabah" },
-          "ru": { "means": "Утро", "produn": "utro" },
-          "fr": { "means": "Matin", "produn": "matɛ̃" },
-          "zh": { "means": "早晨", "produn": "zǎochén" },
-          "ja": { "means": "朝", "produn": "あさ (asa)" },
-          "es": { "means": "Mañana", "produn": "maˈɲana" },
-          "de": { "means": "Morgen", "produn": "ˈmɔʁɡn̩" },
-          "en": { "means": "Morning", "produn": "ˈmɔrnɪŋ" }
-        },
-        {
-          "fa": { "means": "ساعت", "produn": "sā-at" },
-          "ar": { "means": "ساعة", "produn": "sāʿa" },
-          "tr": { "means": "Saat", "produn": "saːt" },
-          "ru": { "means": "Час", "produn": "chas" },
-          "fr": { "means": "Heure", "produn": "œʁ" },
-          "zh": { "means": "小时", "produn": "xiǎoshí" },
-          "ja": { "means": "時間", "produn": "じかん (jikan)" },
-          "es": { "means": "Hora", "produn": "ˈoɾa" },
-          "de": { "means": "Stunde", "produn": "ˈʃtʊndə" },
-          "en": { "means": "Hour", "produn": "ˈaʊər" }
-        },
-        {
-          "fa": { "means": "دقیقه", "produn": "daqiqeh" },
-          "ar": { "means": "دقيقة", "produn": "daqīqa" },
-          "tr": { "means": "Dakika", "produn": "dakika" },
-          "ru": { "means": "Минута", "produn": "minuta" },
-          "fr": { "means": "Minute", "produn": "minyt" },
-          "zh": { "means": "分钟", "produn": "fēnzhōng" },
-          "ja": { "means": "分", "produn": "ふん (fun)" },
-          "es": { "means": "Minuto", "produn": "miˈnuto" },
-          "de": { "means": "Minute", "produn": "mɪˈnuːtə" },
-          "en": { "means": "Minute", "produn": "ˈmɪnɪt" }
-        },
-        {
-          "fa": { "means": "ثانیه", "produn": "thā-ni-yeh" },
-          "ar": { "means": "ثانية", "produn": "thāniya" },
-          "tr": { "means": "Saniye", "produn": "saniye" },
-          "ru": { "means": "Секунда", "produn": "sekunda" },
-          "fr": { "means": "Seconde", "produn": "səkɔ̃d" },
-          "zh": { "means": "秒", "produn": "miǎo" },
-          "ja": { "means": "秒", "produn": "びょう (byō)" },
-          "es": { "means": "Segundo", "produn": "seˈɣundo" },
-          "de": { "means": "Sekunde", "produn": "zəˈkʊndə" },
-          "en": { "means": "Second", "produn": "ˈsɛkənd" }
-        },
-        {
-          "fa": { "means": "امروز", "produn": "em-ruz" },
-          "ar": { "means": "اليوم", "produn": "al-yawm" },
-          "tr": { "means": "Bugün", "produn": "buɟyn" },
-          "ru": { "means": "Сегодня", "produn": "segodnya" },
-          "fr": { "means": "Aujourd'hui", "produn": "oʒuʁdɥi" },
-          "zh": { "means": "今天", "produn": "jīntiān" },
-          "ja": { "means": "今日", "produn": "きょう (kyō)" },
-          "es": { "means": "Hoy", "produn": "oi" },
-          "de": { "means": "Heute", "produn": "ˈhɔʏtə" },
-          "en": { "means": "Today", "produn": "təˈdeɪ" }
-        },
-        {
-          "fa": { "means": "هفته", "produn": "haf-teh" },
-          "ar": { "means": "أسبوع", "produn": "usbūʿ" },
-          "tr": { "means": "Hafta", "produn": "hafta" },
-          "ru": { "means": "Неделя", "produn": "nedelya" },
-          "fr": { "means": "Semaine", "produn": "səmɛn" },
-          "zh": { "means": "星期", "produn": "xīngqī" },
-          "ja": { "means": "週", "produn": "しゅう (shū)" },
-          "es": { "means": "Semana", "produn": "seˈmana" },
-          "de": { "means": "Woche", "produn": "ˈvɔxə" },
-          "en": { "means": "Week", "produn": "wik" }
-        },
-        {
-          "fa": { "means": "الان", "produn": "al-an" },
-          "ar": { "means": "الآن", "produn": "al-ān" },
-          "tr": { "means": "Şimdi", "produn": "ʃimdi" },
-          "ru": { "means": "Сейчас", "produn": "sejčas" },
-          "fr": { "means": "Maintenant", "produn": "mɛ̃tnɑ̃" },
-          "zh": { "means": "现在", "produn": "xiànzài" },
-          "ja": { "means": "今", "produn": "いま (ima)" },
-          "es": { "means": "Ahora", "produn": "aˈoɾa" },
-          "de": { "means": "Jetzt", "produn": "jɛtst" },
-          "en": { "means": "Now", "produn": "naʊ" }
-        },
-        {
-          "fa": { "means": "زودتر", "produn": "zood-tar" },
-          "ar": { "means": "أبكر", "produn": "ʾabkar" },
-          "tr": { "means": "Daha erken", "produn": "daha erkɛn" },
-          "ru": { "means": "Раньше", "produn": "ran'she" },
-          "fr": { "means": "Plus tôt", "produn": "plys to" },
-          "zh": { "means": "更早", "produn": "gèng zǎo" },
-          "ja": { "means": "もっと早く", "produn": "もっとはやく (motto hayaku)" },
-          "es": { "means": "Antes", "produn": "ˈantes" },
-          "de": { "means": "Früher", "produn": "ˈfʁyːɐ" },
-          "en": { "means": "Earlier", "produn": "ˈɜrliər" }
-        },
-        {
-          "fa": { "means": "بعدتر", "produn": "bād-tar" },
-          "ar": { "means": "لاحقاً", "produn": "lāḥiqan" },
-          "tr": { "means": "Daha sonra", "produn": "daha sonra" },
-          "ru": { "means": "Позже", "produn": "pozže" },
-          "fr": { "means": "Plus tard", "produn": "plys taʁ" },
-          "zh": { "means": "后来", "produn": "hòulái" },
-          "ja": { "means": "後で", "produn": "あとで (ato de)" },
-          "es": { "means": "Después", "produn": "desˈpwes" },
-          "de": { "means": "Später", "produn": "ˈʃpɛːtɐ" },
-          "en": { "means": "Later", "produn": "ˈleɪtər" }
-        },
-        {
-          "fa": { "means": "قبل", "produn": "qab-leh" },
-          "ar": { "means": "قبل", "produn": "qabl" },
-          "tr": { "means": "Önce", "produn": "œntʃe" },
-          "ru": { "means": "До", "produn": "do" },
-          "fr": { "means": "Avant", "produn": "avɑ̃" },
-          "zh": { "means": "之前", "produn": "zhīqián" },
-          "ja": { "means": "前に", "produn": "まえに (mae ni)" },
-          "es": { "means": "Antes de", "produn": "ˈantes de" },
-          "de": { "means": "Vor", "produn": "foːɐ̯" },
-          "en": { "means": "Before", "produn": "bɪˈfɔr" }
-        },
-        {
-          "fa": { "means": "بعد از", "produn": "bād az" },
-          "ar": { "means": "بعد", "produn": "baʿd" },
-          "tr": { "means": "Sonra", "produn": "sonɾa" },
-          "ru": { "means": "После", "produn": "posle" },
-          "fr": { "means": "Après", "produn": "apʁɛ" },
-          "zh": { "means": "之后", "produn": "zhīhòu" },
-          "ja": { "means": "後で", "produn": "あとで (ato de)" },
-          "es": { "means": "Después de", "produn": "desˈpwes de" },
-          "de": { "means": "Nach", "produn": "naːx" },
-          "en": { "means": "After", "produn": "ˈæftər" }
-        },
-        {
-          "fa": { "means": "دیر", "produn": "dir" },
-          "ar": { "means": "متأخر", "produn": "muta’akhkhir" },
-          "tr": { "means": "Geç", "produn": "ɟetʃ" },
-          "ru": { "means": "Поздно", "produn": "pozdno" },
-          "fr": { "means": "Tard", "produn": "taʁ" },
-          "zh": { "means": "迟", "produn": "chí" },
-          "ja": { "means": "遅い", "produn": "おそい (osoi)" },
-          "es": { "means": "Tarde", "produn": "ˈtaɾðe" },
-          "de": { "means": "Spät", "produn": "ʃpɛːt" },
-          "en": { "means": "Late", "produn": "leɪt" }
-        },
-        {
-          "fa": { "means": "زود", "produn": "zood" },
-          "ar": { "means": "سريع", "produn": "sari‘" },
-          "tr": { "means": "Erken", "produn": "erkɛn" },
-          "ru": { "means": "Скоро", "produn": "skoro" },
-          "fr": { "means": "Bientôt", "produn": "bjɛ̃to" },
-          "zh": { "means": "快", "produn": "kuài" },
-          "ja": { "means": "すぐに", "produn": "すぐに (sugu ni)" },
-          "es": { "means": "Pronto", "produn": "ˈpɾonto" },
-          "de": { "means": "Bald", "produn": "balt" },
-          "en": { "means": "Soon", "produn": "sun" }
-        },
-        {
-          "fa": { "means": "ساعت", "produn": "sā-at" },
-          "ar": { "means": "ساعة", "produn": "sāʿa" },
-          "tr": { "means": "Saat", "produn": "saːt" },
-          "ru": { "means": "Часы", "produn": "chasy" },
-          "fr": { "means": "Horloge", "produn": "ɔʁlɔʒ" },
-          "zh": { "means": "钟", "produn": "zhōng" },
-          "ja": { "means": "時計", "produn": "とけい (tokei)" },
-          "es": { "means": "Reloj", "produn": "relox" },
-          "de": { "means": "Uhr", "produn": "uːɐ̯" },
-          "en": { "means": "Clock", "produn": "klɑk" }
-        },
-        {
-          "fa": { "means": "تقویم", "produn": "taq-vim" },
-          "ar": { "means": "تقويم", "produn": "taqwīm" },
-          "tr": { "means": "Takvim", "produn": "takvim" },
-          "ru": { "means": "Календарь", "produn": "kalendár" },
-          "fr": { "means": "Calendrier", "produn": "kalɑ̃dʁije" },
-          "zh": { "means": "日历", "produn": "rìlì" },
-          "ja": { "means": "カレンダー", "produn": "カレンダー (karendā)" },
-          "es": { "means": "Calendario", "produn": "kalenˈdaɾjo" },
-          "de": { "means": "Kalender", "produn": "kaˈlɛndɐ" },
-          "en": { "means": "Calendar", "produn": "ˈkælɪndər" }
-        }
-
+        "es": { "means": "Antes", "produn": "ˈantes" },
+        "de": { "means": "Früher", "produn": "ˈfʁyːɐ" },
+        "en": { "means": "Earlier", "produn": "ˈɜrliər" }
+      },
+      {
+        "fa": { "means": "بعدتر", "produn": "bād-tar" },
+        "ar": { "means": "لاحقاً", "produn": "lāḥiqan" },
+        "tr": { "means": "Daha sonra", "produn": "daha sonra" },
+        "ru": { "means": "Позже", "produn": "pozže" },
+        "fr": { "means": "Plus tard", "produn": "plys taʁ" },
+        "zh": { "means": "后来", "produn": "hòulái" },
+        "ja": { "means": "後で", "produn": "あとで (ato de)" },
+        "es": { "means": "Después", "produn": "desˈpwes" },
+        "de": { "means": "Später", "produn": "ˈʃpɛːtɐ" },
+        "en": { "means": "Later", "produn": "ˈleɪtər" }
+      },
+      {
+        "fa": { "means": "قبل", "produn": "qab-leh" },
+        "ar": { "means": "قبل", "produn": "qabl" },
+        "tr": { "means": "Önce", "produn": "œntʃe" },
+        "ru": { "means": "До", "produn": "do" },
+        "fr": { "means": "Avant", "produn": "avɑ̃" },
+        "zh": { "means": "之前", "produn": "zhīqián" },
+        "ja": { "means": "前に", "produn": "まえに (mae ni)" },
+        "es": { "means": "Antes de", "produn": "ˈantes de" },
+        "de": { "means": "Vor", "produn": "foːɐ̯" },
+        "en": { "means": "Before", "produn": "bɪˈfɔr" }
+      },
+      {
+        "fa": { "means": "بعد از", "produn": "bād az" },
+        "ar": { "means": "بعد", "produn": "baʿd" },
+        "tr": { "means": "Sonra", "produn": "sonɾa" },
+        "ru": { "means": "После", "produn": "posle" },
+        "fr": { "means": "Après", "produn": "apʁɛ" },
+        "zh": { "means": "之后", "produn": "zhīhòu" },
+        "ja": { "means": "後で", "produn": "あとで (ato de)" },
+        "es": { "means": "Después de", "produn": "desˈpwes de" },
+        "de": { "means": "Nach", "produn": "naːx" },
+        "en": { "means": "After", "produn": "ˈæftər" }
+      },
+      {
+        "fa": { "means": "دیر", "produn": "dir" },
+        "ar": { "means": "متأخر", "produn": "muta’akhkhir" },
+        "tr": { "means": "Geç", "produn": "ɟetʃ" },
+        "ru": { "means": "Поздно", "produn": "pozdno" },
+        "fr": { "means": "Tard", "produn": "taʁ" },
+        "zh": { "means": "迟", "produn": "chí" },
+        "ja": { "means": "遅い", "produn": "おそい (osoi)" },
+        "es": { "means": "Tarde", "produn": "ˈtaɾðe" },
+        "de": { "means": "Spät", "produn": "ʃpɛːt" },
+        "en": { "means": "Late", "produn": "leɪt" }
+      },
+      {
+        "fa": { "means": "زود", "produn": "zood" },
+        "ar": { "means": "سريع", "produn": "sari‘" },
+        "tr": { "means": "Erken", "produn": "erkɛn" },
+        "ru": { "means": "Скоро", "produn": "skoro" },
+        "fr": { "means": "Bientôt", "produn": "bjɛ̃to" },
+        "zh": { "means": "快", "produn": "kuài" },
+        "ja": { "means": "すぐに", "produn": "すぐに (sugu ni)" },
+        "es": { "means": "Pronto", "produn": "ˈpɾonto" },
+        "de": { "means": "Bald", "produn": "balt" },
+        "en": { "means": "Soon", "produn": "sun" }
+      },
+      {
+        "fa": { "means": "ساعت", "produn": "sā-at" },
+        "ar": { "means": "ساعة", "produn": "sāʿa" },
+        "tr": { "means": "Saat", "produn": "saːt" },
+        "ru": { "means": "Часы", "produn": "chasy" },
+        "fr": { "means": "Horloge", "produn": "ɔʁlɔʒ" },
+        "zh": { "means": "钟", "produn": "zhōng" },
+        "ja": { "means": "時計", "produn": "とけい (tokei)" },
+        "es": { "means": "Reloj", "produn": "relox" },
+        "de": { "means": "Uhr", "produn": "uːɐ̯" },
+        "en": { "means": "Clock", "produn": "klɑk" }
+      },
+      {
+        "fa": { "means": "تقویم", "produn": "taq-vim" },
+        "ar": { "means": "تقويم", "produn": "taqwīm" },
+        "tr": { "means": "Takvim", "produn": "takvim" },
+        "ru": { "means": "Календарь", "produn": "kalendár" },
+        "fr": { "means": "Calendrier", "produn": "kalɑ̃dʁije" },
+        "zh": { "means": "日历", "produn": "rìlì" },
+        "ja": { "means": "カレンダー", "produn": "カレンダー (karendā)" },
+        "es": { "means": "Calendario", "produn": "kalenˈdaɾjo" },
+        "de": { "means": "Kalender", "produn": "kaˈlɛndɐ" },
+        "en": { "means": "Calendar", "produn": "ˈkælɪndər" }
+      }
     ],
     [
       {
@@ -2158,15 +2685,30 @@
         "en": { "means": "Milk", "produn": "mɪlk" }
       },
       {
-        "fa": { "means": "نوشیدنی غیر الکلی", "produn": "nushidani gheyre alkoli" },
+        "fa": {
+          "means": "نوشیدنی غیر الکلی",
+          "produn": "nushidani gheyre alkoli"
+        },
         "ar": { "means": "مشروب غير كحولي", "produn": "mashrūb ghayr kaḥūlī" },
         "tr": { "means": "Alkolsüz içecek", "produn": "alkolsüz itʃedʒek" },
-        "ru": { "means": "Безалкогольный напиток", "produn": "bezal'kagol'nyy napitok" },
+        "ru": {
+          "means": "Безалкогольный напиток",
+          "produn": "bezal'kagol'nyy napitok"
+        },
         "fr": { "means": "Boisson sans alcool", "produn": "bwasɔ̃ sɑ̃z alkɔl" },
         "zh": { "means": "非酒精饮料", "produn": "fēi jiǔjīng yǐnliào" },
-        "ja": { "means": "ノンアルコール飲料", "produn": "ノンアルコールいんりょう (non arukōru inryō)" },
-        "es": { "means": "Bebida sin alcohol", "produn": "beˈβiða sin alˈkohol" },
-        "de": { "means": "Alkoholfreies Getränk", "produn": "alkoholfraɪəs ɡəˈtʁɛŋk" },
+        "ja": {
+          "means": "ノンアルコール飲料",
+          "produn": "ノンアルコールいんりょう (non arukōru inryō)"
+        },
+        "es": {
+          "means": "Bebida sin alcohol",
+          "produn": "beˈβiða sin alˈkohol"
+        },
+        "de": {
+          "means": "Alkoholfreies Getränk",
+          "produn": "alkoholfraɪəs ɡəˈtʁɛŋk"
+        },
         "en": { "means": "Soft Drink", "produn": "sɒft drɪŋk" }
       },
       {
@@ -2233,7 +2775,10 @@
         "ru": { "means": "Арбузный сок", "produn": "arbuznyy sok" },
         "fr": { "means": "Jus de pastèque", "produn": "ʒy də pastɛk" },
         "zh": { "means": "西瓜汁", "produn": "xīguā zhī" },
-        "ja": { "means": "スイカジュース", "produn": "スイカジュース (suika jūsu)" },
+        "ja": {
+          "means": "スイカジュース",
+          "produn": "スイカジュース (suika jūsu)"
+        },
         "es": { "means": "Jugo de sandía", "produn": "ˈxugo ðe sanˈdi.a" },
         "de": { "means": "Wassermelonensaft", "produn": "vasɐmeloːnənzaft" },
         "en": { "means": "Watermelon Juice", "produn": "ˈwɔːtərˌmɛlən dʒuːs" }
@@ -2242,10 +2787,16 @@
         "fa": { "means": "نوشابه گازدار", "produn": "nushābeh gāzdār" },
         "ar": { "means": "مشروب غازي", "produn": "mashrūb ghāzī" },
         "tr": { "means": "Gazlı içecek", "produn": "gazlɯ itʃedʒek" },
-        "ru": { "means": "Газированный напиток", "produn": "gazirovannyy napitok" },
+        "ru": {
+          "means": "Газированный напиток",
+          "produn": "gazirovannyy napitok"
+        },
         "fr": { "means": "Boisson gazeuse", "produn": "bwasɔ̃ ɡazoze" },
         "zh": { "means": "碳酸饮料", "produn": "tànsuān yǐnliào" },
-        "ja": { "means": "炭酸飲料", "produn": "たんさんいんりょう (tansan inryō)" },
+        "ja": {
+          "means": "炭酸飲料",
+          "produn": "たんさんいんりょう (tansan inryō)"
+        },
         "es": { "means": "Refresco", "produn": "refˈɾesko" },
         "de": { "means": "Limonade", "produn": "limonaːdə" },
         "en": { "means": "Soda", "produn": "ˈsoʊdə" }
@@ -2254,10 +2805,16 @@
         "fa": { "means": "نوشیدنی انرژی‌زا", "produn": "nushidani enerzhi-zā" },
         "ar": { "means": "مشروب منشط", "produn": "mashrūb munashshit" },
         "tr": { "means": "Enerji içeceği", "produn": "enerdʒi itʃedʒi" },
-        "ru": { "means": "Энергетический напиток", "produn": "energeticheskiy napitok" },
+        "ru": {
+          "means": "Энергетический напиток",
+          "produn": "energeticheskiy napitok"
+        },
         "fr": { "means": "Boisson énergisante", "produn": "bwasɔ̃ eneʁʒizɑ̃t" },
         "zh": { "means": "能量饮料", "produn": "néngliàng yǐnliào" },
-        "ja": { "means": "エナジードリンク", "produn": "エナジードリンク (enajī dorinku)" },
+        "ja": {
+          "means": "エナジードリンク",
+          "produn": "エナジードリンク (enajī dorinku)"
+        },
         "es": { "means": "Bebida energética", "produn": "beˈβiða eneɾˈxetika" },
         "de": { "means": "Energydrink", "produn": "ˈɛnɐɡidʁɪŋk" },
         "en": { "means": "Energy Drink", "produn": "ˈɛnərdʒi drɪŋk" }
@@ -2276,13 +2833,22 @@
       },
       {
         "fa": { "means": "شیر شکلاتی", "produn": "shir shokolāti" },
-        "ar": { "means": "حليب بالشوكولاتة", "produn": "ḥalīb bi-l-shūkūlātah" },
+        "ar": {
+          "means": "حليب بالشوكولاتة",
+          "produn": "ḥalīb bi-l-shūkūlātah"
+        },
         "tr": { "means": "Çikolatalı süt", "produn": "tʃikolatɯlɯ syt" },
         "ru": { "means": "Шоколадное молоко", "produn": "shokoladnoye moloko" },
         "fr": { "means": "Lait au chocolat", "produn": "lɛ o ʃɔkɔla" },
         "zh": { "means": "巧克力牛奶", "produn": "qiǎokèlì niúnǎi" },
-        "ja": { "means": "チョコレートミルク", "produn": "チョコレートミルク (chokorēto miruku)" },
-        "es": { "means": "Leche con chocolate", "produn": "ˈletʃe kon tʃokoˈlate" },
+        "ja": {
+          "means": "チョコレートミルク",
+          "produn": "チョコレートミルク (chokorēto miruku)"
+        },
+        "es": {
+          "means": "Leche con chocolate",
+          "produn": "ˈletʃe kon tʃokoˈlate"
+        },
         "de": { "means": "Schokoladenmilch", "produn": "ʃokoˈlaːdənmɪlç" },
         "en": { "means": "Chocolate Milk", "produn": "ˈtʃɒklət mɪlk" }
       },
@@ -2305,7 +2871,10 @@
         "ru": { "means": "Мятный сироп", "produn": "mʲatnyj sirop" },
         "fr": { "means": "Sirop de menthe", "produn": "siʁɔp də mɑ̃t" },
         "zh": { "means": "薄荷糖浆", "produn": "bòhé tángjiāng" },
-        "ja": { "means": "ミントシロップ", "produn": "ミントシロップ (minto shiroppu)" },
+        "ja": {
+          "means": "ミントシロップ",
+          "produn": "ミントシロップ (minto shiroppu)"
+        },
         "es": { "means": "Jarabe de menta", "produn": "xaˈɾaβe ðe ˈmenta" },
         "de": { "means": "Minzsirup", "produn": "mɪnt͡sziːʁʊp" },
         "en": { "means": "Mint Syrup", "produn": "mɪnt ˈsɪrəp" }
@@ -2324,12 +2893,18 @@
       },
       {
         "fa": { "means": "قهوه فوری", "produn": "qahve-ye fowri" },
-        "ar": { "means": "قهوة سريعة التحضير", "produn": "qahwa sariʿat al-taḥḍīr" },
+        "ar": {
+          "means": "قهوة سريعة التحضير",
+          "produn": "qahwa sariʿat al-taḥḍīr"
+        },
         "tr": { "means": "Hazır kahve", "produn": "hazɯɾ kahve" },
         "ru": { "means": "Растворимый кофе", "produn": "rastvorimyj kofe" },
         "fr": { "means": "Café instantané", "produn": "kafe ɛ̃stɑ̃tane" },
         "zh": { "means": "速溶咖啡", "produn": "sùróng kāfēi" },
-        "ja": { "means": "インスタントコーヒー", "produn": "インスタントコーヒー (insutanto kōhī)" },
+        "ja": {
+          "means": "インスタントコーヒー",
+          "produn": "インスタントコーヒー (insutanto kōhī)"
+        },
         "es": { "means": "Café instantáneo", "produn": "kaˈfe instanˈtaneo" },
         "de": { "means": "Instantkaffee", "produn": "ˈɪnstantkafeː" },
         "en": { "means": "Instant Coffee", "produn": "ˈɪnstənt ˈkɒfi" }
@@ -2353,7 +2928,10 @@
         "ru": { "means": "Арбузный сок", "produn": "arbuznyy sok" },
         "fr": { "means": "Jus de pastèque", "produn": "ʒy də pastɛk" },
         "zh": { "means": "西瓜汁", "produn": "xīguā zhī" },
-        "ja": { "means": "スイカジュース", "produn": "スイカジュース (suika jūsu)" },
+        "ja": {
+          "means": "スイカジュース",
+          "produn": "スイカジュース (suika jūsu)"
+        },
         "es": { "means": "Jugo de sandía", "produn": "ˈxugo ðe sanˈdi.a" },
         "de": { "means": "Wassermelonensaft", "produn": "vasɐmeloːnənzaft" },
         "en": { "means": "Watermelon Juice", "produn": "ˈwɔːtərˌmɛlən dʒuːs" }
@@ -2362,10 +2940,16 @@
         "fa": { "means": "نوشابه گازدار", "produn": "nushābeh gāzdār" },
         "ar": { "means": "مشروب غازي", "produn": "mashrūb ghāzī" },
         "tr": { "means": "Gazlı içecek", "produn": "gazlɯ itʃedʒek" },
-        "ru": { "means": "Газированный напиток", "produn": "gazirovannyy napitok" },
+        "ru": {
+          "means": "Газированный напиток",
+          "produn": "gazirovannyy napitok"
+        },
         "fr": { "means": "Boisson gazeuse", "produn": "bwasɔ̃ ɡazoze" },
         "zh": { "means": "碳酸饮料", "produn": "tànsuān yǐnliào" },
-        "ja": { "means": "炭酸飲料", "produn": "たんさんいんりょう (tansan inryō)" },
+        "ja": {
+          "means": "炭酸飲料",
+          "produn": "たんさんいんりょう (tansan inryō)"
+        },
         "es": { "means": "Refresco", "produn": "refˈɾesko" },
         "de": { "means": "Limonade", "produn": "limonaːdə" },
         "en": { "means": "Soda", "produn": "ˈsoʊdə" }
@@ -2374,10 +2958,16 @@
         "fa": { "means": "نوشیدنی انرژی‌زا", "produn": "nushidani enerzhi-zā" },
         "ar": { "means": "مشروب منشط", "produn": "mashrūb munashshit" },
         "tr": { "means": "Enerji içeceği", "produn": "enerdʒi itʃedʒi" },
-        "ru": { "means": "Энергетический напиток", "produn": "energeticheskiy napitok" },
+        "ru": {
+          "means": "Энергетический напиток",
+          "produn": "energeticheskiy napitok"
+        },
         "fr": { "means": "Boisson énergisante", "produn": "bwasɔ̃ eneʁʒizɑ̃t" },
         "zh": { "means": "能量饮料", "produn": "néngliàng yǐnliào" },
-        "ja": { "means": "エナジードリンク", "produn": "エナジードリンク (enajī dorinku)" },
+        "ja": {
+          "means": "エナジードリンク",
+          "produn": "エナジードリンク (enajī dorinku)"
+        },
         "es": { "means": "Bebida energética", "produn": "beˈβiða eneɾˈxetika" },
         "de": { "means": "Energydrink", "produn": "ˈɛnɐɡidʁɪŋk" },
         "en": { "means": "Energy Drink", "produn": "ˈɛnərdʒi drɪŋk" }
@@ -2396,13 +2986,22 @@
       },
       {
         "fa": { "means": "شیر شکلاتی", "produn": "shir shokolāti" },
-        "ar": { "means": "حليب بالشوكولاتة", "produn": "ḥalīb bi-l-shūkūlātah" },
+        "ar": {
+          "means": "حليب بالشوكولاتة",
+          "produn": "ḥalīb bi-l-shūkūlātah"
+        },
         "tr": { "means": "Çikolatalı süt", "produn": "tʃikolatɯlɯ syt" },
         "ru": { "means": "Шоколадное молоко", "produn": "shokoladnoye moloko" },
         "fr": { "means": "Lait au chocolat", "produn": "lɛ o ʃɔkɔla" },
         "zh": { "means": "巧克力牛奶", "produn": "qiǎokèlì niúnǎi" },
-        "ja": { "means": "チョコレートミルク", "produn": "チョコレートミルク (chokorēto miruku)" },
-        "es": { "means": "Leche con chocolate", "produn": "ˈletʃe kon tʃokoˈlate" },
+        "ja": {
+          "means": "チョコレートミルク",
+          "produn": "チョコレートミルク (chokorēto miruku)"
+        },
+        "es": {
+          "means": "Leche con chocolate",
+          "produn": "ˈletʃe kon tʃokoˈlate"
+        },
         "de": { "means": "Schokoladenmilch", "produn": "ʃokoˈlaːdənmɪlç" },
         "en": { "means": "Chocolate Milk", "produn": "ˈtʃɒklət mɪlk" }
       },
@@ -2425,7 +3024,10 @@
         "ru": { "means": "Мятный сироп", "produn": "mʲatnyj sirop" },
         "fr": { "means": "Sirop de menthe", "produn": "siʁɔp də mɑ̃t" },
         "zh": { "means": "薄荷糖浆", "produn": "bòhé tángjiāng" },
-        "ja": { "means": "ミントシロップ", "produn": "ミントシロップ (minto shiroppu)" },
+        "ja": {
+          "means": "ミントシロップ",
+          "produn": "ミントシロップ (minto shiroppu)"
+        },
         "es": { "means": "Jarabe de menta", "produn": "xaˈɾaβe ðe ˈmenta" },
         "de": { "means": "Minzsirup", "produn": "mɪnt͡sziːʁʊp" },
         "en": { "means": "Mint Syrup", "produn": "mɪnt ˈsɪrəp" }
@@ -2444,12 +3046,18 @@
       },
       {
         "fa": { "means": "قهوه فوری", "produn": "qahve-ye fowri" },
-        "ar": { "means": "قهوة سريعة التحضير", "produn": "qahwa sariʿat al-taḥḍīr" },
+        "ar": {
+          "means": "قهوة سريعة التحضير",
+          "produn": "qahwa sariʿat al-taḥḍīr"
+        },
         "tr": { "means": "Hazır kahve", "produn": "hazɯɾ kahve" },
         "ru": { "means": "Растворимый кофе", "produn": "rastvorimyy kofe" },
         "fr": { "means": "Café instantané", "produn": "kafe ɛ̃stɑ̃tane" },
         "zh": { "means": "速溶咖啡", "produn": "sùróng kāfēi" },
-        "ja": { "means": "インスタントコーヒー", "produn": "インスタントコーヒー (insutanto kōhī)" },
+        "ja": {
+          "means": "インスタントコーヒー",
+          "produn": "インスタントコーヒー (insutanto kōhī)"
+        },
         "es": { "means": "Café instantáneo", "produn": "kafe instanˈtaneo" },
         "de": { "means": "Instantkaffee", "produn": "ɪnstantˈkafeː" },
         "en": { "means": "Instant Coffee", "produn": "ˈɪnstənt ˈkɒfi" }
@@ -2466,7 +3074,6 @@
         "de": { "means": "Eistee", "produn": "ˈaɪsˌteː" },
         "en": { "means": "Iced Tea", "produn": "aɪst tiː" }
       }
-
     ],
     [
       {
@@ -2638,10 +3245,16 @@
         "en": { "means": "Sky Blue", "produn": "skaɪ bluː" }
       },
       {
-        "fa": { "means": "قهوه‌ای مایل به زرد", "produn": "ghah-ve-yee maay-l beh zard" },
+        "fa": {
+          "means": "قهوه‌ای مایل به زرد",
+          "produn": "ghah-ve-yee maay-l beh zard"
+        },
         "ar": { "means": "بني مصفر", "produn": "bunni muṣaffar" },
         "tr": { "means": "Sarımsı Kahverengi", "produn": "saɾɯmsɯ kahveɾeŋi" },
-        "ru": { "means": "Жёлтовато-коричневый", "produn": "zhyoltovato-korichnevyy" },
+        "ru": {
+          "means": "Жёлтовато-коричневый",
+          "produn": "zhyoltovato-korichnevyy"
+        },
         "fr": { "means": "Marron jaunâtre", "produn": "maʁɔ̃ ʒonatʁ" },
         "zh": { "means": "黄褐色", "produn": "huánghèsè" },
         "ja": { "means": "黄褐色", "produn": "ōkasshoku" },
@@ -2841,7 +3454,6 @@
         "de": { "means": "Zehn", "produn": "tseːn" },
         "en": { "means": "Ten", "produn": "tɛn" }
       }
-
     ],
     [
       {

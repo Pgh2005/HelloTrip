@@ -44,11 +44,11 @@ class _EssentialWordsPageState extends State<EssentialWordsPage> {
               scrollDirection: Axis.vertical,
               // physics: NeverScrollableScrollPhysics(),
               physics: BouncingScrollPhysics(),
-              padding: EdgeInsets.symmetric(horizontal: 20),
+              padding: EdgeInsets.all(20),
               itemBuilder: (context, index) {
                 return Padding(
                   padding: EdgeInsetsGeometry.symmetric(
-                    vertical: 13,
+                    vertical: 14,
                     horizontal: 0,
                   ),
                   child: GestureDetector(
@@ -85,7 +85,7 @@ class _EssentialWordsPageState extends State<EssentialWordsPage> {
                           right: index % 2 == 0 ? 0 : null,
                           child: SvgPicture.asset(
                             'assets/images/essentialWords/$index.svg',
-                            width: 60,
+                            width: 70,
                           ),
                         ),
                       ],

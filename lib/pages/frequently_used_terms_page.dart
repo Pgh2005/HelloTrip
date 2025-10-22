@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:hello_trip/pages/learn_terms.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 
 class FrequentlyUsedTermsPage extends StatefulWidget {
@@ -38,25 +39,30 @@ class _FrequentlyUsedTermsPageState extends State<FrequentlyUsedTermsPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("اصطلاحات پرکاربرد", style: TextStyle(fontFamily: "dana")),
+        automaticallyImplyLeading: false,
       ),
       body: jsonData != null
           ? Padding(
-              padding: const EdgeInsets.all(15),
+              padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 8),
               child: GridView.count(
                 crossAxisCount: 3,
                 scrollDirection: Axis.vertical,
-                crossAxisSpacing: 15,
-                mainAxisSpacing: 15,
+                crossAxisSpacing: 10,
+                mainAxisSpacing: 20,
                 children: List.generate(jsonData.length, (index) {
                   return GestureDetector(
                     onTap: () {
                       // go to LearnTerm
-                      print(
-                        "Subject : ${jsonData[index]["fa"]} , index : $index",
+                      Navigator.of(context).pushReplacement(
+                        MaterialPageRoute(
+                          builder: (context) => LearnTerms(
+                            title: jsonData[index]["fa"],
+                            index: index,
+                          ),
+                        ),
                       );
                     },
                     child: Container(
-                      padding: EdgeInsets.all(8),
                       decoration: BoxDecoration(
                         color: Color(0XFFd9d9d9),
                         borderRadius: BorderRadius.circular(10),
@@ -67,13 +73,14 @@ class _FrequentlyUsedTermsPageState extends State<FrequentlyUsedTermsPage> {
                         children: [
                           SvgPicture.asset(
                             "assets/images/terms/$index.svg",
-                            width: 90,
+                            width: 75,
                           ),
                           SizedBox(height: 10),
                           Text(
                             jsonData[index]["fa"],
                             style: TextStyle(
                               fontWeight: FontWeight.w600,
+                              textBaseline: TextBaseline.alphabetic,
                               fontSize: 12,
                             ),
                           ),
