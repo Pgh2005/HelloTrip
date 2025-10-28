@@ -7,14 +7,15 @@ import 'package:hello_trip/pages/tourist_places_page.dart';
 import 'package:hello_trip/pages/user_account_page.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+  final int selectedIndex;
+  const HomePage({super.key, required this.selectedIndex});
 
   @override
   State<HomePage> createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
-  int _selectedIndex = 2;
+  late int _selectedIndex;
 
   final List<Widget> pages = [
     EssentialWordsPage(),
@@ -23,6 +24,14 @@ class _HomePageState extends State<HomePage> {
     UserAccountPage(),
     OnlineTranslationPage(),
   ];
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    setState(() {
+      _selectedIndex = widget.selectedIndex;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -56,8 +65,6 @@ class _HomePageState extends State<HomePage> {
           splashColor: Colors.white,
           notchSmoothness: NotchSmoothness.defaultEdge,
           gapLocation: GapLocation.center,
-          // leftCornerRadius: 25,
-          // rightCornerRadius: 25,
           onTap: (index) {
             setState(() {
               _selectedIndex = index;

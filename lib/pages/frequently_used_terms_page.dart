@@ -96,15 +96,6 @@ class _FrequentlyUsedTermsPageState extends State<FrequentlyUsedTermsPage> {
                     color: Color(0XFF10487b),
                     size: 80,
                   ),
-                  // SizedBox(height: 50),
-                  // Text(
-                  //   "Loading ...",
-                  //   style: TextStyle(
-                  //     fontWeight: FontWeight.bold,
-                  //     color: Color(0XFF10487b),
-                  //     fontSize: 15,
-                  //   ),
-                  // ),
                 ],
               ),
             ),

@@ -7,16 +7,21 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:hello_trip/pages/home_page.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 
-class LearnTerms extends StatefulWidget {
+class LearnEssentialWords extends StatefulWidget {
   final String title;
   final int index;
-  const LearnTerms({super.key, required this.title, required this.index});
+  const LearnEssentialWords({
+    super.key,
+    required this.title,
+    required this.index,
+  });
 
   @override
-  State<LearnTerms> createState() => _LearnTermsState();
+  State<LearnEssentialWords> createState() => _LearnEssentialWordsState();
 }
 
-class _LearnTermsState extends State<LearnTerms> {
+class _LearnEssentialWordsState extends State<LearnEssentialWords> {
+  // @override
   var jsonData;
   FlutterTts flutterTts = FlutterTts();
 
@@ -29,11 +34,11 @@ class _LearnTermsState extends State<LearnTerms> {
 
   Future<void> loadTerms() async {
     final String jsonString = await rootBundle.loadString(
-      'assets/json/terms.json',
+      'assets/json/essential.json',
     );
     var data = jsonDecode(jsonString);
     setState(() {
-      jsonData = data["data"][widget.index];
+      jsonData = data["wordsdata"][widget.index];
     });
   }
 
@@ -62,7 +67,7 @@ class _LearnTermsState extends State<LearnTerms> {
               onPressed: () {
                 Navigator.of(context).pushReplacement(
                   MaterialPageRoute(
-                    builder: (context) => HomePage(selectedIndex: 2),
+                    builder: (context) => HomePage(selectedIndex: 0),
                   ),
                 );
               },
@@ -82,76 +87,74 @@ class _LearnTermsState extends State<LearnTerms> {
                 color: Color(0XFFffffff),
               ),
               child: SvgPicture.asset(
-                "assets/images/terms/${widget.index}.svg",
+                "assets/images/essentialWords/${widget.index}.svg",
                 width: 80,
               ),
             ),
             SizedBox(height: 8),
             Expanded(
               child: jsonData != null
-                  ? ListView.builder(
-                      itemCount: jsonData.length,
+                  ? GridView.count(
+                      crossAxisCount: 2,
                       scrollDirection: Axis.vertical,
-                      itemBuilder: (context, index) {
+                      crossAxisSpacing: 10,
+                      mainAxisSpacing: 10,
+                      childAspectRatio: 1.9,
+                      children: List.generate(jsonData.length, (index) {
                         return Padding(
                           padding: EdgeInsetsGeometry.symmetric(
                             vertical: 3,
                             horizontal: 0,
                           ),
-                          child: GestureDetector(
-                            child: Container(
-                              padding: EdgeInsets.symmetric(
-                                vertical: 15,
-                                horizontal: 20,
-                              ),
-                              decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: BorderRadius.circular(10),
-                              ),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.end,
-                                spacing: 10,
-                                children: [
-                                  Text(
-                                    jsonData[index]["fa"]["means"],
-                                    style: TextStyle(
-                                      color: Color(0XFF0d4a7e),
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 13,
+                          child: Container(
+                            padding: EdgeInsets.symmetric(
+                              vertical: 15,
+                              horizontal: 20,
+                            ),
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.end,
+                              spacing: 10,
+                              children: [
+                                Text(
+                                  jsonData[index]["fa"]["means"],
+                                  style: TextStyle(
+                                    color: Color(0XFF0d4a7e),
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 13,
+                                  ),
+                                ),
+                                Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      jsonData[index]["en"]["means"],
+                                      style: TextStyle(
+                                        color: Color(0XFFfc9807),
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 13,
+                                      ),
                                     ),
-                                  ),
-                                  Row(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text(
-                                        jsonData[index]["en"]["means"],
-                                        style: TextStyle(
-                                          color: Color(0XFFfc9807),
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 13,
-                                        ),
+                                    GestureDetector(
+                                      onTap: () {
+                                        _speak(jsonData[index]["en"]["means"]);
+                                      },
+                                      child: SvgPicture.asset(
+                                        "assets/images/speak.svg",
+                                        width: 25,
                                       ),
-                                      GestureDetector(
-                                        onTap: () {
-                                          print("index : $index");
-                                          _speak(
-                                            jsonData[index]["en"]["means"],
-                                          );
-                                        },
-                                        child: SvgPicture.asset(
-                                          "assets/images/speak.svg",
-                                          width: 25,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
+                                    ),
+                                  ],
+                                ),
+                              ],
                             ),
                           ),
                         );
-                      },
+                      }),
                     )
                   : Center(
                       child: Column(
