@@ -42,8 +42,6 @@ class _EssentialWordsPageState extends State<EssentialWordsPage> {
           ? ListView.builder(
               itemCount: jsonData.length,
               scrollDirection: Axis.vertical,
-              // physics: NeverScrollableScrollPhysics(),
-              physics: BouncingScrollPhysics(),
               padding: EdgeInsets.all(20),
               itemBuilder: (context, index) {
                 return Padding(

@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:flutter_tts/flutter_tts.dart';
 import 'package:hello_trip/pages/home_page.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 
@@ -16,8 +17,17 @@ class LearnTerms extends StatefulWidget {
 }
 
 class _LearnTermsState extends State<LearnTerms> {
-  @override
+  // @override
   var jsonData;
+  FlutterTts flutterTts = FlutterTts();
+
+  @override
+  void initState() {
+    super.initState();
+    loadTerms();
+    _initTts();
+  }
+
   Future<void> loadTerms() async {
     final String jsonString = await rootBundle.loadString(
       'assets/json/terms.json',
@@ -28,10 +38,17 @@ class _LearnTermsState extends State<LearnTerms> {
     });
   }
 
-  @override
-  void initState() {
-    super.initState();
-    loadTerms();
+  Future<void> _initTts() async {
+    // مقداردهی اولیه تنظیمات TTS فقط یکبار
+    await flutterTts.setLanguage("en-US");
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+  }
+
+  Future<void> _speak(String text) async {
+    if (text.isEmpty) return;
+    await flutterTts.stop();
+    await flutterTts.speak(text);
   }
 
   @override
@@ -76,7 +93,6 @@ class _LearnTermsState extends State<LearnTerms> {
                   ? ListView.builder(
                       itemCount: jsonData.length,
                       scrollDirection: Axis.vertical,
-                      physics: BouncingScrollPhysics(),
                       itemBuilder: (context, index) {
                         return Padding(
                           padding: EdgeInsetsGeometry.symmetric(
@@ -120,6 +136,9 @@ class _LearnTermsState extends State<LearnTerms> {
                                       GestureDetector(
                                         onTap: () {
                                           print("index : $index");
+                                          _speak(
+                                            jsonData[index]["en"]["means"],
+                                          );
                                         },
                                         child: SvgPicture.asset(
                                           "assets/images/speak.svg",

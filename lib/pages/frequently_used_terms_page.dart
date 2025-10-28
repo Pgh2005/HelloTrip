@@ -46,7 +46,7 @@ class _FrequentlyUsedTermsPageState extends State<FrequentlyUsedTermsPage> {
                 crossAxisCount: 3,
                 scrollDirection: Axis.vertical,
                 crossAxisSpacing: 10,
-                mainAxisSpacing: 20,
+                mainAxisSpacing: 10,
                 children: List.generate(jsonData.length, (index) {
                   return GestureDetector(
                     onTap: () {
@@ -78,7 +78,6 @@ class _FrequentlyUsedTermsPageState extends State<FrequentlyUsedTermsPage> {
                             jsonData[index]["fa"],
                             style: TextStyle(
                               fontWeight: FontWeight.w600,
-                              textBaseline: TextBaseline.alphabetic,
                               fontSize: 12,
                             ),
                           ),
