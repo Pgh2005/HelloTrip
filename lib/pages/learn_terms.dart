@@ -134,7 +134,6 @@ class _LearnTermsState extends State<LearnTerms> {
                                       ),
                                       GestureDetector(
                                         onTap: () {
-                                          print("index : $index");
                                           _speak(
                                             jsonData[index]["en"]["means"],
                                           );
