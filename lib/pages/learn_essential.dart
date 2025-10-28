@@ -21,7 +21,6 @@ class LearnEssentialWords extends StatefulWidget {
 }
 
 class _LearnEssentialWordsState extends State<LearnEssentialWords> {
-  // @override
   var jsonData;
   FlutterTts flutterTts = FlutterTts();
 
