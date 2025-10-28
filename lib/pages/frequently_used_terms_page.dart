@@ -24,8 +24,6 @@ class _FrequentlyUsedTermsPageState extends State<FrequentlyUsedTermsPage> {
     setState(() {
       jsonData = data["groups"];
     });
-    // print("-------------- Groups ---------------");
-    // print(jsonData);
   }
 
   @override

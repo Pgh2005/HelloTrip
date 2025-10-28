@@ -1,5 +1,10 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:hello_trip/pages/home_page.dart';
+import 'package:loading_animation_widget/loading_animation_widget.dart';
 
 class LearnTerms extends StatefulWidget {
   final String title;
@@ -12,8 +17,27 @@ class LearnTerms extends StatefulWidget {
 
 class _LearnTermsState extends State<LearnTerms> {
   @override
+  var jsonData;
+  Future<void> loadTerms() async {
+    final String jsonString = await rootBundle.loadString(
+      'assets/json/terms.json',
+    );
+    var data = jsonDecode(jsonString);
+    setState(() {
+      jsonData = data["data"][widget.index];
+    });
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    loadTerms();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0XFFeeeeee),
       appBar: AppBar(
         title: Text(widget.title, style: TextStyle(fontFamily: "dana")),
         leading: Builder(
@@ -25,9 +49,131 @@ class _LearnTermsState extends State<LearnTerms> {
                   MaterialPageRoute(builder: (context) => HomePage()),
                 );
               },
-              tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
             );
           },
+        ),
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(10),
+        child: Column(
+          // mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Container(
+              padding: const EdgeInsets.symmetric(vertical: 15),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(12),
+                color: Color(0XFFffffff),
+              ),
+              child: SvgPicture.asset(
+                "assets/images/terms/${widget.index}.svg",
+                width: 80,
+              ),
+            ),
+            SizedBox(height: 8),
+            Expanded(
+              child: jsonData != null
+                  ? ListView.builder(
+                      itemCount: jsonData.length,
+                      scrollDirection: Axis.vertical,
+                      physics: BouncingScrollPhysics(),
+                      itemBuilder: (context, index) {
+                        return Padding(
+                          padding: EdgeInsetsGeometry.symmetric(
+                            vertical: 3,
+                            horizontal: 0,
+                          ),
+                          child: GestureDetector(
+                            child: Container(
+                              padding: EdgeInsets.symmetric(
+                                vertical: 15,
+                                horizontal: 20,
+                              ),
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.end,
+                                spacing: 10,
+                                children: [
+                                  Text(
+                                    jsonData[index]["fa"]["means"],
+                                    style: TextStyle(
+                                      color: Color(0XFF0d4a7e),
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 13,
+                                    ),
+                                  ),
+                                  Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text(
+                                        jsonData[index]["en"]["means"],
+                                        style: TextStyle(
+                                          color: Color(0XFFfc9807),
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 13,
+                                        ),
+                                      ),
+                                      GestureDetector(
+                                        onTap: () {
+                                          print("index : $index");
+                                        },
+                                        child: SvgPicture.asset(
+                                          "assets/images/speak.svg",
+                                          width: 25,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        );
+                      },
+                    )
+                  : Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          LoadingAnimationWidget.discreteCircle(
+                            color: Color(0XFF10487b),
+                            size: 80,
+                          ),
+                          // SizedBox(height: 50),
+                          // Text(
+                          //   "Loading ...",
+                          //   style: TextStyle(
+                          //     fontWeight: FontWeight.bold,
+                          //     color: Color(0XFF10487b),
+                          //     fontSize: 15,
+                          //   ),
+                          // ),
+                        ],
+                      ),
+                    ),
+            ),
+            Container(
+              padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+              decoration: BoxDecoration(),
+              child: Container(
+                alignment: Alignment.center,
+                padding: EdgeInsets.symmetric(vertical: 20),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(8),
+                  border: Border.all(color: Color.fromARGB(255, 26, 26, 26)),
+                ),
+                child: Text(
+                  "Sponsored Ads",
+                  style: TextStyle(color: Colors.black, fontSize: 14),
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
