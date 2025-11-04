@@ -2732,7 +2732,8 @@
         "zh": { "means": "葡萄酒", "produn": "pútáojiǔ" },
         "ja": { "means": "ワイン", "produn": "ワイン (wain)" },
         "es": { "means": "Vino", "produn": "ˈbino" },
-        "de": { "means": "Wein", "produn": "vaɪn" }
+        "de": { "means": "Wein", "produn": "vaɪn" },
+        "en": { "means": "Wine", "produn": "waɪn" }
       },
       {
         "fa": { "means": "آبجو", "produn": "ābjo" },
@@ -2742,7 +2743,8 @@
         "fr": { "means": "Bière", "produn": "bjɛʁ" },
         "zh": { "means": "啤酒", "produn": "píjiǔ" },
         "ja": { "means": "ビール", "produn": "ビール (bīru)" },
-        "es": { "means": "Cerveza", "produn": "θeɾˈβeθa" }
+        "es": { "means": "Cerveza", "produn": "θeɾˈβeθa" },
+        "en": { "means": "Beer", "produn": "bɪər" }
       },
       {
         "fa": { "means": "کوکتل", "produn": "kokteyl" },

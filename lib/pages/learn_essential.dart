@@ -106,10 +106,7 @@ class _LearnEssentialWordsState extends State<LearnEssentialWords> {
                             horizontal: 0,
                           ),
                           child: Container(
-                            padding: EdgeInsets.symmetric(
-                              vertical: 15,
-                              horizontal: 20,
-                            ),
+                            padding: EdgeInsets.all(15),
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(12),
