@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:hello_trip/components/account_dialog.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class UserAccountPage extends StatefulWidget {
   const UserAccountPage({super.key});
@@ -8,6 +10,24 @@ class UserAccountPage extends StatefulWidget {
 }
 
 class _UserAccountPageState extends State<UserAccountPage> {
+  String name = "";
+
+  Future<void> _GetAccountName() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    final accountName = prefs.getString("account_name") ?? "";
+    setState(() {
+      // ignore: unused_local_variable
+      name = accountName;
+    });
+  }
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    _GetAccountName();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,12 +43,22 @@ class _UserAccountPageState extends State<UserAccountPage> {
         ),
       ),
       body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Icon(Icons.account_box_rounded, color: Colors.black87, size: 60),
+          SizedBox(height: 10),
+          Text(
+            name.isNotEmpty ? name : "",
+            style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+          ),
           Spacer(),
           GestureDetector(
-            onTap: () {},
+            onTap: () async {
+              await showDialog(
+                context: context,
+                builder: (BuildContext context) => AccountDialog(),
+              );
+              _GetAccountName();
+            },
             child: Container(
               padding: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
               margin: EdgeInsets.symmetric(vertical: 10, horizontal: 30),
