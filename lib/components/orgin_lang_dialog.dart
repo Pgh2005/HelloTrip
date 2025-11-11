@@ -17,8 +17,6 @@ class _OrginLangDialogState extends State<OrginLangDialog> {
     // TODO: implement initState
     super.initState();
     getOrginLang();
-    print("selected lang : " + _selectedLanguage.toString());
-    print("program : " + program.OrginLang);
   }
 
   Future<void> getOrginLang() async {
