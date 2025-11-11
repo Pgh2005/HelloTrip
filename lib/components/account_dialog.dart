@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:hello_trip/components/program.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AccountDialog extends StatelessWidget {
   const AccountDialog({super.key});
 
   Future<void> setAccountName(String name) async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
     if (name.isNotEmpty) {
+      program.name = name;
+      SharedPreferences prefs = await SharedPreferences.getInstance();
       await prefs.setString('account_name', name);
     }
   }

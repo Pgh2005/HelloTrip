@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:hello_trip/components/program.dart';
 import 'package:hello_trip/pages/learn_essential.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 
@@ -54,7 +55,7 @@ class _EssentialWordsPageState extends State<EssentialWordsPage> {
                       Navigator.of(context).pushReplacement(
                         MaterialPageRoute(
                           builder: (context) => LearnEssentialWords(
-                            title: jsonData[index]["fa"],
+                            title: jsonData[index][program.OrginLang],
                             index: index,
                           ),
                         ),
@@ -78,7 +79,7 @@ class _EssentialWordsPageState extends State<EssentialWordsPage> {
                             borderRadius: BorderRadius.circular(12),
                           ),
                           child: Text(
-                            jsonData[index]['fa'],
+                            jsonData[index][program.OrginLang],
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 13,

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hello_trip/components/account_dialog.dart';
+import 'package:hello_trip/components/orgin_lang_dialog.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class UserAccountPage extends StatefulWidget {
@@ -92,7 +93,12 @@ class _UserAccountPageState extends State<UserAccountPage> {
             ),
           ),
           GestureDetector(
-            onTap: () {},
+            onTap: () async {
+              await showDialog(
+                context: context,
+                builder: (BuildContext context) => OrginLangDialog(),
+              );
+            },
             child: Container(
               padding: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
               margin: EdgeInsets.symmetric(vertical: 10, horizontal: 30),

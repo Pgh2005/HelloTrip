@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:hello_trip/components/program.dart';
 import 'package:hello_trip/pages/home_page.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 
@@ -24,6 +25,7 @@ class _LearnTermsState extends State<LearnTerms> {
   void initState() {
     super.initState();
     loadTerms();
+    setTTS();
     _initTts();
   }
 
@@ -34,6 +36,47 @@ class _LearnTermsState extends State<LearnTerms> {
     var data = jsonDecode(jsonString);
     setState(() {
       jsonData = data["data"][widget.index];
+    });
+  }
+
+  void setTTS() {
+    String TTSLang = "";
+    switch (program.TargetLang) {
+      case "fa":
+        TTSLang = "fa-IR";
+        break;
+      case "ar":
+        TTSLang = "ar-SA";
+        break;
+      case "tr":
+        TTSLang = "tr-TR";
+        break;
+      case "ru":
+        TTSLang = "ru-RU";
+        break;
+      case "fr":
+        TTSLang = "fr-FR";
+        break;
+      case "zh":
+        TTSLang = "zh-CN";
+        break;
+      case "ja":
+        TTSLang = "ja-JP";
+        break;
+      case "es":
+        TTSLang = "es-ES";
+        break;
+      case "de":
+        TTSLang = "de-DE";
+        break;
+      case "en":
+        TTSLang = "en-US";
+        break;
+      default:
+        TTSLang = "en-US";
+    }
+    setState(() {
+      flutterTts.setLanguage(TTSLang);
     });
   }
 
@@ -113,7 +156,7 @@ class _LearnTermsState extends State<LearnTerms> {
                                 spacing: 10,
                                 children: [
                                   Text(
-                                    jsonData[index]["fa"]["means"],
+                                    jsonData[index][program.OrginLang]["means"],
                                     style: TextStyle(
                                       color: Color(0XFF0d4a7e),
                                       fontWeight: FontWeight.bold,

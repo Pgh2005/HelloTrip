@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:hello_trip/components/program.dart';
 import 'package:hello_trip/pages/learn_terms.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 
@@ -54,7 +55,7 @@ class _FrequentlyUsedTermsPageState extends State<FrequentlyUsedTermsPage> {
                       Navigator.of(context).pushReplacement(
                         MaterialPageRoute(
                           builder: (context) => LearnTerms(
-                            title: jsonData[index]["fa"],
+                            title: jsonData[index][program.OrginLang],
                             index: index,
                           ),
                         ),
@@ -75,7 +76,7 @@ class _FrequentlyUsedTermsPageState extends State<FrequentlyUsedTermsPage> {
                           ),
                           SizedBox(height: 10),
                           Text(
-                            jsonData[index]["fa"],
+                            jsonData[index][program.OrginLang],
                             style: TextStyle(
                               fontWeight: FontWeight.w600,
                               fontSize: 12,

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:hello_trip/components/program.dart';
 import 'package:hello_trip/pages/home_page.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 
@@ -116,7 +117,7 @@ class _LearnEssentialWordsState extends State<LearnEssentialWords> {
                               spacing: 10,
                               children: [
                                 Text(
-                                  jsonData[index]["fa"]["means"],
+                                  jsonData[index][program.OrginLang]["means"],
                                   style: TextStyle(
                                     color: Color(0XFF0d4a7e),
                                     fontWeight: FontWeight.bold,
