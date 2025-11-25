@@ -10,20 +10,14 @@ class OrginLangDialog extends StatefulWidget {
 }
 
 class _OrginLangDialogState extends State<OrginLangDialog> {
-  String? _selectedLanguage = program.OrginLang;
+  String? _selectedLanguage;
 
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    getOrginLang();
-  }
-
-  Future<void> getOrginLang() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    String code = prefs.getString('orgin_lang').toString();
     setState(() {
-      _selectedLanguage = _codeToLanguageName(code);
+      _selectedLanguage = _codeToLanguageName(program.OrginLang);
     });
   }
 
@@ -39,6 +33,7 @@ class _OrginLangDialogState extends State<OrginLangDialog> {
     'فارسی',
     'العربیه',
   ];
+
   String _codeToLanguageName(String code) {
     switch (code) {
       case "fa":
@@ -62,7 +57,7 @@ class _OrginLangDialogState extends State<OrginLangDialog> {
       case "en":
         return "English";
       default:
-        return "English"; // مقدار پیش فرض
+        return "English";
     }
   }
 
