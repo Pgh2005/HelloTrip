@@ -24,19 +24,9 @@ class _LearnTermsState extends State<LearnTerms> {
   @override
   void initState() {
     super.initState();
-    loadTerms();
+    jsonData = program.DataTerms["data"][widget.index];
     setTTS();
     _initTts();
-  }
-
-  Future<void> loadTerms() async {
-    final String jsonString = await rootBundle.loadString(
-      'assets/json/terms.json',
-    );
-    var data = jsonDecode(jsonString);
-    setState(() {
-      jsonData = data["data"][widget.index];
-    });
   }
 
   void setTTS() {

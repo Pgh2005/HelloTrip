@@ -1,7 +1,4 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:hello_trip/components/program.dart';
 import 'package:hello_trip/pages/learn_essential.dart';
@@ -16,20 +13,11 @@ class EssentialWordsPage extends StatefulWidget {
 
 class _EssentialWordsPageState extends State<EssentialWordsPage> {
   var jsonData;
-  Future<void> loadEssential() async {
-    final String jsonString = await rootBundle.loadString(
-      'assets/json/essential.json',
-    );
-    var data = jsonDecode(jsonString);
-    setState(() {
-      jsonData = data['words'];
-    });
-  }
 
   @override
   void initState() {
     super.initState();
-    loadEssential();
+    jsonData = program.DataEssential["words"];
   }
 
   @override

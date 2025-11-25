@@ -1,7 +1,4 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:hello_trip/components/program.dart';
@@ -28,18 +25,8 @@ class _LearnEssentialWordsState extends State<LearnEssentialWords> {
   @override
   void initState() {
     super.initState();
-    loadTerms();
+    jsonData = program.DataEssential["wordsdata"][widget.index];
     _initTts();
-  }
-
-  Future<void> loadTerms() async {
-    final String jsonString = await rootBundle.loadString(
-      'assets/json/essential.json',
-    );
-    var data = jsonDecode(jsonString);
-    setState(() {
-      jsonData = data["wordsdata"][widget.index];
-    });
   }
 
   Future<void> _initTts() async {

@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
-import 'package:hello_trip/components/program.dart';
 import 'package:hello_trip/pages/essential_words_page.dart';
 import 'package:hello_trip/pages/frequently_used_terms_page.dart';
 import 'package:hello_trip/pages/online_translation_page.dart';
 import 'package:hello_trip/pages/tourist_places_page.dart';
 import 'package:hello_trip/pages/user_account_page.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class HomePage extends StatefulWidget {
   final int selectedIndex;
@@ -27,24 +25,10 @@ class _HomePageState extends State<HomePage> {
     OnlineTranslationPage(),
   ];
 
-  void loadSharedOhrefences() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    final orginLanguage = prefs.getString("orgin_lang") ?? "fa";
-    final accountName = prefs.getString("account_name") ?? "Unknown";
-    final targetLanguage = prefs.getString("target_lang") ?? "en";
-    setState(() {
-      // ignore: unused_local_variable
-      program.OrginLang = orginLanguage;
-      program.name = accountName;
-      program.TargetLang = targetLanguage;
-    });
-  }
-
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    loadSharedOhrefences();
     setState(() {
       _selectedIndex = widget.selectedIndex;
     });

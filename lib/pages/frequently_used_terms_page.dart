@@ -1,7 +1,4 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:hello_trip/components/program.dart';
 import 'package:hello_trip/pages/learn_terms.dart';
@@ -17,20 +14,11 @@ class FrequentlyUsedTermsPage extends StatefulWidget {
 
 class _FrequentlyUsedTermsPageState extends State<FrequentlyUsedTermsPage> {
   var jsonData;
-  Future<void> loadTerms() async {
-    final String jsonString = await rootBundle.loadString(
-      'assets/json/terms.json',
-    );
-    var data = jsonDecode(jsonString);
-    setState(() {
-      jsonData = data["groups"];
-    });
-  }
 
   @override
   void initState() {
     super.initState();
-    loadTerms();
+    jsonData = program.DataTerms["groups"];
   }
 
   @override
