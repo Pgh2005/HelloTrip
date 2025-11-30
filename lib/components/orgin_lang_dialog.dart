@@ -128,7 +128,7 @@ class _OrginLangDialogState extends State<OrginLangDialog> {
                 ),
               ),
               child: Text(
-                "زبان",
+                program.WordsList[5][program.OrginLang],
                 textAlign: TextAlign.center,
                 style: TextStyle(color: Colors.white, fontSize: 17),
               ),

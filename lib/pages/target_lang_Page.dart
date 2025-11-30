@@ -73,7 +73,7 @@ class _TargetLangPageState extends State<TargetLangPage> {
       backgroundColor: Color(0xFFeeeeee),
       appBar: AppBar(
         title: Text(
-          "زبان مقصد را وارد کنید",
+          program.WordsList[6][program.OrginLang],
           style: TextStyle(color: Colors.black),
         ),
         automaticallyImplyLeading: false,

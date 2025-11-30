@@ -27,7 +27,7 @@ class AccountDialog extends StatelessWidget {
           children: [
             Spacer(),
             Text(
-              "حساب کاربری",
+              program.WordsList[3][program.OrginLang],
               style: TextStyle(
                 color: Color(0XFF10487b),
                 fontWeight: FontWeight.bold,

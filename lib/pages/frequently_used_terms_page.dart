@@ -25,7 +25,10 @@ class _FrequentlyUsedTermsPageState extends State<FrequentlyUsedTermsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("اصطلاحات پرکاربرد", style: TextStyle(fontFamily: "dana")),
+        title: Text(
+          program.WordsList[2][program.OrginLang],
+          style: TextStyle(fontFamily: "dana"),
+        ),
         automaticallyImplyLeading: false,
       ),
       body: jsonData != null
@@ -38,46 +41,44 @@ class _FrequentlyUsedTermsPageState extends State<FrequentlyUsedTermsPage> {
                 mainAxisSpacing: 10,
                 // childAspectRatio: 0.8,
                 children: List.generate(jsonData.length, (index) {
-                  return Flexible(
-                    child: GestureDetector(
-                      onTap: () {
-                        // go to LearnTerm
-                        Navigator.of(context).pushReplacement(
-                          MaterialPageRoute(
-                            builder: (context) => LearnTerms(
-                              title: jsonData[index][program.OrginLang],
-                              index: index,
-                            ),
+                  return GestureDetector(
+                    onTap: () {
+                      // go to LearnTerm
+                      Navigator.of(context).pushReplacement(
+                        MaterialPageRoute(
+                          builder: (context) => LearnTerms(
+                            title: jsonData[index][program.OrginLang],
+                            index: index,
                           ),
-                        );
-                      },
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: Color(0XFFd9d9d9),
-                          borderRadius: BorderRadius.circular(10),
                         ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            SvgPicture.asset(
-                              "assets/images/terms/$index.svg",
-                              width: 68,
+                      );
+                    },
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: Color(0XFFd9d9d9),
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          SvgPicture.asset(
+                            "assets/images/terms/$index.svg",
+                            width: 68,
+                          ),
+                          SizedBox(height: 10),
+                          Text(
+                            jsonData[index][program.OrginLang],
+                            style: TextStyle(
+                              fontWeight: FontWeight.w600,
+                              fontSize: 12,
+                              height: 1,
                             ),
-                            SizedBox(height: 10),
-                            Text(
-                              jsonData[index][program.OrginLang],
-                              style: TextStyle(
-                                fontWeight: FontWeight.w600,
-                                fontSize: 12,
-                                height: 1,
-                              ),
-                              textAlign: TextAlign.center,
-                              maxLines: 2,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                          ],
-                        ),
+                            textAlign: TextAlign.center,
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        ],
                       ),
                     ),
                   );

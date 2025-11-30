@@ -24,7 +24,10 @@ class _EssentialWordsPageState extends State<EssentialWordsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("کلمات ضروری", style: TextStyle(fontFamily: "dana")),
+        title: Text(
+          program.WordsList[0][program.OrginLang],
+          style: TextStyle(fontFamily: "dana"),
+        ),
       ),
       body: jsonData != null
           ? ListView.builder(

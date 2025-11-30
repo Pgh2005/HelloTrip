@@ -36,7 +36,7 @@ class _UserAccountPageState extends State<UserAccountPage> {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         title: Text(
-          "حساب کاربری",
+          program.WordsList[3][program.OrginLang],
           style: TextStyle(
             fontFamily: "dana",
             color: Color(0XFF10487b),
@@ -77,10 +77,11 @@ class _UserAccountPageState extends State<UserAccountPage> {
                   ),
                   Spacer(),
                   Text(
-                    "حساب کاربری",
+                    program.WordsList[3][program.OrginLang],
                     style: TextStyle(
                       color: Colors.grey[400],
                       fontWeight: FontWeight.bold,
+                      fontSize: 13,
                     ),
                   ),
                   SizedBox(width: 15),
@@ -99,6 +100,7 @@ class _UserAccountPageState extends State<UserAccountPage> {
                 context: context,
                 builder: (BuildContext context) => OrginLangDialog(),
               );
+              setState(() {});
             },
             child: Container(
               padding: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
@@ -116,10 +118,11 @@ class _UserAccountPageState extends State<UserAccountPage> {
                   ),
                   Spacer(),
                   Text(
-                    "زبان",
+                    program.WordsList[5][program.OrginLang],
                     style: TextStyle(
                       color: Colors.grey[400],
                       fontWeight: FontWeight.bold,
+                      fontSize: 13,
                     ),
                   ),
                   SizedBox(width: 15),
@@ -155,10 +158,11 @@ class _UserAccountPageState extends State<UserAccountPage> {
                   ),
                   Spacer(),
                   Text(
-                    "زبان مقصد راانتخاب کن ",
+                    program.WordsList[6][program.OrginLang],
                     style: TextStyle(
                       color: Colors.grey[400],
                       fontWeight: FontWeight.bold,
+                      fontSize: 13,
                     ),
                   ),
                   SizedBox(width: 15),
@@ -189,10 +193,11 @@ class _UserAccountPageState extends State<UserAccountPage> {
                   ),
                   Spacer(),
                   Text(
-                    "رتبه بندی",
+                    program.WordsList[7][program.OrginLang],
                     style: TextStyle(
                       color: Colors.grey[400],
                       fontWeight: FontWeight.bold,
+                      fontSize: 13,
                     ),
                   ),
                   SizedBox(width: 15),

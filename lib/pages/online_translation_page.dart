@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hello_trip/components/program.dart';
 
 class OnlineTranslationPage extends StatefulWidget {
   const OnlineTranslationPage({super.key});
@@ -12,7 +13,10 @@ class _OnlineTranslationPageState extends State<OnlineTranslationPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("ترجمه آنلاین", style: TextStyle(fontFamily: "dana")),
+        title: Text(
+          program.WordsList[4][program.OrginLang],
+          style: TextStyle(fontFamily: "dana"),
+        ),
       ),
       body: Center(child: Text("Frequently Used Terms Page")),
     );
