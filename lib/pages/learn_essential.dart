@@ -26,7 +26,49 @@ class _LearnEssentialWordsState extends State<LearnEssentialWords> {
   void initState() {
     super.initState();
     jsonData = program.DataEssential["wordsdata"][widget.index];
+    setTTS();
     _initTts();
+  }
+
+  void setTTS() {
+    String TTSLang = "";
+    switch (program.TargetLang) {
+      case "fa":
+        TTSLang = "fa-IR";
+        break;
+      case "ar":
+        TTSLang = "ar-SA";
+        break;
+      case "tr":
+        TTSLang = "tr-TR";
+        break;
+      case "ru":
+        TTSLang = "ru-RU";
+        break;
+      case "fr":
+        TTSLang = "fr-FR";
+        break;
+      case "zh":
+        TTSLang = "zh-CN";
+        break;
+      case "ja":
+        TTSLang = "ja-JP";
+        break;
+      case "es":
+        TTSLang = "es-ES";
+        break;
+      case "de":
+        TTSLang = "de-DE";
+        break;
+      case "en":
+        TTSLang = "en-US";
+        break;
+      default:
+        TTSLang = "en-US";
+    }
+    setState(() {
+      flutterTts.setLanguage(TTSLang);
+    });
   }
 
   Future<void> _initTts() async {
@@ -116,7 +158,8 @@ class _LearnEssentialWordsState extends State<LearnEssentialWords> {
                                       MainAxisAlignment.spaceBetween,
                                   children: [
                                     Text(
-                                      jsonData[index]["en"]["means"],
+                                      jsonData[index][program
+                                          .TargetLang]["means"],
                                       style: TextStyle(
                                         color: Color(0XFFfc9807),
                                         fontWeight: FontWeight.bold,
@@ -125,7 +168,11 @@ class _LearnEssentialWordsState extends State<LearnEssentialWords> {
                                     ),
                                     GestureDetector(
                                       onTap: () {
-                                        _speak(jsonData[index]["en"]["means"]);
+                                        setTTS();
+                                        _speak(
+                                          jsonData[index][program
+                                              .TargetLang]["means"],
+                                        );
                                       },
                                       child: SvgPicture.asset(
                                         "assets/images/speak.svg",

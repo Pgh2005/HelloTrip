@@ -1,7 +1,4 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:hello_trip/components/program.dart';
@@ -158,7 +155,8 @@ class _LearnTermsState extends State<LearnTerms> {
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text(
-                                        jsonData[index]["en"]["means"],
+                                        jsonData[index][program
+                                            .TargetLang]["means"],
                                         style: TextStyle(
                                           color: Color(0XFFfc9807),
                                           fontWeight: FontWeight.bold,
@@ -167,8 +165,10 @@ class _LearnTermsState extends State<LearnTerms> {
                                       ),
                                       GestureDetector(
                                         onTap: () {
+                                          setTTS();
                                           _speak(
-                                            jsonData[index]["en"]["means"],
+                                            jsonData[index][program
+                                                .TargetLang]["means"],
                                           );
                                         },
                                         child: SvgPicture.asset(
