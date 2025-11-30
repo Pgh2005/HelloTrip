@@ -5379,6 +5379,10 @@
         "es": {
           "means": "He perdido mi pasaporte.",
           "pronunciation": "He perdido mi pasaporte."
+        },
+        "de": {
+          "means": "Ich habe meinen Reisepass verloren.",
+          "pronunciation": "Ich habe meinen Reisepass verloren."
         }
       },
       {
@@ -5408,7 +5412,14 @@
           "pronunciation": "Tasukete ga hitsuyō desu."
         },
         "en": { "means": "I need help.", "pronunciation": "I need help." },
-        "es": { "means": "Necesito ayuda.", "pronunciation": "Necesito ayuda." }
+        "es": {
+          "means": "Necesito ayuda.",
+          "pronunciation": "Necesito ayuda."
+        },
+        "de": {
+          "means": "Ich brauche Hilfe.",
+          "pronunciation": "Ich brauche Hilfe."
+        }
       },
       {
         "fa": {
@@ -5440,6 +5451,10 @@
         "es": {
           "means": "Llama a la policía.",
           "pronunciation": "Llama a la policía."
+        },
+        "de": {
+          "means": "Rufen Sie die Polizei.",
+          "pronunciation": "Rufen Sie die Polizei."
         }
       },
       {
@@ -5466,6 +5481,10 @@
         "es": {
           "means": "Estoy en peligro.",
           "pronunciation": "Estoy en peligro."
+        },
+        "de": {
+          "means": "Ich bin in Gefahr.",
+          "pronunciation": "Ich bin in Gefahr."
         }
       },
       {
@@ -5504,6 +5523,10 @@
         "es": {
           "means": "¿Puedes ayudarme?",
           "pronunciation": "¿Puedes ayudarme?"
+        },
+        "de": {
+          "means": "Können Sie mir helfen?",
+          "pronunciation": "Können Sie mir helfen?"
         }
       },
       {
@@ -5539,6 +5562,10 @@
         "es": {
           "means": "Necesito un médico.",
           "pronunciation": "Necesito un médico."
+        },
+        "de": {
+          "means": "Ich brauche einen Arzt.",
+          "pronunciation": "Ich brauche einen Arzt."
         }
       },
       {
@@ -5577,6 +5604,10 @@
         "es": {
           "means": "¿Dónde está el hospital más cercano?",
           "pronunciation": "¿Dónde está el hospital más cercano?"
+        },
+        "de": {
+          "means": "Wo ist das nächste Krankenhaus?",
+          "pronunciation": "Wo ist das nächste Krankenhaus?"
         }
       },
       {
@@ -5591,7 +5622,11 @@
           "pronunciation": "Michi ni mayoimashita."
         },
         "en": { "means": "I am lost.", "pronunciation": "I am lost." },
-        "es": { "means": "Estoy perdido.", "pronunciation": "Estoy perdido." }
+        "es": { "means": "Estoy perdido.", "pronunciation": "Estoy perdido." },
+        "de": {
+          "means": "Ich habe mich verlaufen.",
+          "pronunciation": "Ich habe mich verlaufen."
+        }
       },
       {
         "fa": {
@@ -5629,6 +5664,10 @@
         "es": {
           "means": "¡Ayuda! ¡Necesito ayuda!",
           "pronunciation": "¡Ayuda! ¡Necesito ayuda!"
+        },
+        "de": {
+          "means": "Hilfe! Ich brauche Hilfe!",
+          "pronunciation": "Hilfe! Ich brauche Hilfe!"
         }
       },
       {
@@ -5655,7 +5694,11 @@
           "means": "I have been robbed.",
           "pronunciation": "I have been robbed."
         },
-        "es": { "means": "Me han robado.", "pronunciation": "Me han robado." }
+        "es": { "means": "Me han robado.", "pronunciation": "Me han robado." },
+        "de": {
+          "means": "Ich wurde ausgeraubt.",
+          "pronunciation": "Ich wurde ausgeraubt."
+        }
       },
       {
         "fa": {
@@ -5693,6 +5736,10 @@
         "es": {
           "means": "Mi cartera está perdida.",
           "pronunciation": "Mi cartera está perdida."
+        },
+        "de": {
+          "means": "Meine Brieftasche ist weg.",
+          "pronunciation": "Meine Brieftasche ist weg."
         }
       },
       {
@@ -5731,6 +5778,10 @@
         "es": {
           "means": "Por favor llama a una ambulancia.",
           "pronunciation": "Por favor llama a una ambulancia."
+        },
+        "de": {
+          "means": "Bitte rufen Sie einen Krankenwagen.",
+          "pronunciation": "Bitte rufen Sie einen Krankenwagen."
         }
       },
       {
@@ -5769,6 +5820,10 @@
         "es": {
           "means": "Necesito un oficial de policía.",
           "pronunciation": "Necesito un oficial de policía."
+        },
+        "de": {
+          "means": "Ich brauche einen Polizisten.",
+          "pronunciation": "Ich brauche einen Polizisten."
         }
       },
       {
@@ -5801,6 +5856,10 @@
         "es": {
           "means": "He perdido mi camino.",
           "pronunciation": "He perdido mi camino."
+        },
+        "de": {
+          "means": "Ich habe meinen Weg verloren.",
+          "pronunciation": "Ich habe meinen Weg verloren."
         }
       },
       {
@@ -5839,6 +5898,10 @@
         "es": {
           "means": "¿Puedes ayudarme a encontrar mi camino?",
           "pronunciation": "¿Puedes ayudarme a encontrar mi camino?"
+        },
+        "de": {
+          "means": "Können Sie mir helfen, meinen Weg zu finden?",
+          "pronunciation": "Können Sie mir helfen, meinen Weg zu finden?"
         }
       }
     ],
@@ -5879,6 +5942,10 @@
         "en": {
           "means": "What's the weather like today?",
           "pronunciation": "What's the weather like today?"
+        },
+        "de": {
+          "means": "Wie ist das Wetter heute?",
+          "pronunciation": "Wie ist das Wetter heute?"
         }
       },
       {
@@ -5896,7 +5963,8 @@
         },
         "ja": { "means": "晴れています。", "pronunciation": "Harete imasu." },
         "es": { "means": "Hace sol.", "pronunciation": "Hace sol." },
-        "en": { "means": "It's sunny.", "pronunciation": "It's sunny." }
+        "en": { "means": "It's sunny.", "pronunciation": "It's sunny." },
+        "de": { "means": "Es ist sonnig.", "pronunciation": "Es ist sonnig." }
       },
       {
         "fa": { "means": "باران می‌بارد.", "pronunciation": "It's raining." },
@@ -5916,7 +5984,8 @@
           "means": "Está lloviendo.",
           "pronunciation": "Está lloviendo."
         },
-        "en": { "means": "It's raining.", "pronunciation": "It's raining." }
+        "en": { "means": "It's raining.", "pronunciation": "It's raining." },
+        "de": { "means": "Es regnet.", "pronunciation": "Es regnet." }
       },
       {
         "fa": { "means": "ابری است.", "pronunciation": "It's cloudy." },
@@ -5927,7 +5996,8 @@
         "zh": { "means": "多云。", "pronunciation": "Duō yún." },
         "ja": { "means": "曇っています。", "pronunciation": "Kumotte imasu." },
         "es": { "means": "Está nublado.", "pronunciation": "Está nublado." },
-        "en": { "means": "It's cloudy.", "pronunciation": "It's cloudy." }
+        "en": { "means": "It's cloudy.", "pronunciation": "It's cloudy." },
+        "de": { "means": "Es ist bewölkt.", "pronunciation": "Es ist bewölkt." }
       },
       {
         "fa": { "means": "باد می‌آید.", "pronunciation": "It's windy." },
@@ -5944,7 +6014,8 @@
           "pronunciation": "Kaze ga tsuyoi desu."
         },
         "es": { "means": "Hace viento.", "pronunciation": "Hace viento." },
-        "en": { "means": "It's windy.", "pronunciation": "It's windy." }
+        "en": { "means": "It's windy.", "pronunciation": "It's windy." },
+        "de": { "means": "Es ist windig.", "pronunciation": "Es ist windig." }
       },
       {
         "fa": { "means": "هوا سرد است.", "pronunciation": "It's cold." },
@@ -5955,7 +6026,8 @@
         "zh": { "means": "天气很冷。", "pronunciation": "Tiānqì hěn lěng." },
         "ja": { "means": "寒いです。", "pronunciation": "Samui desu." },
         "es": { "means": "Hace frío.", "pronunciation": "Hace frío." },
-        "en": { "means": "It's cold.", "pronunciation": "It's cold." }
+        "en": { "means": "It's cold.", "pronunciation": "It's cold." },
+        "de": { "means": "Es ist kalt.", "pronunciation": "Es ist kalt." }
       },
       {
         "fa": { "means": "هوا گرم است.", "pronunciation": "It's hot." },
@@ -5966,7 +6038,8 @@
         "zh": { "means": "天气很热。", "pronunciation": "Tiānqì hěn rè." },
         "ja": { "means": "暑いです。", "pronunciation": "Atsui desu." },
         "es": { "means": "Hace calor.", "pronunciation": "Hace calor." },
-        "en": { "means": "It's hot.", "pronunciation": "It's hot." }
+        "en": { "means": "It's hot.", "pronunciation": "It's hot." },
+        "de": { "means": "Es ist heiß.", "pronunciation": "Es ist heiß." }
       },
       {
         "fa": {
@@ -5998,6 +6071,10 @@
         "en": {
           "means": "The weather is perfect.",
           "pronunciation": "The weather is perfect."
+        },
+        "de": {
+          "means": "Das Wetter ist perfekt.",
+          "pronunciation": "Das Wetter ist perfekt."
         }
       },
       {
@@ -6036,6 +6113,10 @@
         "en": {
           "means": "The temperature is 20°C.",
           "pronunciation": "The temperature is 20°C."
+        },
+        "de": {
+          "means": "Die Temperatur beträgt 20°C.",
+          "pronunciation": "Die Temperatur beträgt zwanzig Grad."
         }
       },
       {
