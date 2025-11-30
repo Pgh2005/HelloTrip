@@ -9,7 +9,8 @@
       "fr": "Lieux",
       "tr": "Mekanlar",
       "en": "Places",
-      "de": "Orte"
+      "de": "Orte",
+      "es": "Lugares"
     },
     {
       "fa": "احوال پرسی",
@@ -20,7 +21,8 @@
       "fr": "Salutations",
       "tr": "Selamlaşma",
       "en": "Greetings",
-      "de": "Begrüßungen"
+      "de": "Begrüßungen",
+      "es": "Saludos"
     },
     {
       "fa": "حمل و نقل",
@@ -31,7 +33,8 @@
       "fr": "Transport",
       "tr": "Ulaşım",
       "en": "Transportation",
-      "de": "Verkehr"
+      "de": "Verkehr",
+      "es": "Transporte"
     },
     {
       "fa": "مد و فشن",
@@ -42,7 +45,8 @@
       "fr": "Mode",
       "tr": "Moda",
       "en": "Fashion",
-      "de": "Mode"
+      "de": "Mode",
+      "es": "Moda"
     },
     {
       "fa": "کار و حرفه",
@@ -53,7 +57,8 @@
       "fr": "Travail et profession",
       "tr": "İş ve meslek",
       "en": "Work and Profession",
-      "de": "Arbeit und Beruf"
+      "de": "Arbeit und Beruf",
+      "es": "Trabajo y profesión"
     },
     {
       "fa": "هواشناسی",
@@ -64,7 +69,8 @@
       "fr": "Météorologie",
       "tr": "Meteoroloji",
       "en": "Weather Forecast",
-      "de": "Wettervorhersage"
+      "de": "Wettervorhersage",
+      "es": "Pronóstico del tiempo"
     },
     {
       "fa": "زمان و تاریخ",
@@ -75,7 +81,8 @@
       "fr": "Temps et date",
       "tr": "Zaman ve tarih",
       "en": "Time and Date",
-      "de": "Zeit und Datum"
+      "de": "Zeit und Datum",
+      "es": "Tiempo y fecha"
     },
     {
       "fa": "نوشیدنی ها",
@@ -86,7 +93,8 @@
       "fr": "Boissons",
       "tr": "İçecekler",
       "en": "Drinks",
-      "de": "Getränke"
+      "de": "Getränke",
+      "es": "Bebidas"
     },
     {
       "fa": "رنگ و اعداد",
@@ -97,7 +105,8 @@
       "fr": "Couleurs et chiffres",
       "tr": "Renkler ve sayılar",
       "en": "Colors and Numbers",
-      "de": "Farben und Zahlen"
+      "de": "Farben und Zahlen",
+      "es": "Colores y números"
     },
     {
       "fa": "اعضای بدن",
@@ -108,7 +117,8 @@
       "fr": "Parties du corps",
       "tr": "Vücut parçaları",
       "en": "Body Parts",
-      "de": "Körperteile"
+      "de": "Körperteile",
+      "es": "Partes del cuerpo"
     }
   ],
 
