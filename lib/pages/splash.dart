@@ -38,7 +38,7 @@ class _SplashPageState extends State<SplashPage> {
   Future<void> loadSharedPhrefences() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     final orginLanguage = prefs.getString("orgin_lang") ?? "fa";
-    final accountName = prefs.getString("account_name") ?? "Unknown";
+    final accountName = prefs.getString("account_name") ?? "";
     final targetLanguage = prefs.getString("target_lang") ?? "en";
     setState(() {
       // ignore: unused_local_variable
