@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hello_trip/components/account_dialog.dart';
 import 'package:hello_trip/components/orgin_lang_dialog.dart';
+import 'package:hello_trip/components/program.dart';
+import 'package:hello_trip/pages/target_lang_Page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class UserAccountPage extends StatefulWidget {
@@ -13,20 +15,19 @@ class UserAccountPage extends StatefulWidget {
 class _UserAccountPageState extends State<UserAccountPage> {
   String name = "";
 
-  Future<void> _GetAccountName() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    final accountName = prefs.getString("account_name") ?? "";
-    setState(() {
-      // ignore: unused_local_variable
-      name = accountName;
-    });
-  }
-
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    _GetAccountName();
+    updateName();
+  }
+
+  void updateName() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    setState(() {
+      name = program.name;
+      prefs.setString("account_name", name);
+    });
   }
 
   @override
@@ -58,7 +59,7 @@ class _UserAccountPageState extends State<UserAccountPage> {
                 context: context,
                 builder: (BuildContext context) => AccountDialog(),
               );
-              _GetAccountName();
+              updateName();
             },
             child: Container(
               padding: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
@@ -132,7 +133,12 @@ class _UserAccountPageState extends State<UserAccountPage> {
             ),
           ),
           GestureDetector(
-            onTap: () {},
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => TargetLangPage()),
+              );
+            },
             child: Container(
               padding: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
               margin: EdgeInsets.symmetric(vertical: 10, horizontal: 30),
