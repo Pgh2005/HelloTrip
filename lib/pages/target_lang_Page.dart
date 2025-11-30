@@ -99,7 +99,7 @@ class _TargetLangPageState extends State<TargetLangPage> {
               scrollDirection: Axis.vertical,
               crossAxisSpacing: 10,
               mainAxisSpacing: 10,
-              childAspectRatio: 1.15,
+              childAspectRatio: 0.9,
               padding: EdgeInsets.symmetric(horizontal: 20),
               children: List.generate(9, (index) {
                 return GestureDetector(
@@ -145,7 +145,7 @@ class _TargetLangPageState extends State<TargetLangPage> {
           //
           Container(
             width: double.infinity,
-            height: 200,
+            height: 280,
             child: SvgPicture.asset(
               "assets/images/travelsplash.svg",
               fit: BoxFit.contain,
