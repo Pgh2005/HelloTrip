@@ -102,5 +102,17 @@ class program {
       "es": "Calificación",
       "de": "Bewertung",
     },
+    {
+      "fa": "نام کاربری",
+      "en": "Username",
+      "ar": "اسم المستخدم",
+      "tr": "Kullanıcı adı",
+      "ru": "Имя пользователя",
+      "fr": "Nom d’utilisateur",
+      "zh": "用户名",
+      "ja": "ユーザー名",
+      "es": "Nombre de usuario",
+      "de": "Benutzername",
+    },
   ];
 }

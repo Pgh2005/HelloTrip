@@ -44,7 +44,7 @@ class AccountDialog extends StatelessWidget {
                 style: TextStyle(color: Colors.black),
                 cursorColor: Colors.black45,
                 decoration: InputDecoration(
-                  labelText: "نام کاربری",
+                  labelText: program.WordsList[8][program.OrginLang],
                   labelStyle: TextStyle(color: Colors.black87),
                   border: OutlineInputBorder(),
                   focusedBorder: OutlineInputBorder(
