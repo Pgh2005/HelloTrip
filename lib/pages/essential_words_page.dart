@@ -72,6 +72,8 @@ class _EssentialWordsPageState extends State<EssentialWordsPage> {
                               fontWeight: FontWeight.bold,
                               fontSize: 13,
                             ),
+                            overflow: TextOverflow.ellipsis,
+                            maxLines: 1,
                           ),
                         ),
                         Positioned(

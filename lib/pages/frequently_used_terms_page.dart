@@ -36,41 +36,48 @@ class _FrequentlyUsedTermsPageState extends State<FrequentlyUsedTermsPage> {
                 scrollDirection: Axis.vertical,
                 crossAxisSpacing: 10,
                 mainAxisSpacing: 10,
+                // childAspectRatio: 0.8,
                 children: List.generate(jsonData.length, (index) {
-                  return GestureDetector(
-                    onTap: () {
-                      // go to LearnTerm
-                      Navigator.of(context).pushReplacement(
-                        MaterialPageRoute(
-                          builder: (context) => LearnTerms(
-                            title: jsonData[index][program.OrginLang],
-                            index: index,
-                          ),
-                        ),
-                      );
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                        color: Color(0XFFd9d9d9),
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          SvgPicture.asset(
-                            "assets/images/terms/$index.svg",
-                            width: 75,
-                          ),
-                          SizedBox(height: 10),
-                          Text(
-                            jsonData[index][program.OrginLang],
-                            style: TextStyle(
-                              fontWeight: FontWeight.w600,
-                              fontSize: 12,
+                  return Flexible(
+                    child: GestureDetector(
+                      onTap: () {
+                        // go to LearnTerm
+                        Navigator.of(context).pushReplacement(
+                          MaterialPageRoute(
+                            builder: (context) => LearnTerms(
+                              title: jsonData[index][program.OrginLang],
+                              index: index,
                             ),
                           ),
-                        ],
+                        );
+                      },
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Color(0XFFd9d9d9),
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            SvgPicture.asset(
+                              "assets/images/terms/$index.svg",
+                              width: 68,
+                            ),
+                            SizedBox(height: 10),
+                            Text(
+                              jsonData[index][program.OrginLang],
+                              style: TextStyle(
+                                fontWeight: FontWeight.w600,
+                                fontSize: 12,
+                                height: 1,
+                              ),
+                              textAlign: TextAlign.center,
+                              maxLines: 2,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   );
